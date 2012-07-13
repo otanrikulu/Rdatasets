@@ -13,7 +13,7 @@ html
 
 The ``html`` folder includes copies of the ``R`` documentation files for each dataset in plain html format. These docs appear to be licensed under GPL.  
 
-I am also (temporarily?) hosting the html files here: http://www.umich.edu/~varel/rdatasets/
+I am also (temporarily?) hosting the html files there for easy viewing: http://www.umich.edu/~varel/rdatasets/
 
 Want more?
 ==========
