@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: Country code translation data frame</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+
+<table width="100%" summary="page for countrycode_data {countrycode}"><tr><td>countrycode_data {countrycode}</td><td align="right">R Documentation</td></tr></table>
+
+<h2>Country code translation data frame</h2>
+
+<h3>Description</h3>
+
+
+<p>A data frame with 265 observations on the following 11
+variables. Used internally by the <code>countrycode()</code>
+function.
+</p>
+
+
+<h3>Format</h3>
+
+<p>A data frame with 260 rows and 11 columns</p>
+
+
+<h3>Details</h3>
+
+
+ <ul>
+<li><p> country.name: Long country name </p>
+</li>
+<li>
+<p>cowc: Correlates of War character </p>
+</li>
+<li><p> cown: Correlates
+of War numeric </p>
+</li>
+<li><p> fao: Food and Agriculture
+Organization of the United Nations numerical code </p>
+</li>
+<li>
+<p>fips104: FIPS 10-4 (Federal Information Processing
+Standard) </p>
+</li>
+<li><p> imf: International Monetary Fund </p>
+</li>
+<li>
+<p>iso2c: ISO-2 character </p>
+</li>
+<li><p> iso3c: ISO-3 character </p>
+</li>
+<li>
+<p>iso2n: ISO-2 numeric </p>
+</li>
+<li><p> iso3n: ISO-3 numeric </p>
+</li>
+<li><p> un:
+United Nations numerical code </p>
+</li>
+<li><p> regex: Regular
+expression used to convert long names to code </p>
+</li>
+<li>
+<p>region: Regions as defined in the World Bank Development
+Indicators </p>
+</li>
+<li><p> continent: Continent as defined in the
+World Bank Development Indicators
+</p>
+</ul>
+
+
+
+<h3>Note</h3>
+
+
+<p>To produce consistent conversion, some entries had to be
+removed from the conversion data frame. For example, the
+Correlates of War include 4 different codes to represent
+Western Germany. &quot;countrycode&quot; uses only one of them (CoW
+code 260 for all years). Similar choices were made in the
+cases of Korea, Yemen, Congo and Vietnam. Also, Namibia's
+iso2c code (&quot;NA&quot;) can be understood as a missing
+observation (NA) by R.
+</p>
+<p>Capitalized country names refer to the official short
+English names, as defined by the ISO organization. ISO
+does not publish official short English names for
+countries whose name is not capitalized in the the
+country.name vector. Continent and region information was
+taken from the UN website.
+</p>
+<p>This is a (possibly incomplete) list of countries and
+codes that were dropped:
+</p>
+<p>KOREA, REPUBLIC OF: cown 731 730, cowc PRK KOR YEMEN:
+cown 680 678, cowc YAR YPR GERMANY: cown 267 260 245,
+cowc BAV GFR BAD CONGO: cown 490, cowc 484 VIET NAM: cown
+816, cowc DRV
+</p>
+
+<hr><div align="center">[Package <em>countrycode</em> version 0.7 <a href="00Index.html">Index</a>]</div>
+</body></html>
