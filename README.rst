@@ -13,3 +13,7 @@ html
 
 The ``html`` folder includes copies of the R documentation files for each dataset in plain html format. These docs appear to be licensed under GPL.  
 
+Want more?
+==========
+
+Many R packages ship with associated datasets, but the script used here only downloads data from packages that are locally installed. If you spot interesting data in a package distributed on CRAN, let me know, and I may be able to add it. Filing a github issue is best for this. 
