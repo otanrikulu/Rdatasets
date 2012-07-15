@@ -34,8 +34,3 @@ for (i in 1:nrow(index)) {
     }
 }
 
-save.dataset <- function(package, name) {
-      d <- data(name, package=package)
-      write.csv(d, 'trash.csv')  
-} 
-
