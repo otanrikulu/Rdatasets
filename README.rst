@@ -9,6 +9,7 @@ What is included?
 * csv folder: 262 data sets in comma-separated values file format
 * html folder: ``R`` documentation files for each of these data sets. 
 * Rdatasets.R: ``R`` script which downloads CSV copies and HTML docs for all data sets distributed in ``Base R`` and any locally installed add-on package
+* index.csv: A list of available data sets, with a short description and the name of the source ``R`` package. 
 
 Online documentation
 ====================
