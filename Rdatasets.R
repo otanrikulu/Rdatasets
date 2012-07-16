@@ -6,7 +6,7 @@ path_index = 'index.csv'
 # Get list of available datasets (This list will change depending on which
 # packages the user has installed locally)
 index = data(package=.packages(all.available = TRUE))$results[,c(1,3,4)]
-write.csv(index, file=path_index, row.names=FALSE)
+index_out = NULL
 
 # Load packages which store datasets 
 packages = unique(index[,'Package'])
@@ -20,8 +20,11 @@ for (i in 1:nrow(index)) {
     package = index[i, 'Package']
     # Download packages as CSV files
     d = try(eval(parse(text=dataset)), silent=TRUE)
-    # Keep only if data has matrix-looking structure
-    if(class(d) %in% c('data.frame', 'matrix', 'numeric', 'table')) {
+    # Keep if data has matrix-looking structure
+    valid_class = class(d) %in% c('data.frame', 'matrix', 'numeric', 'table')
+    # Keep if no existing dataset shares the name
+    dup = dataset %in% index_out[,'Item']
+    if (valid_class & !dup) {
         cat("Processing data set: ", dataset, "\n")
         dest_csv = paste(path_csv, dataset, '.csv', sep='')
         dest_html = paste(path_html, dataset, '.html', sep='')
@@ -31,6 +34,12 @@ for (i in 1:nrow(index)) {
         help.ref = help(eval(dataset), package=eval(package))
         help.file = utils:::.getHelpFile(help.ref)
         tools::Rd2HTML(help.file, out=dest_html)
+        # Add entry to index out
+        index_out = rbind(index_out, index[i,])
     }
 }
+
+# Write index to file
+write.csv(index_out, file=path_index, row.names=FALSE)
+
 
