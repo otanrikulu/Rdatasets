@@ -1,12 +1,12 @@
 What is this?
 =============
 
-``Rdatasets`` is a collection of 261 data sets that were originally distributed alongside the statistical software environment ``R`` and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development. 
+``Rdatasets`` is a collection of 262 data sets that were originally distributed alongside the statistical software environment ``R`` and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development. 
 
 What is included?
 =================
 
-* csv folder: 261 data sets in comma-separated values file format
+* csv folder: 262 data sets in comma-separated values file format
 * html folder: ``R`` documentation files for each of these data sets. 
 * Rdatasets.R: ``R`` script which downloads CSV copies and HTML docs for all data sets distributed in ``Base R`` and any locally installed add-on package
 
