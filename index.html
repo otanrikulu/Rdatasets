@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Rdatasets : An archive of datasets distributed with R" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Rdatasets</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/vincentarelbundock/Rdatasets">View on GitHub</a>
+
+          <h1 id="project_title">Rdatasets</h1>
+          <h2 id="project_tagline">An archive of datasets distributed with R</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/vincentarelbundock/Rdatasets/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/vincentarelbundock/Rdatasets/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>What is this?</h1>
+
+<p><code>Rdatasets</code> is a collection of 262 data sets that were originally distributed alongside the statistical software environment <code>R</code> and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development. </p>
+
+<h1>What is included?</h1>
+
+<ul>
+<li>csv folder: 262 data sets in comma-separated values file format</li>
+<li>html folder: <code>R</code> documentation files for each of these data sets. </li>
+<li>Rdatasets.R: <code>R</code> script which downloads CSV copies and HTML docs for all data sets distributed in <code>Base R</code> and any locally installed add-on package</li>
+<li>index.csv: A list of available data sets, with a short description and the name of the source <code>R</code> package. </li>
+</ul><h1>Online documentation</h1>
+
+<p>For convenience, I host web-viewable copies of all data description files here: <a href="http://www.umich.edu/%7Evarel/rdatasets/">http://www.umich.edu/~varel/rdatasets/</a></p>
+
+<h1>Adding data</h1>
+
+<p>Many <code>R</code> packages ship with associated data sets, but the script included here only downloads data from packages that are installed locally on the machine where it is run. If you spot interesting data in a package distributed on CRAN, let me know. I will try to install that package on my computer and I will re-run the download script to see if the data can be added to this repository. Requests should be filed on the Github issue tracker.  </p>
+
+<h1>License</h1>
+
+<ul>
+<li>The <code>R</code> documentation which I copied to the <code>Rdatasets</code> <code>html</code> folder is licensed under GPL. You will find a copy of the GPL in the <code>license</code> folder. </li>
+<li>I made a good faith effort to determine the license under which the actual data (i.e. rows/columns of numbers) were distributed, but I was unable to find a definitive answer. My understanding is that these data sets are free to re-distribute. However, if you own the rights to data that are included here and you object to their inclusion in <code>Rdatasets</code>, send me an email at <a href="mailto:varel@umich.edu">varel@umich.edu</a>. I will promptly remove the data in question and will make sure that all traces are erased from the git revision history. </li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Rdatasets maintained by <a href="https://github.com/vincentarelbundock">vincentarelbundock</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
