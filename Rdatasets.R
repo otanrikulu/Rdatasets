@@ -43,7 +43,8 @@ for (i in 1:nrow(index)) {
 
 # Make data_index.html
 make_link = function(dataset, folder){
-    link = paste('https://vincentarelbundock.github.com/Rdatasets/', folder, '/', dataset, '.csv', sep='')
+    ext = ifelse(folder=='doc', '.html', '.csv')
+    link = paste('https://vincentarelbundock.github.com/Rdatasets/', folder, '/', dataset, ext, sep='')
     out = paste("<a href=", link, ">", folder, "</a>", sep='')
     return(out)
 }
