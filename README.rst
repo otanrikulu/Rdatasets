@@ -14,7 +14,7 @@ What is included?
 Online documentation
 ====================
 
-For convenience, I host web-viewable copies of all data description files here: http://www.umich.edu/~varel/rdatasets/
+You will find an index of data sets here: http://vincentarelbundock.github.com/Rdatasets/
 
 Adding data
 ===========
