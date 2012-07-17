@@ -30,7 +30,7 @@ for (i in 1:nrow(index)) {
         dest_csv = paste(path_csv, dataset, '.csv', sep='')
         dest_html = paste(path_html, dataset, '.html', sep='')
         # Save data as CSV
-        write.csv(d, dest_csv, row.names=FALSE)
+        write.csv(d, dest_csv)
         # Save documentation as HTML
         help.ref = help(eval(dataset), package=eval(package))
         help.file = utils:::.getHelpFile(help.ref)
