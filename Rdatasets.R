@@ -3,7 +3,6 @@ library(R2HTML)
 # Destinations
 path_html = 'doc/'
 path_csv = 'csv/'
-path_index = 'index.csv'
 
 # Get list of available datasets (This list will change depending on which
 # packages the user has installed locally)
@@ -44,7 +43,7 @@ for (i in 1:nrow(index)) {
 # Make data_index.html
 make_link = function(dataset, folder){
     ext = ifelse(folder=='doc', '.html', '.csv')
-    link = paste('https://vincentarelbundock.github.com/Rdatasets/', folder, '/', dataset, ext, sep='')
+    link = paste('https://vincentarelbundock.github.com/Rdatasets/', dataset, ext, sep='')
     out = paste("<a href=", link, ">", folder, "</a>", sep='')
     return(out)
 }
