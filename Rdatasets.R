@@ -1,5 +1,7 @@
+library(R2HTML)
+
 # Destinations
-path_html = 'html/'
+path_html = 'doc/'
 path_csv = 'csv/'
 path_index = 'index.csv'
 
@@ -23,7 +25,7 @@ for (i in 1:nrow(index)) {
     # Keep if data has matrix-looking structure
     valid_class = class(d) %in% c('data.frame', 'matrix', 'numeric', 'table')
     # Keep if no existing dataset shares the name
-    dup = dataset %in% index_out[,'Item']
+    dup = tolower(dataset) %in% tolower(index_out[,'Item'])
     if (valid_class & !dup) {
         cat("Processing data set: ", dataset, "\n")
         dest_csv = paste(path_csv, dataset, '.csv', sep='')
@@ -39,7 +41,18 @@ for (i in 1:nrow(index)) {
     }
 }
 
-# Write index to file
-write.csv(index_out, file=path_index, row.names=FALSE)
-
+# Make data_index.html
+make_link = function(dataset, folder){
+    link = paste('https://vincentarelbundock.github.com/Rdatasets/', folder, '/', dataset, '.csv', sep='')
+    out = paste("<a href=", link, ">", folder, "</a>", sep='')
+    return(out)
+}
+datasets = index_out[,'Item']
+links_doc = sapply(datasets, make_link, 'doc')
+links_csv = sapply(datasets, make_link, 'csv')
+out = cbind(index_out, links_doc, links_csv)
+unlink('datasets.html')
+row.names(out) = NULL
+colnames(out) = c('R Package', 'Dataset', 'Description', 'Doc', 'CSV')
+HTML(out, file='datasets.html', row.names=FALSE)
 
