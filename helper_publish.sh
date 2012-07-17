@@ -1,6 +1,6 @@
 #!/bin/sh
 git checkout gh-pages
-git cp index.html index.html.bak
+cp index.html index.html.bak
 git rm *csv
 git rm *html
 git merge master
