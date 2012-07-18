@@ -6,7 +6,7 @@ What is this?
 What is included?
 =================
 
-An index of available data is published here: https://vincentarelbundock.github.com/Rdatasets/ 
+An index of available data is published here: http://vincentarelbundock.github.com/Rdatasets/ 
 
 On the github repo, you will find: 
 
