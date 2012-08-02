@@ -56,3 +56,6 @@ row.names(out) = NULL
 colnames(out) = c('R Package', 'Dataset', 'Description', 'Doc', 'CSV')
 HTML(out, file='datasets.html', row.names=FALSE)
 
+# Save list of packages used
+dput(unique(out[,1]), file='packages_list.R')
+
