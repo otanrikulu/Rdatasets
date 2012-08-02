@@ -1,3 +1,4 @@
 c("datasets", "COUNT", "countrycode", "ggplot2", "HistData", 
-"plyr", "reshape2", "sandwich", "sem", "boot", "cluster", "lattice", 
-"MASS", "nlme", "rpart", "survival")
+"plm", "plyr", "reshape2", "sandwich", "sem", "xtable", "boot", 
+"cluster", "lattice", "MASS", "mgcv", "nlme", "rpart", "survival"
+)
