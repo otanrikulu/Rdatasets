@@ -7,6 +7,7 @@ path_csv = 'csv/'
 # Get list of available datasets (This list will change depending on which
 # packages the user has installed locally)
 index = data(package=.packages(all.available = TRUE))$results[,c(1,3,4)]
+index = data.frame(index, stringsAsFactors=FALSE)
 index_out = NULL
 
 # Load packages which store datasets 
@@ -15,17 +16,19 @@ for (i in packages) {
         library(i, character.only=TRUE)
 }
 
-# Download data, save as CSV, and save documentation as html
+# Remove datasets with duplicated names
+dup = duplicated(tolower(index$Item))
+index = index[!dup,]
+
 for (i in 1:nrow(index)) {
-    dataset = index[i,'Item']
-    package = index[i, 'Package']
-    # Download packages as CSV files
-    d = try(eval(parse(text=dataset)), silent=TRUE)
-    # Keep if data has matrix-looking structure
-    valid_class = class(d) %in% c('data.frame', 'matrix', 'numeric', 'table')
-    # Keep if no existing dataset shares the name
-    dup = tolower(dataset) %in% tolower(index_out[,'Item'])
-    if (valid_class & !dup) {
+	dataset = index$Item[i]
+	package = index$Package[i]
+	# Load data in new environment (very hackish) 
+    e = new.env(hash = TRUE, parent = parent.frame(), size = 29L)
+    cmd = paste('data(', dataset, ', envir=e)', sep='')
+    eval(parse(text=cmd))
+    d = e[[dataset]]
+    if(class(d) %in% c('data.frame', 'matrix', 'numeric', 'table')){
         cat("Processing data set: ", dataset, "\n")
         dest_csv = paste(path_csv, dataset, '.csv', sep='')
         dest_html = paste(path_html, dataset, '.html', sep='')
@@ -36,8 +39,9 @@ for (i in 1:nrow(index)) {
         help.file = utils:::.getHelpFile(help.ref)
         tools::Rd2HTML(help.file, out=dest_html)
         # Add entry to index out
-        index_out = rbind(index_out, index[i,])
+        index_out = rbind(index_out, index[i,]) 
     }
+
 }
 
 # Make data_index.html
