@@ -1,5 +1,8 @@
 library(R2HTML)
 
+packages = dget('packages.R')
+#install.packages(packages)
+
 # Destinations
 path_html = 'doc/'
 path_csv = 'csv/'
@@ -17,7 +20,8 @@ for (i in packages) {
 }
 
 # Remove datasets with duplicated names
-dup = duplicated(tolower(index$Item))
+#dup = duplicated(tolower(index$Item))
+dup = duplicated(index$Item)
 index = index[!dup,]
 
 for (i in 1:nrow(index)) {
@@ -41,7 +45,6 @@ for (i in 1:nrow(index)) {
         # Add entry to index out
         index_out = rbind(index_out, index[i,]) 
     }
-
 }
 
 # Make data_index.html
@@ -55,11 +58,24 @@ datasets = index_out[,'Item']
 links_doc = sapply(datasets, make_link, 'doc')
 links_csv = sapply(datasets, make_link, 'csv')
 out = cbind(index_out, links_doc, links_csv)
-unlink('datasets.html')
 row.names(out) = NULL
 colnames(out) = c('R Package', 'Dataset', 'Description', 'Doc', 'CSV')
+
+# HTML index (TODO: Gets rebuilt every time, so may throw away information if certain datasets disappear from the R package)
+unlink('datasets.html')
 HTML(out, file='datasets.html', row.names=FALSE)
 
-# Save list of packages used
-dput(unique(out[,1]), file='packages_list.R')
+# CSV index
+out$Doc = paste('https://raw.github.com/vincentarelbundock/Rdatasets/master/doc/', 
+                out$Dataset, '.html', sep='')
+out$CSV = paste('https://raw.github.com/vincentarelbundock/Rdatasets/master/csv/', 
+                out$Dataset, '.csv', sep='')
+if(file.exists('datasets.csv')){
+    out2 = read.csv('datasets.csv', col.names=colnames(out))
+    out = unique(rbind(out, out2))
+}
+write.csv(out, file='datasets.csv', row.names=FALSE)
+
+
+
 
