@@ -25,7 +25,7 @@ for (i in 1:nrow(index)) {
         try(dir.create(paste('csv/', package, sep='')))
         try(dir.create(paste('doc/', package, sep='')))
         dest_csv = paste('csv/', package, '/', dataset, '.csv', sep='')
-        dest_doc = paste('doc/', package, '/', dataset, '.csv', sep='')
+        dest_doc = paste('doc/', package, '/', dataset, '.html', sep='')
         # Save data as CSV
         write.csv(d, dest_csv)
         # Save documentation as HTML
