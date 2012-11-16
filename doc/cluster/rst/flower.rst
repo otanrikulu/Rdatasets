@@ -1,5 +1,7 @@
-flower
-R Documentation
++----------+-------------------+
+| flower   | R Documentation   |
++----------+-------------------+
+
 Flower Characteristics
 ----------------------
 
@@ -20,30 +22,24 @@ Format
 
 A data frame with 18 observations on 8 variables:
 
-[ , "V1"]
-factor
-winters
-[ , "V2"]
-factor
-shadow
-[ , "V3"]
-factor
-tubers
-[ , "V4"]
-factor
-color
-[ , "V5"]
-ordered
-soil
-[ , "V6"]
-ordered
-preference
-[ , "V7"]
-numeric
-height
-[ , "V8"]
-numeric
-distance
++-------------+-----------+--------------+
+| [ , "V1"]   | factor    | winters      |
++-------------+-----------+--------------+
+| [ , "V2"]   | factor    | shadow       |
++-------------+-----------+--------------+
+| [ , "V3"]   | factor    | tubers       |
++-------------+-----------+--------------+
+| [ , "V4"]   | factor    | color        |
++-------------+-----------+--------------+
+| [ , "V5"]   | ordered   | soil         |
++-------------+-----------+--------------+
+| [ , "V6"]   | ordered   | preference   |
++-------------+-----------+--------------+
+| [ , "V7"]   | numeric   | height       |
++-------------+-----------+--------------+
+| [ , "V8"]   | numeric   | distance     |
++-------------+-----------+--------------+
+
 V1
     winters, is binary and indicates whether the plant may be left in
     the garden when it freezes.
@@ -75,7 +71,6 @@ V8
     distance, is interval scaled, the distance in centimeters that
     should be left between the plants.
 
-
 References
 ~~~~~~~~~~
 
@@ -90,5 +85,4 @@ Examples
     ## Example 2 in ref
     daisy(flower, type = list(asymm = 3))
     daisy(flower, type = list(asymm = c(1, 3), ordratio = 7))
-
 

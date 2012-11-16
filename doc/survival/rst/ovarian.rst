@@ -1,5 +1,7 @@
-ovarian
-R Documentation
++-----------+-------------------+
+| ovarian   | R Documentation   |
++-----------+-------------------+
+
 Ovarian Cancer Survival Data
 ----------------------------
 
@@ -19,18 +21,21 @@ Usage
 Format
 ~~~~~~
 
-futime:
-survival or censoring time
-fustat:
-censoring status
-age:
-in years
-resid.ds:
-residual disease present (1=no,2=yes)
-rx:
-treatment group
-ecog.ps:
-ECOG performance status (1 is better, see reference)
++-------------+--------------------------------------------------------+
+| futime:     | survival or censoring time                             |
++-------------+--------------------------------------------------------+
+| fustat:     | censoring status                                       |
++-------------+--------------------------------------------------------+
+| age:        | in years                                               |
++-------------+--------------------------------------------------------+
+| resid.ds:   | residual disease present (1=no,2=yes)                  |
++-------------+--------------------------------------------------------+
+| rx:         | treatment group                                        |
++-------------+--------------------------------------------------------+
+| ecog.ps:    | ECOG performance status (1 is better, see reference)   |
++-------------+--------------------------------------------------------+
++-------------+--------------------------------------------------------+
+
 Source
 ~~~~~~
 
@@ -41,5 +46,3 @@ References
 
 for ECOG performance status:
 `http://ecog.dfci.harvard.edu/~ecogdba/general/perf\_stat.html <http://ecog.dfci.harvard.edu/~ecogdba/general/perf_stat.html>`_
-
-

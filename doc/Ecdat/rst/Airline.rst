@@ -1,5 +1,7 @@
-Airline
-R Documentation
++-----------+-------------------+
+| Airline   | R Documentation   |
++-----------+-------------------+
+
 Cost for U.S. Airlines
 ----------------------
 
@@ -44,7 +46,6 @@ pf
 lf
     load factor, the average capacity utilization of the fleet
 
-
 References
 ~~~~~~~~~~
 
@@ -59,5 +60,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

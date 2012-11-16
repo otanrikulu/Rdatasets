@@ -1,5 +1,7 @@
-Mathlevel
-R Documentation
++-------------+-------------------+
+| Mathlevel   | R Documentation   |
++-------------+-------------------+
+
 Level of Calculus Attained for Students Taking Advanced Micro–economics
 -----------------------------------------------------------------------
 
@@ -52,14 +54,13 @@ physiccourse
 chemistcourse
     number of courses in chemistry (0 to 2)
 
-
 Source
 ~~~~~~
 
-Butler, J.S., T. Aldrich Finegan and John J. Siegfried (1998) “Does
-more calculus improve student learning in intermediate micro and
-macroeconomic theory ?”, *Journal of Applied Econometrics*,
-**13(2)**, april, 185–202.
+Butler, J.S., T. Aldrich Finegan and John J. Siegfried (1998) “Does more
+calculus improve student learning in intermediate micro and
+macroeconomic theory ?”, *Journal of Applied Econometrics*, **13(2)**,
+april, 185–202.
 
 References
 ~~~~~~~~~~
@@ -72,5 +73,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

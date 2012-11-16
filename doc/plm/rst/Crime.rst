@@ -1,5 +1,7 @@
-Crime
-R Documentation
++---------+-------------------+
+| Crime   | R Documentation   |
++---------+-------------------+
+
 Crime in North Carolina
 -----------------------
 
@@ -99,7 +101,6 @@ mix
 pctymle
     percentage of young males
 
-
 Source
 ~~~~~~
 
@@ -108,23 +109,21 @@ Online complements to Baltagi (2001).
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_,
 .
 
-See also Journal of Applied Econometrics data archive entry for
-Baltagi (2006) at
+See also Journal of Applied Econometrics data archive entry for Baltagi
+(2006) at
 
 `http://www.econ.queensu.ca/jae/2006-v21.4/baltagi/ <http://www.econ.queensu.ca/jae/2006-v21.4/baltagi/>`_.
 
 References
 ~~~~~~~~~~
 
-Cornwell, C. and W.N. Trumbull (1994) “Estimating the economic
-model of crime with panel data”,
-*Review of Economics and Statistics*, **76**, 360–366.
+Cornwell, C. and W.N. Trumbull (1994) “Estimating the economic model of
+crime with panel data”, *Review of Economics and Statistics*, **76**,
+360–366.
 
-Baltagi, B. H. (2006) “Estimating an economic model of crime using
-panel data from North Carolina”, *Journal of Applied Econometrics*,
-21(4), 543–547.
+Baltagi, B. H. (2006) “Estimating an economic model of crime using panel
+data from North Carolina”, *Journal of Applied Econometrics*, 21(4),
+543–547.
 
-Baltagi, B. H. (2001) *Econometric Analysis of Panel Data*, John
-Wiley and Sons.
-
-
+Baltagi, B. H. (2001) *Econometric Analysis of Panel Data*, John Wiley
+and Sons.

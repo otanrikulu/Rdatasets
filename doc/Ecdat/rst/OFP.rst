@@ -1,5 +1,7 @@
-OFP
-R Documentation
++-------+-------------------+
+| OFP   | R Documentation   |
++-------+-------------------+
+
 Visits to Physician Office
 --------------------------
 
@@ -48,8 +50,7 @@ numchron
     number of chronic conditions
 
 adldiff
-    the person has a condition that limits activities of daily living
-    ?
+    the person has a condition that limits activities of daily living ?
 
 age
     age in years (divided by 10)
@@ -84,19 +85,18 @@ region
 hlth
     self-perceived health (excellent, poor, other)
 
-
 Source
 ~~~~~~
 
-Deb, P. and P.K. Trivedi (1997) “Demand for Medical Care by the
-Elderly: A Finite Mixture Approach”,
-*Journal of Applied Econometrics*, **12**, 313-326..
+Deb, P. and P.K. Trivedi (1997) “Demand for Medical Care by the Elderly:
+A Finite Mixture Approach”, *Journal of Applied Econometrics*, **12**,
+313-326..
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and Trivedi P.K. (1998)
-*Regression analysis of count data*, Cambridge University Press,
+Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
+data*, Cambridge University Press,
 `http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`_,
 chapter 6.
 
@@ -108,5 +108,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

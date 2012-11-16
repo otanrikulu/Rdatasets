@@ -1,14 +1,16 @@
-tips
-R Documentation
++--------+-------------------+
+| tips   | R Documentation   |
++--------+-------------------+
+
 Tipping data
 ------------
 
 Description
 ~~~~~~~~~~~
 
-One waiter recorded information about each tip he received over a
-period of a few months working in one restaurant. He collected
-several variables:
+One waiter recorded information about each tip he received over a period
+of a few months working in one restaurant. He collected several
+variables:
 
 Format
 ~~~~~~
@@ -17,7 +19,6 @@ A data frame with 244 rows and 7 variables
 
 Details
 ~~~~~~~
-
 
 -  tip in dollars,
 
@@ -33,15 +34,11 @@ Details
 
 -  size of the party.
 
-
-In all he recorded 244 tips. The data was reported in a collection
-of case studies for business statistics (Bryant & Smith 1995).
+In all he recorded 244 tips. The data was reported in a collection of
+case studies for business statistics (Bryant & Smith 1995).
 
 References
 ~~~~~~~~~~
 
-Bryant, P. G. and Smith, M (1995)
-*Practical Data Analysis: Case Studies in Business Statistics*.
-Homewood, IL: Richard D. Irwin Publishing:
-
-
+Bryant, P. G. and Smith, M (1995) *Practical Data Analysis: Case Studies
+in Business Statistics*. Homewood, IL: Richard D. Irwin Publishing:

@@ -1,15 +1,17 @@
-Formaldehyde
-R Documentation
++----------------+-------------------+
+| Formaldehyde   | R Documentation   |
++----------------+-------------------+
+
 Determination of Formaldehyde
 -----------------------------
 
 Description
 ~~~~~~~~~~~
 
-These data are from a chemical experiment to prepare a standard
-curve for the determination of formaldehyde by the addition of
-chromatropic acid and concentrated sulphuric acid and the reading
-of the resulting purple color on a spectrophotometer.
+These data are from a chemical experiment to prepare a standard curve
+for the determination of formaldehyde by the addition of chromatropic
+acid and concentrated sulphuric acid and the reading of the resulting
+purple color on a spectrophotometer.
 
 Usage
 ~~~~~
@@ -23,20 +25,17 @@ Format
 
 A data frame with 6 observations on 2 variables.
 
-[,1]
-carb
-numeric
-Carbohydrate (ml)
-[,2]
-optden
-numeric
-Optical Density
++--------+----------+-----------+---------------------+
+| [,1]   | carb     | numeric   | Carbohydrate (ml)   |
++--------+----------+-----------+---------------------+
+| [,2]   | optden   | numeric   | Optical Density     |
++--------+----------+-----------+---------------------+
+
 Source
 ~~~~~~
 
-Bennett, N. A. and N. L. Franklin (1954)
-*Statistical Analysis in Chemistry and the Chemical Industry*. New
-York: Wiley.
+Bennett, N. A. and N. L. Franklin (1954) *Statistical Analysis in
+Chemistry and the Chemical Industry*. New York: Wiley.
 
 References
 ~~~~~~~~~~
@@ -57,5 +56,4 @@ Examples
     opar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
     plot(fm1)
     par(opar)
-
 

@@ -1,13 +1,14 @@
-Transact
-R Documentation
++------------+-------------------+
+| Transact   | R Documentation   |
++------------+-------------------+
+
 Transaction data
 ----------------
 
 Description
 ~~~~~~~~~~~
 
-Data on transaction times in branch offices of a large Australian
-bank.
+Data on transaction times in branch offices of a large Australian bank.
 
 Usage
 ~~~~~
@@ -30,7 +31,6 @@ t2
 time
     total transaction time, minutes
 
-
 Source
 ~~~~~~
 
@@ -41,10 +41,8 @@ Statistics, 31,12-17.
 References
 ~~~~~~~~~~
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.
 
-Weisberg, S. (2005) *Applied Linear Regression*, Third Edition.
-Wiley, Section 4.6.1.
-
-
+Weisberg, S. (2005) *Applied Linear Regression*, Third Edition. Wiley,
+Section 4.6.1.

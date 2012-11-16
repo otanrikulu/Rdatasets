@@ -1,5 +1,7 @@
-Earnings
-R Documentation
++------------+-------------------+
+| Earnings   | R Documentation   |
++------------+-------------------+
+
 Earnings for Three Age Groups
 -----------------------------
 
@@ -32,20 +34,18 @@ age
 y
     average annual earnings, in 1982 US dollars
 
-
 Source
 ~~~~~~
 
-Mills, Jeffery A. and Sourushe Zandvakili (1997) “Statistical
-Inference via Bootstrapping for Measures of Inequality”,
-*Journal of Applied Econometrics*, **12(2)**, pp. 133-150.
+Mills, Jeffery A. and Sourushe Zandvakili (1997) “Statistical Inference
+via Bootstrapping for Measures of Inequality”, *Journal of Applied
+Econometrics*, **12(2)**, pp. 133-150.
 
 References
 ~~~~~~~~~~
 
-Davidson, R. and James G. MacKinnon (2004)
-*Econometric Theory and Methods*, New York, Oxford University
-Press,
+Davidson, R. and James G. MacKinnon (2004) *Econometric Theory and
+Methods*, New York, Oxford University Press,
 `http://www.econ.queensu.ca/ETM/ <http://www.econ.queensu.ca/ETM/>`_,
 chapter 5 and 7.
 
@@ -57,5 +57,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

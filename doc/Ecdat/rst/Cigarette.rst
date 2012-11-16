@@ -1,5 +1,7 @@
-Cigarette
-R Documentation
++-------------+-------------------+
+| Cigarette   | R Documentation   |
++-------------+-------------------+
+
 The Cigarette Consumption Panel Data Set
 ----------------------------------------
 
@@ -54,7 +56,6 @@ avgprs
 taxs
     average excise taxes for fiscal year, including sales taxes
 
-
 Source
 ~~~~~~
 
@@ -63,9 +64,8 @@ Professor Jonhatan Gruber, MIT.
 References
 ~~~~~~~~~~
 
-Stock, James H. and Mark W. Watson (2003)
-*Introduction to Econometrics*, Addison-Wesley Educational
-Publishers,
+Stock, James H. and Mark W. Watson (2003) *Introduction to
+Econometrics*, Addison-Wesley Educational Publishers,
 `http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
 chapter 10.
 
@@ -76,5 +76,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

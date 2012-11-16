@@ -1,14 +1,15 @@
-birthwt
-R Documentation
++-----------+-------------------+
+| birthwt   | R Documentation   |
++-----------+-------------------+
+
 Risk Factors Associated with Low Infant Birth Weight
 ----------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``birthwt`` data frame has 189 rows and 10 columns. The data
-were collected at Baystate Medical Center, Springfield, Mass during
-1986.
+The ``birthwt`` data frame has 189 rows and 10 columns. The data were
+collected at Baystate Medical Center, Springfield, Mass during 1986.
 
 Usage
 ~~~~~
@@ -52,18 +53,17 @@ This data frame contains the following columns:
 ``bwt``
     birth weight in grams.
 
-
 Source
 ~~~~~~
 
-Hosmer, D.W. and Lemeshow, S. (1989) *Applied Logistic Regression.*
-New York: Wiley
+Hosmer, D.W. and Lemeshow, S. (1989) *Applied Logistic Regression.* New
+York: Wiley
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.
 
 Examples
 ~~~~~~~~
@@ -80,5 +80,4 @@ Examples
     detach("birthwt")
     options(contrasts = c("contr.treatment", "contr.poly"))
     glm(low ~ ., binomial, bwt)
-
 

@@ -1,5 +1,7 @@
-logan
-R Documentation
++---------+-------------------+
+| logan   | R Documentation   |
++---------+-------------------+
+
 Data from the 1972-78 GSS data used by Logan
 --------------------------------------------
 
@@ -21,8 +23,8 @@ Format
 A data frame with 838 observations on the following 4 variables.
 
 occupation
-    subject's occupation, a factor with levels ``farm``,
-    ``operatives``, ``craftsmen``, ``sales``, and ``professional``
+    subject's occupation, a factor with levels ``farm``, ``operatives``,
+    ``craftsmen``, ``sales``, and ``professional``
 
 focc
     father's occupation
@@ -33,12 +35,11 @@ education
 race
     levels of ``non-black`` and ``black``
 
-
 Source
 ~~~~~~
 
-General Social Survey data, see the web site for detailed
-information on the variables.
+General Social Survey data, see the web site for detailed information on
+the variables.
 `http://www3.norc.org/GSS+Website <http://www3.norc.org/GSS+Website>`_.
 
 References
@@ -46,5 +47,3 @@ References
 
 Logan, John A. (1983). A Multivariate Model for Mobility Tables.
 American Journal of Sociology 89: 324-349.
-
-

@@ -1,5 +1,7 @@
-RetSchool
-R Documentation
++-------------+-------------------+
+| RetSchool   | R Documentation   |
++-------------+-------------------+
+
 Return to Schooling
 -------------------
 
@@ -77,23 +79,21 @@ age76
 col4
     is any 4-year college nearby ?
 
-
 Source
 ~~~~~~
 
-Kling, Jeffrey R. (2001) “Interpreting Instrumental Variables
-Estimates of the Return to Schooling”,
-*Journal of Business and Economic Statistics*, **19(3)**, july,
-358–364.
+Kling, Jeffrey R. (2001) “Interpreting Instrumental Variables Estimates
+of the Return to Schooling”, *Journal of Business and Economic
+Statistics*, **19(3)**, july, 358–364.
 
-Dehejia, R.H. and S. Wahba (2002) “Propensity-score Matching
-Methods for Nonexperimental Causal Studies”, *Restat*, 151–161.
+Dehejia, R.H. and S. Wahba (2002) “Propensity-score Matching Methods for
+Nonexperimental Causal Studies”, *Restat*, 151–161.
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge.
 
 See Also
 ~~~~~~~~
@@ -102,5 +102,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

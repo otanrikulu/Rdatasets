@@ -1,13 +1,15 @@
-lukas
-R Documentation
++---------+-------------------+
+| lukas   | R Documentation   |
++---------+-------------------+
+
 An example pedigree
 -------------------
 
 Description
 ~~~~~~~~~~~
 
-A multi-generational pedigree containing individual, father, mother
-IDs and sex.
+A multi-generational pedigree containing individual, father, mother IDs
+and sex.
 
 Usage
 ~~~~~
@@ -25,5 +27,3 @@ Source
 ~~~~~~
 
 Lukas Keller
-
-

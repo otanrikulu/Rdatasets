@@ -1,5 +1,7 @@
-Produc
-R Documentation
++----------+-------------------+
+| Produc   | R Documentation   |
++----------+-------------------+
+
 US States Production
 --------------------
 
@@ -51,12 +53,10 @@ gsp
     gross state products
 
 emp
-    labor input measured by the employement in non–agricultural
-    payrolls
+    labor input measured by the employement in non–agricultural payrolls
 
 unemp
     state unemployment rate
-
 
 Source
 ~~~~~~
@@ -68,15 +68,12 @@ Online complements to Baltagi (2001).
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, 2nd
-ed. John Wiley and Sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, 2nd ed.
+John Wiley and Sons,
 
 Baltagi, B. H. and N. Pinnoi (1995) “Public capital stock and state
-productivity growth: further evidence”, *Empirical Economics*,
-**20**, 351–359.
+productivity growth: further evidence”, *Empirical Economics*, **20**,
+351–359.
 
-Munnell, A.H. (1990) “Why has productivity growth declined?
-Productivity and public investment”, *New England Economic Review*,
-3–22.
-
-
+Munnell, A.H. (1990) “Why has productivity growth declined? Productivity
+and public investment”, *New England Economic Review*, 3–22.

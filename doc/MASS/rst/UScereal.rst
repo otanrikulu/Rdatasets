@@ -1,15 +1,17 @@
-UScereal
-R Documentation
++------------+-------------------+
+| UScereal   | R Documentation   |
++------------+-------------------+
+
 Nutritional and Marketing Information on US Cereals
 ---------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``UScereal`` data frame has 65 rows and 11 columns. The data
-come from the 1993 ASA Statistical Graphics Exposition, and are
-taken from the mandatory F&DA food label. The data have been
-normalized here to a portion of one American cup.
+The ``UScereal`` data frame has 65 rows and 11 columns. The data come
+from the 1993 ASA Statistical Graphics Exposition, and are taken from
+the mandatory F&DA food label. The data have been normalized here to a
+portion of one American cup.
 
 Usage
 ~~~~~
@@ -57,7 +59,6 @@ This data frame contains the following columns:
 ``vitamins``
     vitamins and minerals (none, enriched, or 100%).
 
-
 Source
 ~~~~~~
 
@@ -67,7 +68,5 @@ The original data are available at
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (1999)
-*Modern Applied Statistics with S-PLUS.* Third Edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (1999) *Modern Applied Statistics with
+S-PLUS.* Third Edition. Springer.

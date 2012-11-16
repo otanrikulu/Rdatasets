@@ -1,5 +1,7 @@
-HI
-R Documentation
++------+-------------------+
+| HI   | R Documentation   |
++------+-------------------+
+
 Health Insurance and Hours Worked By Wives
 ------------------------------------------
 
@@ -66,15 +68,13 @@ region
 wght
     sampling weight
 
-
 Source
 ~~~~~~
 
-Olson, Craig A. (1998) “A comparison of parametric and
-semiparametric estimates of the effect of spousal healpth insurance
-coverage on weekly hours worked by wiwes”,
-*Journal of Applied Econometrics*, **13(5)**, september–october,
-543–565.
+Olson, Craig A. (1998) “A comparison of parametric and semiparametric
+estimates of the effect of spousal healpth insurance coverage on weekly
+hours worked by wiwes”, *Journal of Applied Econometrics*, **13(5)**,
+september–october, 543–565.
 
 References
 ~~~~~~~~~~
@@ -87,5 +87,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

@@ -1,15 +1,17 @@
-car.test.frame
-R Documentation
++------------------+-------------------+
+| car.test.frame   | R Documentation   |
++------------------+-------------------+
+
 Automobile Data from 'Consumer Reports' 1990
 --------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``car.test.frame`` data frame has 60 rows and 8 columns, giving
-data on makes of cars taken from the April, 1990 issue of
-*Consumer Reports*. This is part of a larger dataset, some columns
-of which are given in ``cu.summary``.
+The ``car.test.frame`` data frame has 60 rows and 8 columns, giving data
+on makes of cars taken from the April, 1990 issue of *Consumer Reports*.
+This is part of a larger dataset, some columns of which are given in
+``cu.summary``.
 
 Usage
 ~~~~~
@@ -50,15 +52,13 @@ This data frame contains the following columns:
 ``HP``
     the net horsepower of the vehicle.
 
-
 Source
 ~~~~~~
 
 *Consumer Reports*, April, 1990, pp. 235–288 quoted in
 
-John M. Chambers and Trevor J. Hastie eds. (1992)
-*Statistical Models in S*, Wadsworth and Brooks/Cole, Pacific
-Grove, CA 1992, pp. 46–47.
+John M. Chambers and Trevor J. Hastie eds. (1992) *Statistical Models in
+S*, Wadsworth and Brooks/Cole, Pacific Grove, CA 1992, pp. 46–47.
 
 See Also
 ~~~~~~~~
@@ -72,5 +72,4 @@ Examples
 
     z.auto <- rpart(Mileage ~ Weight, car.test.frame)
     summary(z.auto)
-
 

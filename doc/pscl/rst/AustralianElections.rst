@@ -1,5 +1,7 @@
-AustralianElections
-R Documentation
++-----------------------+-------------------+
+| AustralianElections   | R Documentation   |
++-----------------------+-------------------+
+
 elections to Australian House of Representatives, 1949-2007
 -----------------------------------------------------------
 
@@ -37,8 +39,8 @@ A data frame with the following variables:
     numeric, number of seats won by the Liberal Party
 
 ``NPSeats``
-    numeric, number of seats won by the National Party (previously
-    known as the Country Party)
+    numeric, number of seats won by the National Party (previously known
+    as the Country Party)
 
 ``OtherSeats``
     numeric, number of seats won by other parties and/or independent
@@ -61,8 +63,8 @@ A data frame with the following variables:
     (Country Party) candidates
 
 ``DLP``
-    numeric, percent of first preference votes cast for Democratic
-    Labor Party candidates
+    numeric, percent of first preference votes cast for Democratic Labor
+    Party candidates
 
 ``Dem``
     numeric, percent of first preference votes cast for Australian
@@ -90,9 +92,8 @@ A data frame with the following variables:
     preferences)
 
 ``Turnout``
-    numeric, percent of enrolled voters recorded as having turned out
-    to vote (Australia has compulsory voting)
-
+    numeric, percent of enrolled voters recorded as having turned out to
+    vote (Australia has compulsory voting)
 
 Source
 ~~~~~~
@@ -115,18 +116,18 @@ Examples
     attach(AustralianElections)
     alpSeatShare <- ALPSeats/Seats
     alpVoteShare <- ALP2PP/100
-    
+
     ## log-odds transforms
     x <- log(alpVoteShare/(1-alpVoteShare))
     y <- log(alpSeatShare/(1-alpSeatShare))
-    
+
     ols <- lm(y~x)   ## Tufte-style seats-votes regression
-    
+
     xseq <- seq(-4.5,4.5,length=500)
     yhat <- coef(ols)[1] + coef(ols)[2]*xseq
     yhat <- exp(yhat)/(1+exp(yhat))
     xseq <- exp(xseq)/(1+exp(xseq))
-    
+
     ## seats vote curve
     plot(x=alpVoteShare,
          y=alpSeatShare,
@@ -135,5 +136,4 @@ Examples
     lines(xseq,yhat,lwd=2)
     abline(h=.5,lty=2)
     abline(v=.5,lty=2)
-
 

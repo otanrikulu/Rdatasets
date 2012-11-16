@@ -1,5 +1,7 @@
-HC
-R Documentation
++------+-------------------+
+| HC   | R Documentation   |
++------+-------------------+
+
 Heating and Cooling System Choice in Newly Built Houses in California
 ---------------------------------------------------------------------
 
@@ -49,7 +51,6 @@ occa
 income
     annual income of the household
 
-
 References
 ~~~~~~~~~~
 
@@ -61,5 +62,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

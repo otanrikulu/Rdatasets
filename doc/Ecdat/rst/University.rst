@@ -1,5 +1,7 @@
-University
-R Documentation
++--------------+-------------------+
+| University   | R Documentation   |
++--------------+-------------------+
+
 Provision of University Teaching and Research
 ---------------------------------------------
 
@@ -77,14 +79,13 @@ landbuild
 resgr
     research grants
 
-
 Source
 ~~~~~~
 
 Glass, J.C., D.G. McKillop and N. Hyndman (1995) “Efficiency in the
-provision of university teaching and research : an empirical
-analysis of UK universities”, *Journal of Applied Econometrics*,
-**10(1)**, january–march, 61–72.
+provision of university teaching and research : an empirical analysis of
+UK universities”, *Journal of Applied Econometrics*, **10(1)**,
+january–march, 61–72.
 
 References
 ~~~~~~~~~~
@@ -97,5 +98,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

@@ -1,13 +1,15 @@
-Weimar
-R Documentation
++----------+-------------------+
+| Weimar   | R Documentation   |
++----------+-------------------+
+
 1932 Weimar election data
 -------------------------
 
 Description
 ~~~~~~~~~~~
 
-This data set contains election results for 10 kreise (equivalent
-to precincts) from the 1932 Weimar (German) election.
+This data set contains election results for 10 kreise (equivalent to
+precincts) from the 1932 Weimar (German) election.
 
 Usage
 ~~~~~
@@ -19,8 +21,7 @@ Usage
 Format
 ~~~~~~
 
-A table containing 11 variables and 10 observations. The variables
-are
+A table containing 11 variables and 10 observations. The variables are
 
 Nazi
     Number of votes for the Nazi party
@@ -52,10 +53,7 @@ sharedomestic
 shareprotestants
     Proportion Protestant
 
-
 Source
 ~~~~~~
 
 ICPSR
-
-

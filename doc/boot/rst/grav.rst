@@ -1,5 +1,7 @@
-gravity
-R Documentation
++-----------+-------------------+
+| gravity   | R Documentation   |
++-----------+-------------------+
+
 Acceleration Due to Gravity
 ---------------------------
 
@@ -18,10 +20,10 @@ methodology. Although the basic method remained the same for all
 experiments, that of the reversible pendulum, there were changes in
 configuration.
 
-The ``gravity`` data frame contains the data from all eight
-experiments. The ``grav`` data frame contains the data from the
-experiments 7 and 8. The data are expressed as deviations from
-980.000 in centimetres per second squared.
+The ``gravity`` data frame contains the data from all eight experiments.
+The ``grav`` data frame contains the data from the experiments 7 and 8.
+The data are expressed as deviations from 980.000 in centimetres per
+second squared.
 
 Usage
 ~~~~~
@@ -40,24 +42,18 @@ This data frame contains the following columns:
     squared.
 
 ``series``
-    A factor describing from which experiment the estimate was
-    derived.
-
+    A factor describing from which experiment the estimate was derived.
 
 Source
 ~~~~~~
 
 The data were obtained from
 
-Cressie, N. (1982) Playing safe with misweighted means.
-*Journal of the American Statistical Association*, **77**,
-754–759.
+Cressie, N. (1982) Playing safe with misweighted means. *Journal of the
+American Statistical Association*, **77**, 754–759.
 
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
-
-
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.

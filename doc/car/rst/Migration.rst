@@ -1,5 +1,7 @@
-Migration
-R Documentation
++-------------+-------------------+
+| Migration   | R Documentation   |
++-------------+-------------------+
+
 Canadian Interprovincial Migration Data
 ---------------------------------------
 
@@ -30,9 +32,9 @@ source
 destination
     Province of destination (1971 residence). A factor with levels:
     ``ALTA``, Alberta; ``BC``, British Columbia; ``MAN``, Manitoba;
-    ``NB``, New Brunswick; ``NFLD``, New Foundland; ``NS``, Nova
-    Scotia; ``ONT``, Ontario; ``PEI``, Prince Edward Island; ``QUE``,
-    Quebec; ``SASK``, Saskatchewan.
+    ``NB``, New Brunswick; ``NFLD``, New Foundland; ``NS``, Nova Scotia;
+    ``ONT``, Ontario; ``PEI``, Prince Edward Island; ``QUE``, Quebec;
+    ``SASK``, Saskatchewan.
 
 migrants
     Number of migrants (from source to destination) in the period
@@ -40,9 +42,8 @@ migrants
 
 distance
     Distance (between principal cities of provinces): NFLD, St. John;
-    PEI, Charlottetown; NS, Halifax; NB, Fredricton; QUE, Montreal;
-    ONT, Toronto; MAN, Winnipeg; SASK, Regina; ALTA, Edmonton; BC,
-    Vancouver.
+    PEI, Charlottetown; NS, Halifax; NB, Fredricton; QUE, Montreal; ONT,
+    Toronto; MAN, Winnipeg; SASK, Regina; ALTA, Edmonton; BC, Vancouver.
 
 pops66
     1966 population of source province.
@@ -56,13 +57,12 @@ popd66
 popd71
     1971 population of destination province.
 
-
 Details
 ~~~~~~~
 
-There is one record in the data file for each migration stream. You
-can average the 1966 and 1971 population figures for each of the
-source and destination provinces.
+There is one record in the data file for each migration stream. You can
+average the 1966 and 1971 population figures for each of the source and
+destination provinces.
 
 Source
 ~~~~~~
@@ -77,8 +77,5 @@ Canada (1972) *Canada Year Book*. Statistics Canada [p. 1369].
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

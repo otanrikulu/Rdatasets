@@ -1,13 +1,15 @@
-chorSub
-R Documentation
++-----------+-------------------+
+| chorSub   | R Documentation   |
++-----------+-------------------+
+
 Subset of C-horizon of Kola Data
 --------------------------------
 
 Description
 ~~~~~~~~~~~
 
-This is a small rounded subset of the C-horizon data ``chorizon``
-from package mvoutlier.
+This is a small rounded subset of the C-horizon data ``chorizon`` from
+package mvoutlier.
 
 Usage
 ~~~~~
@@ -19,8 +21,8 @@ Usage
 Format
 ~~~~~~
 
-A data frame with 61 observations on 10 variables. The variables
-contain scaled concentrations of chemical elements.
+A data frame with 61 observations on 10 variables. The variables contain
+scaled concentrations of chemical elements.
 
 Details
 ~~~~~~~
@@ -54,5 +56,4 @@ Examples
     data(chorSub)
     summary(chorSub)
     pairs(chorSub, gap= .1)# some outliers
-
 

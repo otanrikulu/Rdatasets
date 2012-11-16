@@ -1,5 +1,7 @@
-StrikeDur
-R Documentation
++-------------+-------------------+
+| StrikeDur   | R Documentation   |
++-------------+-------------------+
+
 Strikes Duration
 ----------------
 
@@ -32,7 +34,6 @@ gdp
     industrial production in manufacturing from prediction from OLS on
     time, time-squared and monthly dummies)
 
-
 Source
 ~~~~~~
 
@@ -42,14 +43,11 @@ Manufacturing”, *Journal of Econometrics*, **28**, 5-28.
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-574–5 abd 582.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 574–5 abd 582.
 
 See Also
 ~~~~~~~~
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

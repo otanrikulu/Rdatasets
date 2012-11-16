@@ -1,5 +1,7 @@
-Fishing
-R Documentation
++-----------+-------------------+
+| Fishing   | R Documentation   |
++-----------+-------------------+
+
 Choice of Fishing Mode
 ----------------------
 
@@ -62,25 +64,21 @@ ccharter
 income
     monthly income
 
-
 Source
 ~~~~~~
 
 Herriges, J. A. and C. L. Kling (1999) “Nonlinear Income Effects in
-Random Utility Models”, *Review of Economics and Statistics*,
-**81**, 62-72.
+Random Utility Models”, *Review of Economics and Statistics*, **81**,
+62-72.
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-463–466, 486 and 491–495.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 463–466, 486 and 491–495.
 
 See Also
 ~~~~~~~~
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

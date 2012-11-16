@@ -1,5 +1,7 @@
-urine
-R Documentation
++---------+-------------------+
+| urine   | R Documentation   |
++---------+-------------------+
+
 Urine Analysis Data
 -------------------
 
@@ -8,9 +10,9 @@ Description
 
 The ``urine`` data frame has 79 rows and 7 columns.
 
-79 urine specimens were analyzed in an effort to determine if
-certain physical characteristics of the urine might be related to
-the formation of calcium oxalate crystals.
+79 urine specimens were analyzed in an effort to determine if certain
+physical characteristics of the urine might be related to the formation
+of calcium oxalate crystals.
 
 Usage
 ~~~~~
@@ -47,21 +49,16 @@ This data frame contains the following columns:
 ``calc``
     The calcium concentration in millimoles per litre.
 
-
 Source
 ~~~~~~
 
 The data were obtained from
 
-Andrews, D.F. and Herzberg, A.M. (1985)
-*Data: A Collection of Problems from Many Fields for the Student and Research Worker*.
-Springer-Verlag.
+Andrews, D.F. and Herzberg, A.M. (1985) *Data: A Collection of Problems
+from Many Fields for the Student and Research Worker*. Springer-Verlag.
 
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
-
-
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.

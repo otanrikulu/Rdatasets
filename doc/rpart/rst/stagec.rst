@@ -1,5 +1,7 @@
-stagec
-R Documentation
++----------+-------------------+
+| stagec   | R Documentation   |
++----------+-------------------+
+
 Stage C Prostate Cancer
 -----------------------
 
@@ -46,14 +48,13 @@ A data frame with 146 observations on the following 8 variables.
     the ploidy status of the tumor, from flow cytometry. Values are
     ``diploid``, ``tetraploid``, and ``aneuploid``
 
-
 Details
 ~~~~~~~
 
-A tumor is called diploid (normal complement of dividing cells) if
-the fraction of cells in G2 phase was determined to be 13% or less.
-Aneuploid cells have a measurable fraction with a chromosome count
-that is neither 24 nor 48, for these the G2 percent is difficult or
+A tumor is called diploid (normal complement of dividing cells) if the
+fraction of cells in G2 phase was determined to be 13% or less.
+Aneuploid cells have a measurable fraction with a chromosome count that
+is neither 24 nor 48, for these the G2 percent is difficult or
 impossible to measure.
 
 Examples
@@ -63,5 +64,4 @@ Examples
 
     require(survival)
     rpart(Surv(pgtime, pgstat) ~ ., stagec)
-
 

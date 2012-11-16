@@ -1,5 +1,7 @@
-Duncan
-R Documentation
++----------+-------------------+
+| Duncan   | R Documentation   |
++----------+-------------------+
+
 Duncan's Occupational Prestige Data
 -----------------------------------
 
@@ -7,8 +9,7 @@ Description
 ~~~~~~~~~~~
 
 The ``Duncan`` data frame has 45 rows and 4 columns. Data on the
-prestige and other characteristics of 45 U. S. occupations in
-1950.
+prestige and other characteristics of 45 U. S. occupations in 1950.
 
 Usage
 ~~~~~
@@ -38,7 +39,6 @@ prestige
     Percent of raters in NORC study rating occupation as excellent or
     good in prestige.
 
-
 Source
 ~~~~~~
 
@@ -49,11 +49,8 @@ Reiss, A. J., Jr. (Ed.) *Occupations and Social Status.* Free Press
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
-
-
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.

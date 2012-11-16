@@ -1,15 +1,17 @@
-hoff
-R Documentation
++--------+-------------------+
+| hoff   | R Documentation   |
++--------+-------------------+
+
 Social Security Expenditure Data
 --------------------------------
 
 Description
 ~~~~~~~~~~~
 
-This data set contains annual social security expenditure (as
-percent of budget lagged by two years), the relative frequency of
-mentions social justice received in the party's platform in each
-year, and whether the president is Republican or Democrat.
+This data set contains annual social security expenditure (as percent of
+budget lagged by two years), the relative frequency of mentions social
+justice received in the party's platform in each year, and whether the
+president is Republican or Democrat.
 
 Usage
 ~~~~~
@@ -33,7 +35,5 @@ References
 ~~~~~~~~~~
 
 Gary King and Michael Laver. “On Party Platforms, Mandates, and
-Government Spending,” *American Political Science Review*, Vol. 87,
-No. 3 (September, 1993): pp. 744-750.
-
-
+Government Spending,” *American Political Science Review*, Vol. 87, No.
+3 (September, 1993): pp. 744-750.

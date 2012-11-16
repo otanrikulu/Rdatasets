@@ -1,5 +1,7 @@
-Metal
-R Documentation
++---------+-------------------+
+| Metal   | R Documentation   |
++---------+-------------------+
+
 Production for SIC 33
 ---------------------
 
@@ -35,17 +37,15 @@ labor
 capital
     capital input
 
-
 Source
 ~~~~~~
 
-Aigner, D., K. Lovell and P. Schmidt (1977) “Formulation and
-estimation of stochastic frontier production models”,
-*Journal of Econometrics*, **6**, 21-37.
+Aigner, D., K. Lovell and P. Schmidt (1977) “Formulation and estimation
+of stochastic frontier production models”, *Journal of Econometrics*,
+**6**, 21-37.
 
-Hildebrand, G. and T. Liu (1957)
-*Manufacturing production functions in the United States*, Ithaca,
-N.Y.: Cornell University Press.
+Hildebrand, G. and T. Liu (1957) *Manufacturing production functions in
+the United States*, Ithaca, N.Y.: Cornell University Press.
 
 References
 ~~~~~~~~~~
@@ -59,5 +59,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

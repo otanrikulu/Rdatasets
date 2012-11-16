@@ -1,5 +1,7 @@
-Griliches
-R Documentation
++-------------+-------------------+
+| Griliches   | R Documentation   |
++-------------+-------------------+
+
 Wage Datas
 ----------
 
@@ -86,13 +88,12 @@ lw
 lw80
     same variable for 1980
 
-
 Source
 ~~~~~~
 
 Blackburn, M. and Neumark D. (1992) “Unobserved ability, efficiency
-wages, and interindustry wage differentials”,
-*Quarterly Journal of Economics*, **107**, 1421-1436.
+wages, and interindustry wage differentials”, *Quarterly Journal of
+Economics*, **107**, 1421-1436.
 
 References
 ~~~~~~~~~~
@@ -106,5 +107,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

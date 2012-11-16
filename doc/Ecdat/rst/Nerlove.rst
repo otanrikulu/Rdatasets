@@ -1,5 +1,7 @@
-Nerlove
-R Documentation
++-----------+-------------------+
+| Nerlove   | R Documentation   |
++-----------+-------------------+
+
 Cost Function for Electricity Producers, 1955
 ---------------------------------------------
 
@@ -50,14 +52,13 @@ pf
 sf
     cost share for fuel
 
-
 Source
 ~~~~~~
 
 Nerlove, M. (1963) *Returns to scale in electricity industry* *in*
-Christ, C. ed. (1963)
-*Measurment in economics: studies in mathematical economics and econometrics in memory of Yehuda Grunfeld*,
-Standford, California, Standford University Press .
+Christ, C. ed. (1963) *Measurment in economics: studies in mathematical
+economics and econometrics in memory of Yehuda Grunfeld*, Standford,
+California, Standford University Press .
 
 Christensen, L. and W. H. Greene (1976) “Economies of scale in U.S.
 electric power generation”, *Journal of Political Economy*, **84**,
@@ -79,5 +80,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

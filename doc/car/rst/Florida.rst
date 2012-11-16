@@ -1,13 +1,15 @@
-Florida
-R Documentation
++-----------+-------------------+
+| Florida   | R Documentation   |
++-----------+-------------------+
+
 Florida County Voting
 ---------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Florida`` data frame has 67 rows and 11 columns. Vote by
-county in Florida for President in the 2000 election.
+The ``Florida`` data frame has 67 rows and 11 columns. Vote by county in
+Florida for President in the 2000 election.
 
 Usage
 ~~~~~
@@ -54,13 +56,10 @@ PHILLIPS
 Total
     Total number of votes.
 
-
 Source
 ~~~~~~
 
 Adams, G. D. and Fastnow, C. F. (2000) A note on the voting
 irregularities in Palm Beach, FL. Formerly at
-`http://madison.hss.cmu.edu/ <http://madison.hss.cmu.edu/>`_, but
-no longer available there.
-
-
+`http://madison.hss.cmu.edu/ <http://madison.hss.cmu.edu/>`_, but no
+longer available there.

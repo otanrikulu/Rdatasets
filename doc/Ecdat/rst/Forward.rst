@@ -1,5 +1,7 @@
-Forward
-R Documentation
++-----------+-------------------+
+| Forward   | R Documentation   |
++-----------+-------------------+
+
 Exchange Rates of US Dollar Against Other Currencies
 ----------------------------------------------------
 
@@ -49,7 +51,6 @@ usdeuro3
 eurobp3
     month forward rate Euro/Pound
 
-
 Source
 ~~~~~~
 
@@ -58,8 +59,8 @@ Datastream .
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 4.
 
@@ -70,5 +71,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

@@ -1,17 +1,18 @@
-epil
-R Documentation
++--------+-------------------+
+| epil   | R Documentation   |
++--------+-------------------+
+
 Seizure Counts for Epileptics
 -----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Thall and Vail (1990) give a data set on two-week seizure counts
-for 59 epileptics. The number of seizures was recorded for a
-baseline period of 8 weeks, and then patients were randomly
-assigned to a treatment group or a control group. Counts were then
-recorded for four successive two-week periods. The subject's age is
-the only covariate.
+Thall and Vail (1990) give a data set on two-week seizure counts for 59
+epileptics. The number of seizures was recorded for a baseline period of
+8 weeks, and then patients were randomly assigned to a treatment group
+or a control group. Counts were then recorded for four successive
+two-week periods. The subject's age is the only covariate.
 
 Usage
 ~~~~~
@@ -52,7 +53,6 @@ This data frame has 236 rows and the following 9 columns:
 ``lage``
     log-ages, centred to have zero mean.
 
-
 Source
 ~~~~~~
 
@@ -63,8 +63,8 @@ longitudinal count data with over-dispersion. *Biometrics* **46**,
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth Edition. Springer.
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth Edition. Springer.
 
 Examples
 ~~~~~~~~
@@ -83,16 +83,15 @@ Examples
        function(x) if(is.numeric(x)) sum(x) else x[1])
     epil3$pred <- factor(epil3$pred,
        labels = c("base", "placebo", "drug"))
-    
+
     contrasts(epil3$pred) <- structure(contr.sdif(3),
         dimnames = list(NULL, c("placebo-base", "drug-placebo")))
     summary(glm(y ~ pred + factor(subject) + offset(log(time)),
                 family = poisson, data = epil3), cor = FALSE)
-    
+
     summary(glmmPQL(y ~ lbase*trt + lage + V4,
                     random = ~ 1 | subject,
                     family = poisson, data = epil))
     summary(glmmPQL(y ~ pred, random = ~1 | subject,
                     family = poisson, data = epil3))
-
 

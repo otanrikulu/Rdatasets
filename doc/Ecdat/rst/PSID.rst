@@ -1,5 +1,7 @@
-PSID
-R Documentation
++--------+-------------------+
+| PSID   | R Documentation   |
++--------+-------------------+
+
 Panel Survey of Income Dynamics
 -------------------------------
 
@@ -51,7 +53,6 @@ married
     last known marital status (married, never married, windowed,
     divorced, separated, NA/DF, no histories)
 
-
 Source
 ~~~~~~
 
@@ -60,14 +61,11 @@ Panel Survey of Income Dynamics.
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-295–300.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 295–300.
 
 See Also
 ~~~~~~~~
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

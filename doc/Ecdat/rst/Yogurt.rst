@@ -1,5 +1,7 @@
-Yogurt
-R Documentation
++----------+-------------------+
+| Yogurt   | R Documentation   |
++----------+-------------------+
+
 Choice of Brand for Yogurts
 ---------------------------
 
@@ -38,14 +40,12 @@ feat.z
 price.z
     price of brand z
 
-
 Source
 ~~~~~~
 
-Jain, Dipak C., Naufel J. Vilcassim and Pradeep K. Chintagunta
-(1994) “A random–coefficients logit brand–choice model applied to
-panel data”, *Journal of Business and Economics Statistics*,
-**12(3)**, 317.
+Jain, Dipak C., Naufel J. Vilcassim and Pradeep K. Chintagunta (1994) “A
+random–coefficients logit brand–choice model applied to panel data”,
+*Journal of Business and Economics Statistics*, **12(3)**, 317.
 
 References
 ~~~~~~~~~~
@@ -58,5 +58,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

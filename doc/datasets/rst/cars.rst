@@ -1,13 +1,15 @@
-cars
-R Documentation
++--------+-------------------+
+| cars   | R Documentation   |
++--------+-------------------+
+
 Speed and Stopping Distances of Cars
 ------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The data give the speed of cars and the distances taken to stop.
-Note that the data were recorded in the 1920s.
+The data give the speed of cars and the distances taken to stop. Note
+that the data were recorded in the 1920s.
 
 Usage
 ~~~~~
@@ -21,14 +23,12 @@ Format
 
 A data frame with 50 observations on 2 variables.
 
-[,1]
-speed
-numeric
-Speed (mph)
-[,2]
-dist
-numeric
-Stopping distance (ft)
++--------+---------+-----------+--------------------------+
+| [,1]   | speed   | numeric   | Speed (mph)              |
++--------+---------+-----------+--------------------------+
+| [,2]   | dist    | numeric   | Stopping distance (ft)   |
++--------+---------+-----------+--------------------------+
+
 Source
 ~~~~~~
 
@@ -58,7 +58,7 @@ Examples
                 mar = c(4.1, 4.1, 2.1, 1.1))
     plot(fm1)
     par(opar)
-    
+
     ## An example of polynomial regression
     plot(cars, xlab = "Speed (mph)", ylab = "Stopping distance (ft)",
         las = 1, xlim = c(0, 25))
@@ -69,5 +69,4 @@ Examples
       lines(d, predict(fm, data.frame(speed=d)), col = degree)
     }
     anova(cars.1, cars.2, cars.3, cars.4)
-
 

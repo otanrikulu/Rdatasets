@@ -1,5 +1,7 @@
-titanic
-R Documentation
++-----------+-------------------+
+| titanic   | R Documentation   |
++-----------+-------------------+
+
 titanic
 -------
 
@@ -32,7 +34,6 @@ A data frame with 1316 observations on the following 4 variables.
 ``class``
     ticket class 1= 1st class; 2= second class; 3= third class
 
-
 Details
 ~~~~~~~
 
@@ -47,9 +48,9 @@ Found in many other texts
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC
 
 Examples
 ~~~~~~~~
@@ -60,5 +61,4 @@ Examples
     glmlr <- glm(survived ~ age + sex + factor(class), family=binomial, data=titanic)
     summary(glmlr)
     exp(coef(glmlr))
-
 

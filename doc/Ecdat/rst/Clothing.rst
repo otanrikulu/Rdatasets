@@ -1,5 +1,7 @@
-Clothing
-R Documentation
++------------+-------------------+
+| Clothing   | R Documentation   |
++------------+-------------------+
+
 Sales Data of Men's Fashion Stores
 ----------------------------------
 
@@ -65,12 +67,11 @@ ssize
 start
     year start of business
 
-
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 3.
 
@@ -79,5 +80,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

@@ -1,5 +1,7 @@
-forbes
-R Documentation
++----------+-------------------+
+| forbes   | R Documentation   |
++----------+-------------------+
+
 Forbes' Data on Boiling Points in the Alps
 ------------------------------------------
 
@@ -25,13 +27,9 @@ Format
 ``pres``
     barometric pressure in inches of mercury.
 
-
 Source
 ~~~~~~
 
-A. C. Atkinson (1985) *Plots, Transformations and Regression.*
-Oxford.
+A. C. Atkinson (1985) *Plots, Transformations and Regression.* Oxford.
 
 S. Weisberg (1980) *Applied Linear Regression.* Wiley.
-
-

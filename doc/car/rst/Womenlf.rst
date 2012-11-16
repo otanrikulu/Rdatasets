@@ -1,13 +1,15 @@
-Womenlf
-R Documentation
++-----------+-------------------+
+| Womenlf   | R Documentation   |
++-----------+-------------------+
+
 Canadian Women's Labour-Force Participation
 -------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Womenlf`` data frame has 263 rows and 4 columns. The data are
-from a 1977 survey of the Canadian population.
+The ``Womenlf`` data frame has 263 rows and 4 columns. The data are from
+a 1977 survey of the Canadian population.
 
 Usage
 ~~~~~
@@ -34,25 +36,19 @@ children
     ``absent``, ``present``.
 
 region
-    A factor with levels: ``Atlantic``, Atlantic Canada; ``BC``,
-    British Columbia; ``Ontario``; ``Prairie``, Prairie provinces;
-    ``Quebec``.
-
+    A factor with levels: ``Atlantic``, Atlantic Canada; ``BC``, British
+    Columbia; ``Ontario``; ``Prairie``, Prairie provinces; ``Quebec``.
 
 Source
 ~~~~~~
 
-*Social Change in Canada Project.* York Institute for Social
-Research.
+*Social Change in Canada Project.* York Institute for Social Research.
 
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
-
-
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.

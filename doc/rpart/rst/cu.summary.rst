@@ -1,14 +1,15 @@
-cu.summary
-R Documentation
++--------------+-------------------+
+| cu.summary   | R Documentation   |
++--------------+-------------------+
+
 Automobile Data from 'Consumer Reports' 1990
 --------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``cu.summary`` data frame has 117 rows and 5 columns, giving
-data on makes of cars taken from the April, 1990 issue of
-*Consumer Reports*.
+The ``cu.summary`` data frame has 117 rows and 5 columns, giving data on
+makes of cars taken from the April, 1990 issue of *Consumer Reports*.
 
 Usage
 ~~~~~
@@ -42,15 +43,13 @@ This data frame contains the following columns:
     a factor with levels ``Compact`` ``Large`` ``Medium`` ``Small``
     ``Sporty`` ``Van``
 
-
 Source
 ~~~~~~
 
 *Consumer Reports*, April, 1990, pp. 235–288 quoted in
 
-John M. Chambers and Trevor J. Hastie eds. (1992)
-*Statistical Models in S*, Wadsworth and Brooks/Cole, Pacific
-Grove, CA 1992, pp. 46–47.
+John M. Chambers and Trevor J. Hastie eds. (1992) *Statistical Models in
+S*, Wadsworth and Brooks/Cole, Pacific Grove, CA 1992, pp. 46–47.
 
 See Also
 ~~~~~~~~
@@ -65,5 +64,4 @@ Examples
     fit <- rpart(Price ~ Mileage + Type + Country, cu.summary)
     plot(fit, compress=TRUE)
     text(fit, use.n=TRUE)
-
 

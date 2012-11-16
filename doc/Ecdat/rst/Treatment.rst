@@ -1,5 +1,7 @@
-Treatment
-R Documentation
++-------------+-------------------+
+| Treatment   | R Documentation   |
++-------------+-------------------+
+
 Evaluating Treatment Effect of Training on Earnings
 ---------------------------------------------------
 
@@ -54,32 +56,27 @@ u74
 u75
     unemployed in 1975 ?
 
-
 Source
 ~~~~~~
 
-Lalonde, R. (1986) “Evaluating the Econometric Evaluations of
-Training Programs with Experimental Data”,
-*American Economic Review*, 604–620.
+Lalonde, R. (1986) “Evaluating the Econometric Evaluations of Training
+Programs with Experimental Data”, *American Economic Review*, 604–620.
 
-Dehejia, R.H. and S. Wahba (1999) “Causal Effects in
-Nonexperimental Studies: reevaluating the Evaluation of Training
-Programs”, *Jasa*, 1053–1062.
+Dehejia, R.H. and S. Wahba (1999) “Causal Effects in Nonexperimental
+Studies: reevaluating the Evaluation of Training Programs”, *Jasa*,
+1053–1062.
 
-Dehejia, R.H. and S. Wahba (2002) “Propensity-score Matching
-Methods for Nonexperimental Causal Studies”, *Restat*, 151–161.
+Dehejia, R.H. and S. Wahba (2002) “Propensity-score Matching Methods for
+Nonexperimental Causal Studies”, *Restat*, 151–161.
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-889–95.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 889–95.
 
 See Also
 ~~~~~~~~
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

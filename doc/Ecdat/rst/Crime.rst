@@ -1,5 +1,7 @@
-Crime
-R Documentation
++---------+-------------------+
+| Crime   | R Documentation   |
++---------+-------------------+
+
 Crime in North Carolina
 -----------------------
 
@@ -98,23 +100,22 @@ mix
 pctymle
     percentage of young males
 
-
 Source
 ~~~~~~
 
-Cornwell, C. and W.N. Trumbull (1994) “Estimating the economic
-model of crime with panel data”,
-*Review of Economics and Statistics*, **76**, 360–366.
+Cornwell, C. and W.N. Trumbull (1994) “Estimating the economic model of
+crime with panel data”, *Review of Economics and Statistics*, **76**,
+360–366.
 
 Baltagi, B. H. (forthcoming) “Estimating an economic model of crime
-using panel data from North Carolina”,
-*Journal of Applied Econometrics*, .
+using panel data from North Carolina”, *Journal of Applied
+Econometrics*, .
 
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John
-Wiley and sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
+and sons,
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_,
 .
 
@@ -128,5 +129,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

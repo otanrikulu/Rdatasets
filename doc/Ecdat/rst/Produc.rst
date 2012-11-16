@@ -1,5 +1,7 @@
-Produc
-R Documentation
++----------+-------------------+
+| Produc   | R Documentation   |
++----------+-------------------+
+
 Us States Production
 --------------------
 
@@ -51,29 +53,26 @@ gsp
     gross state products
 
 emp
-    labor input measured by the employement in non–agricultural
-    payrolls
+    labor input measured by the employement in non–agricultural payrolls
 
 unemp
     state unemployment rate
 
-
 Source
 ~~~~~~
 
-Munnel, A. (1990) “Why has productivity growth declined?
-Productivity and public investment”, *New England Economic Review*,
-3–22.
+Munnel, A. (1990) “Why has productivity growth declined? Productivity
+and public investment”, *New England Economic Review*, 3–22.
 
 Baltagi, B. H. and N. Pinnoi (1995) “Public capital stock and state
-productivity growth: further evidence”, *Empirical Economics*,
-**20**, 351–359.
+productivity growth: further evidence”, *Empirical Economics*, **20**,
+351–359.
 
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John
-Wiley and sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
+and sons,
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_.
 
 See Also
@@ -83,5 +82,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

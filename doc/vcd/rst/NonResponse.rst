@@ -1,5 +1,7 @@
-NonResponse
-R Documentation
++---------------+-------------------+
+| NonResponse   | R Documentation   |
++---------------+-------------------+
+
 Non-Response Survey Data
 ------------------------
 
@@ -34,19 +36,17 @@ response
 gender
     factor indicating gender (male, female).
 
-
 Source
 ~~~~~~
 
-E. B. Andersen (1991), The Statistical Analysis of Categorical
-Data, Table 5.17.
+E. B. Andersen (1991), The Statistical Analysis of Categorical Data,
+Table 5.17.
 
 References
 ~~~~~~~~~~
 
-E. B. Andersen (1991),
-*The Statistical Analysis of Categorical Data*. 2nd edition.
-Springer-Verlag, Berlin.
+E. B. Andersen (1991), *The Statistical Analysis of Categorical Data*.
+2nd edition. Springer-Verlag, Berlin.
 
 Examples
 ~~~~~~~~
@@ -55,5 +55,4 @@ Examples
 
     data("NonResponse")
     structable(~ ., data = NonResponse)
-
 

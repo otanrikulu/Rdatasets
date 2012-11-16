@@ -1,13 +1,15 @@
-BrokenMarriage
-R Documentation
++------------------+-------------------+
+| BrokenMarriage   | R Documentation   |
++------------------+-------------------+
+
 Broken Marriage Data
 --------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from the Danish Welfare Study about broken marriages or
-permanent relationships depending on gender and social rank.
+Data from the Danish Welfare Study about broken marriages or permanent
+relationships depending on gender and social rank.
 
 Usage
 ~~~~~
@@ -31,22 +33,20 @@ rank
     factor indicating social rank (I, II, III, IV, V).
 
 broken
-    factor indicating whether the marriage or permanent relationship
-    was broken (yes, no).
-
+    factor indicating whether the marriage or permanent relationship was
+    broken (yes, no).
 
 Source
 ~~~~~~
 
-E. B. Andersen (1991), The Statistical Analysis of Categorical
-Data, page 177.
+E. B. Andersen (1991), The Statistical Analysis of Categorical Data,
+page 177.
 
 References
 ~~~~~~~~~~
 
-E. B. Andersen (1991),
-*The Statistical Analysis of Categorical Data*. 2nd edition.
-Springer-Verlag, Berlin.
+E. B. Andersen (1991), *The Statistical Analysis of Categorical Data*.
+2nd edition. Springer-Verlag, Berlin.
 
 Examples
 ~~~~~~~~
@@ -55,5 +55,4 @@ Examples
 
     data("BrokenMarriage")
     structable(~ ., data = BrokenMarriage)
-
 

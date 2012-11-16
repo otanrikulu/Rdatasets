@@ -1,5 +1,7 @@
-Doctor
-R Documentation
++----------+-------------------+
+| Doctor   | R Documentation   |
++----------+-------------------+
+
 Number of Doctor Visits
 -----------------------
 
@@ -39,20 +41,18 @@ health
     a measure of health status (larger positive numbers are associated
     with poorer health)
 
-
 Source
 ~~~~~~
 
-Gurmu, Shiferaw (1997) “Semiparametric estimation of hurdle
-regression models with an application to medicaid utilization”,
-*Journal of Applied Econometrics*, **12(3)**, 225-242.
+Gurmu, Shiferaw (1997) “Semiparametric estimation of hurdle regression
+models with an application to medicaid utilization”, *Journal of Applied
+Econometrics*, **12(3)**, 225-242.
 
 References
 ~~~~~~~~~~
 
-Davidson, R. and James G. MacKinnon (2004)
-*Econometric Theory and Methods*, New York, Oxford University
-Press,
+Davidson, R. and James G. MacKinnon (2004) *Econometric Theory and
+Methods*, New York, Oxford University Press,
 `http://www.econ.queensu.ca/ETM/ <http://www.econ.queensu.ca/ETM/>`_,
 chapter 11.
 
@@ -64,5 +64,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

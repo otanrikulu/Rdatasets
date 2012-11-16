@@ -1,5 +1,7 @@
-prussian
-R Documentation
++------------+-------------------+
+| prussian   | R Documentation   |
++------------+-------------------+
+
 Prussian army horse kick data
 -----------------------------
 
@@ -29,7 +31,6 @@ A data frame with 280 observations on the following 3 variables.
 ``corp``
     a ``factor``, corp of Prussian Army generating observation
 
-
 Source
 ~~~~~~
 
@@ -44,5 +45,4 @@ Examples
     data(prussian)
     corpP <- glm(y ~ corp, family=poisson,data=prussian)
     summary(corpP)
-
 

@@ -1,13 +1,15 @@
-Robey
-R Documentation
++---------+-------------------+
+| Robey   | R Documentation   |
++---------+-------------------+
+
 Fertility and Contraception
 ---------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Robey`` data frame has 50 rows and 3 columns. The
-observations are developing nations around 1990.
+The ``Robey`` data frame has 50 rows and 3 columns. The observations are
+developing nations around 1990.
 
 Usage
 ~~~~~
@@ -32,7 +34,6 @@ tfr
 contraceptors
     Percent of contraceptors among married women of childbearing age.
 
-
 Source
 ~~~~~~
 
@@ -43,8 +44,5 @@ Technical Report M-11.
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

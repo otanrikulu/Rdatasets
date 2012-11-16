@@ -1,5 +1,7 @@
-polar
-R Documentation
++---------+-------------------+
+| polar   | R Documentation   |
++---------+-------------------+
+
 Pole Positions of New Caledonian Laterites
 ------------------------------------------
 
@@ -31,21 +33,16 @@ This data frame contains the following columns:
 ``long``
     The longitude (in degrees) of the pole position.
 
-
 Source
 ~~~~~~
 
 The data were obtained from
 
-Fisher, N.I., Lewis, T. and Embleton, B.J.J. (1987)
-*Statistical Analysis of Spherical Data*. Cambridge University
-Press.
+Fisher, N.I., Lewis, T. and Embleton, B.J.J. (1987) *Statistical
+Analysis of Spherical Data*. Cambridge University Press.
 
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
-
-
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.

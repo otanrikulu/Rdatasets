@@ -1,5 +1,7 @@
-nwtco
-R Documentation
++---------+-------------------+
+| nwtco   | R Documentation   |
++---------+-------------------+
+
 Data from the National Wilm's Tumor Study
 -----------------------------------------
 
@@ -7,8 +9,8 @@ Description
 ~~~~~~~~~~~
 
 Missing data/masurement error example. Tumor histology predicts
-survival, but prediction is stronger with central lab histology
-than with the local institution determination.
+survival, but prediction is stronger with central lab histology than
+with the local institution determination.
 
 Usage
 ~~~~~
@@ -49,7 +51,6 @@ A data frame with 4028 observations on the following 9 variables.
 ``in.subcohort``
     Included in the subcohort for the example in the paper
 
-
 Source
 ~~~~~~
 
@@ -58,9 +59,9 @@ Source
 References
 ~~~~~~~~~~
 
-NE Breslow and N Chatterjee (1999), Design and analysis of
-two-phase studies with binary outcome applied to Wilms tumour
-prognosis. *Applied Statistics* **48**, 457–68.
+NE Breslow and N Chatterjee (1999), Design and analysis of two-phase
+studies with binary outcome applied to Wilms tumour prognosis. *Applied
+Statistics* **48**, 457–68.
 
 Examples
 ~~~~~~~~
@@ -70,5 +71,4 @@ Examples
     with(nwtco, table(instit,histol))
     anova(coxph(Surv(edrel,rel)~histol+instit,data=nwtco))
     anova(coxph(Surv(edrel,rel)~instit+histol,data=nwtco))
-
 

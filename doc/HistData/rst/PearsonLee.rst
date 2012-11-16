@@ -1,21 +1,23 @@
-PearsonLee
-R Documentation
++--------------+-------------------+
+| PearsonLee   | R Documentation   |
++--------------+-------------------+
+
 Pearson and Lee's data on the heights of parents and children classified by gender
 ----------------------------------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Wachsmuth et. al (2003) noticed that a loess smooth through
-Galton's data on heights of mid-parents and their offspring
-exhibited a slightly non-linear trend, and asked whether this might
-be due to Galton having pooled the heights of fathers and mothers
-and sons and daughters in constructing his tables and graphs.
+Wachsmuth et. al (2003) noticed that a loess smooth through Galton's
+data on heights of mid-parents and their offspring exhibited a slightly
+non-linear trend, and asked whether this might be due to Galton having
+pooled the heights of fathers and mothers and sons and daughters in
+constructing his tables and graphs.
 
-To answer this question, they used analogous data from English
-families at about the same time, tabulated by Karl Pearson and
-Alice Lee (1896, 1903), but where the heights of parents and
-children were each classified by gender of the parent.
+To answer this question, they used analogous data from English families
+at about the same time, tabulated by Karl Pearson and Alice Lee (1896,
+1903), but where the heights of parents and children were each
+classified by gender of the parent.
 
 Usage
 ~~~~~
@@ -48,25 +50,23 @@ variables.
 ``chl``
     a factor with levels ``Daughter`` ``Son``
 
-
 Details
 ~~~~~~~
 
 The variables ``gp``, ``par`` and ``chl`` are provided to allow
-stratifying the data according to the gender of the father/mother
-and son/daughter.
+stratifying the data according to the gender of the father/mother and
+son/daughter.
 
 Source
 ~~~~~~
 
-Pearson, K. and Lee, A. (1896). Mathematical contributions to the
-theory of evolution. On telegony in man, etc.
-*Proceedings of the Royal Society of London*, 60 , 273-283.
+Pearson, K. and Lee, A. (1896). Mathematical contributions to the theory
+of evolution. On telegony in man, etc. *Proceedings of the Royal Society
+of London*, 60 , 273-283.
 
-Pearson, K. and Lee, A. (1903). On the laws of inheritance in man:
-I. Inheritance of physical characters. *Biometika*, 2(4), 357-462.
-(Tables XXII, p. 415; XXV, p. 417; XXVIII, p. 419 and XXXI, p.
-421.)
+Pearson, K. and Lee, A. (1903). On the laws of inheritance in man: I.
+Inheritance of physical characters. *Biometika*, 2(4), 357-462. (Tables
+XXII, p. 415; XXV, p. 417; XXVIII, p. 419 and XXXI, p. 421.)
 
 References
 ~~~~~~~~~~
@@ -88,7 +88,7 @@ Examples
 
     data(PearsonLee)
     str(PearsonLee)
-    
+
     with(PearsonLee, 
         {
         lim <- c(55,80)
@@ -101,13 +101,13 @@ Examples
         dataEllipse(parent,child, xlim=lim, ylim=lim, plot.points=FALSE)
             }
       })
-    
+
     ## separate plots for combinations of (chl, par)
-    
+
     # this doesn't quite work, because xyplot can't handle weights
     require(lattice)
     xyplot(child ~ parent|par+chl, data=PearsonLee, type=c("p", "r", "smooth"), col.line="red")
-    
+
     # Using ggplot [thx: Dennis Murphy]
     require(ggplot2)
     ggplot(PearsonLee, aes(x = parent, y = child, weight=frequency)) +
@@ -121,9 +121,9 @@ Examples
                            values = c('green', 'red')) +
        theme(legend.position = c(0.14, 0.885),
             legend.background = element_rect(fill = 'white'))
-    
+
     # inverse regression, as in Wachmuth et al. (2003)
-    
+
     ggplot(PearsonLee, aes(x = child, y = parent, weight=frequency)) +
        geom_point(size = 1.5, position = position_jitter(width = 0.2)) +
        geom_smooth(method = lm, aes(weight = PearsonLee$frequency,
@@ -135,5 +135,4 @@ Examples
                            values = c('green', 'red')) +
        theme(legend.position = c(0.14, 0.885),
             legend.background = element_rect(fill = 'white'))
-
 

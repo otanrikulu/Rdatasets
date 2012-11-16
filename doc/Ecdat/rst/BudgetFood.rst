@@ -1,5 +1,7 @@
-BudgetFood
-R Documentation
++--------------+-------------------+
+| BudgetFood   | R Documentation   |
++--------------+-------------------+
+
 Budget Share of Food for Spanish Households
 -------------------------------------------
 
@@ -46,13 +48,12 @@ town
 sex
     sex of reference person (man,woman)
 
-
 Source
 ~~~~~~
 
 Delgado, A. and Juan Mora (1998) “Testing non–nested semiparametric
-models : an application to Engel curves specification”,
-*Journal of Applied Econometrics*, **13(2)**, 145–162.
+models : an application to Engel curves specification”, *Journal of
+Applied Econometrics*, **13(2)**, 145–162.
 
 References
 ~~~~~~~~~~
@@ -65,5 +66,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

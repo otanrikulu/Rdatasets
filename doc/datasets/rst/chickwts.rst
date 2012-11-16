@@ -1,14 +1,15 @@
-chickwts
-R Documentation
++------------+-------------------+
+| chickwts   | R Documentation   |
++------------+-------------------+
+
 Chicken Weights by Feed Type
 ----------------------------
 
 Description
 ~~~~~~~~~~~
 
-An experiment was conducted to measure and compare the
-effectiveness of various feed supplements on the growth rate of
-chickens.
+An experiment was conducted to measure and compare the effectiveness of
+various feed supplements on the growth rate of chickens.
 
 Usage
 ~~~~~
@@ -28,13 +29,12 @@ weight
 feed
     a factor giving the feed type.
 
-
 Details
 ~~~~~~~
 
-Newly hatched chicks were randomly allocated into six groups, and
-each group was given a different feed supplement. Their weights in
-grams after six weeks are given along with feed types.
+Newly hatched chicks were randomly allocated into six groups, and each
+group was given a different feed supplement. Their weights in grams
+after six weeks are given along with feed types.
 
 Source
 ~~~~~~
@@ -60,5 +60,4 @@ Examples
                 mar = c(4.1, 4.1, 2.1, 1.1))
     plot(fm1)
     par(opar)
-
 

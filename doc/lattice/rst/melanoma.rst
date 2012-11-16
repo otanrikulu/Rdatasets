@@ -1,5 +1,7 @@
-H\_melanoma
-R Documentation
++---------------+-------------------+
+| H\_melanoma   | R Documentation   |
++---------------+-------------------+
+
 Melanoma skin cancer incidence
 ------------------------------
 
@@ -28,16 +30,15 @@ year
 incidence
     Rate of melanoma cancer per 100,000 population.
 
-
 Note
 ~~~~
 
-This dataset is not related to the ``melanoma`` dataset in the
-**boot** package with the same name.
+This dataset is not related to the ``melanoma`` dataset in the **boot**
+package with the same name.
 
-The S-PLUS 6.2 help for the melanoma data says that the incidence
-rate is per *million*, but this is not consistent with data found
-at the National Cancer Institute
+The S-PLUS 6.2 help for the melanoma data says that the incidence rate
+is per *million*, but this is not consistent with data found at the
+National Cancer Institute
 (`http://www.nci.nih.gov <http://www.nci.nih.gov>`_).
 
 Author(s)
@@ -49,14 +50,14 @@ Source
 ~~~~~~
 
 Houghton, A., E. W. Munster, and M. V. Viola. (1978). Increased
-Incidence of Malignant Melanoma After Peaks of Sunspot Activity.
-*The Lancet*, **8**, 759–760.
+Incidence of Malignant Melanoma After Peaks of Sunspot Activity. *The
+Lancet*, **8**, 759–760.
 
 References
 ~~~~~~~~~~
 
-Cleveland, William S. (1993) *Visualizing Data*. Hobart Press,
-Summit, New Jersey.
+Cleveland, William S. (1993) *Visualizing Data*. Hobart Press, Summit,
+New Jersey.
 
 Examples
 ~~~~~~~~
@@ -72,5 +73,4 @@ Examples
         ylim = c(0, 6),
         xlab = "Year",
         ylab = "Incidence")
-
 

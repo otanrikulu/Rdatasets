@@ -1,16 +1,17 @@
-Wool
-R Documentation
++--------+-------------------+
+| Wool   | R Documentation   |
++--------+-------------------+
+
 Wool data
 ---------
 
 Description
 ~~~~~~~~~~~
 
-This is a three-factor experiment with each factor at three levels,
-for a total of 27 runs. Samples of worsted yarn were with different
-levels of the three factors were given a cyclic load until the
-sample failed. The goal is to understand how cycles to failure
-depends on the factors.
+This is a three-factor experiment with each factor at three levels, for
+a total of 27 runs. Samples of worsted yarn were with different levels
+of the three factors were given a cyclic load until the sample failed.
+The goal is to understand how cycles to failure depends on the factors.
 
 Usage
 ~~~~~
@@ -36,7 +37,6 @@ load
 cycles
     number of cycles until failure
 
-
 Source
 ~~~~~~
 
@@ -46,10 +46,8 @@ Box, G. E. P. and Cox, D. R. (1964). An analysis of transformations
 References
 ~~~~~~~~~~
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.
 
-Weisberg, S. (2005) *Applied Linear Regression*, Third Edition.
-Wiley, Section 6.3.
-
-
+Weisberg, S. (2005) *Applied Linear Regression*, Third Edition. Wiley,
+Section 6.3.

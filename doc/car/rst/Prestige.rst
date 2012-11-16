@@ -1,13 +1,15 @@
-Prestige
-R Documentation
++------------+-------------------+
+| Prestige   | R Documentation   |
++------------+-------------------+
+
 Prestige of Canadian Occupations
 --------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Prestige`` data frame has 102 rows and 6 columns. The
-observations are occupations.
+The ``Prestige`` data frame has 102 rows and 6 columns. The observations
+are occupations.
 
 Usage
 ~~~~~
@@ -42,25 +44,20 @@ type
     ``bc``, Blue Collar; ``prof``, Professional, Managerial, and
     Technical; ``wc``, White Collar.
 
-
 Source
 ~~~~~~
 
-Canada (1971) *Census of Canada*. Vol. 3, Part 6. Statistics Canada
-[pp. 19-1–19-21].
+Canada (1971) *Census of Canada*. Vol. 3, Part 6. Statistics Canada [pp.
+19-1–19-21].
 
 Personal communication from B. Blishen, W. Carroll, and C. Moore,
-Departments of Sociology, York University and University of
-Victoria.
+Departments of Sociology, York University and University of Victoria.
 
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
-
-
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.

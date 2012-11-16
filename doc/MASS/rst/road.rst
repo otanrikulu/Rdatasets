@@ -1,13 +1,15 @@
-road
-R Documentation
++--------+-------------------+
+| road   | R Documentation   |
++--------+-------------------+
+
 Road Accident Deaths in US States
 ---------------------------------
 
 Description
 ~~~~~~~~~~~
 
-A data frame with the annual deaths in road accidents for half the
-US states.
+A data frame with the annual deaths in road accidents for half the US
+states.
 
 Usage
 ~~~~~
@@ -42,10 +44,7 @@ Columns are:
 ``fuel``
     fuel consumption in 10,000,000 US gallons per year.
 
-
 Source
 ~~~~~~
 
 Imperial College, London M.Sc. exercise
-
-

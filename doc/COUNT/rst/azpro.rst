@@ -1,22 +1,24 @@
-azpro
-R Documentation
++---------+-------------------+
+| azpro   | R Documentation   |
++---------+-------------------+
+
 azpro
 -----
 
 Description
 ~~~~~~~~~~~
 
-Data come from the 1991 Arizona cardiovascular patient files. A
-subset of the fields was selected to model the differential length
-of stay for patients entering the hospital to receive one of two
-standard cardiovascular procedures: CABG and PTCA. CABG is the
-standard acronym for Coronary Artery Bypass Graft, where the flow
-of blood in a diseased or blocked coronary artery or vein has been
-grafted to bypass the diseased sections. PTCA, or Percutaneous
-Transluminal Coronary Angioplasty, is a method of placing a balloon
-in a blocked coronary artery to open it to blood flow. It is a much
-less severe method of treatment for those having coronary blockage,
-with a corresponding reduction in risk.
+Data come from the 1991 Arizona cardiovascular patient files. A subset
+of the fields was selected to model the differential length of stay for
+patients entering the hospital to receive one of two standard
+cardiovascular procedures: CABG and PTCA. CABG is the standard acronym
+for Coronary Artery Bypass Graft, where the flow of blood in a diseased
+or blocked coronary artery or vein has been grafted to bypass the
+diseased sections. PTCA, or Percutaneous Transluminal Coronary
+Angioplasty, is a method of placing a balloon in a blocked coronary
+artery to open it to blood flow. It is a much less severe method of
+treatment for those having coronary blockage, with a corresponding
+reduction in risk.
 
 Usage
 ~~~~~
@@ -48,7 +50,6 @@ A data frame with 3589 observations on the following 6 variables.
 ``hospital``
     encrypted facility code (string)
 
-
 Details
 ~~~~~~~
 
@@ -58,15 +59,15 @@ variable. 0 counts are structurally excluded
 Source
 ~~~~~~
 
-1991 Arizona Medpar data, cardiovascular patient files, National
-Health Economics & Research Co.
+1991 Arizona Medpar data, cardiovascular patient files, National Health
+Economics & Research Co.
 
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC
 
 Examples
 ~~~~~~~~
@@ -80,5 +81,4 @@ Examples
     #glmaznb < -glm.nb(los ~ procedure + sex + admit, data=azpro)
     #summary(glmaznb)
     #exp(coef(glmaznb))
-
 

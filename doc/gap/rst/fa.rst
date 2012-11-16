@@ -1,5 +1,7 @@
-fa
-R Documentation
++------+-------------------+
+| fa   | R Documentation   |
++------+-------------------+
+
 Friedreich Ataxia data
 ----------------------
 
@@ -7,8 +9,8 @@ Description
 ~~~~~~~~~~~
 
 This data set contains a case-control indicator and twelve
-microsatellite markers. An extra unphased individual with the
-following genotype
+microsatellite markers. An extra unphased individual with the following
+genotype
 
 ::
 
@@ -18,6 +20,7 @@ following genotype
 has not been included. The inter-marker distances (Morgan) are as
 follows, 0.03, 0.065, 0.00125, 0.00125, 0.00125, 0.00125, 0.00125,
 0.00125, 0.00125, 0.00125, 0.045
+
 Usage
 ~~~~~
 
@@ -33,8 +36,6 @@ A data frame containing 127 rows and 13 columns
 Source
 ~~~~~~
 
-Liu JS, Sabatti C, Teng J, Keats BJB, Risch N (2001). Bayesian
-analysis of haplotypes for linkage disequilibrium mapping Genome
-Research 11:1716-1724
-
-
+Liu JS, Sabatti C, Teng J, Keats BJB, Risch N (2001). Bayesian analysis
+of haplotypes for linkage disequilibrium mapping Genome Research
+11:1716-1724

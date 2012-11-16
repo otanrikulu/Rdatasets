@@ -1,5 +1,7 @@
-Car
-R Documentation
++-------+-------------------+
+| Car   | R Documentation   |
++-------+-------------------+
+
 Stated Preferences for Car Choice
 ---------------------------------
 
@@ -51,8 +53,7 @@ pricez
     price of vehicule divided by the logarithme of income
 
 rangez
-    hundreds of miles vehicule can travel between
-    refuelings/rechargings
+    hundreds of miles vehicule can travel between refuelings/rechargings
 
 accz
     acceleration, tens of seconds required to reach 30 mph from stop
@@ -77,13 +78,11 @@ costz
 stationz
     fraction of stations that can refuel/recharge vehicule
 
-
 Source
 ~~~~~~
 
-McFadden, Daniel and Kenneth Train (2000) “Mixed MNL models for
-discrete response”, *Journal of Applied Econometrics*, **15(5)**,
-447–470.
+McFadden, Daniel and Kenneth Train (2000) “Mixed MNL models for discrete
+response”, *Journal of Applied Econometrics*, **15(5)**, 447–470.
 
 References
 ~~~~~~~~~~
@@ -96,5 +95,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

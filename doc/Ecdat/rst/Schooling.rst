@@ -1,5 +1,7 @@
-Schooling
-R Documentation
++-------------+-------------------+
+| Schooling   | R Documentation   |
++-------------+-------------------+
+
 Wages and Schooling
 -------------------
 
@@ -110,23 +112,21 @@ libcrd14
 exp76
     experience in 1976
 
-
 Source
 ~~~~~~
 
 National Longitudinal Survey of Young Men (NLSYM) .
 
-Card, D. (1995)
-*Using geographical variation in college proximity to estimate the return to schooling*
-*in* Christofides, L.N., E.K. Grant and R. Swidinsky (1995)
-*Aspects of labour market behaviour : essays in honour of John Vanderkamp*,
-University of Toronto Press, Toronto .
+Card, D. (1995) *Using geographical variation in college proximity to
+estimate the return to schooling* *in* Christofides, L.N., E.K. Grant
+and R. Swidinsky (1995) *Aspects of labour market behaviour : essays in
+honour of John Vanderkamp*, University of Toronto Press, Toronto .
 
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 5.
 
@@ -135,5 +135,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

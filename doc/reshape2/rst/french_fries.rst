@@ -1,5 +1,7 @@
-french\_fries
-R Documentation
++-----------------+-------------------+
+| french\_fries   | R Documentation   |
++-----------------+-------------------+
+
 Sensory data from a french fries experiment.
 --------------------------------------------
 
@@ -21,7 +23,6 @@ Details
 
 Variables:
 
-
 -  time in weeks from start of study.
 
 -  treatment (type of oil),
@@ -39,6 +40,5 @@ Variables:
 -  rancid flavour,
 
 -  painty flavour
-
 
 

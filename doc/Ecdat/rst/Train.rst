@@ -1,5 +1,7 @@
-Train
-R Documentation
++---------+-------------------+
+| Train   | R Documentation   |
++---------+-------------------+
+
 Stated Preferences for Train Traveling
 --------------------------------------
 
@@ -48,21 +50,20 @@ comfortz
 changez
     number of changes for proposition z (z=1,2)
 
-
 Source
 ~~~~~~
 
 Meijer, Erik and Jan Rouwendal (2005) “Measuring welfare effects in
-models with random coefficients”,
-*Journal of Applied Econometrics*, **forthcoming**.
+models with random coefficients”, *Journal of Applied Econometrics*,
+**forthcoming**.
 
-Ben–Akiva, M., D. Bolduc and M. Bradley (1993) “Estimation of
-travel choice models with randomly distributed values of time”,
-*Transportation Research Record*, **1413**, 88–97.
+Ben–Akiva, M., D. Bolduc and M. Bradley (1993) “Estimation of travel
+choice models with randomly distributed values of time”, *Transportation
+Research Record*, **1413**, 88–97.
 
-Carson, R.T., L. Wilks and D. Imber (1994) “Valuing the
-preservation of Australia's Kakadu conservation zone”,
-*Oxford Economic Papers*, **46**, 727–749.
+Carson, R.T., L. Wilks and D. Imber (1994) “Valuing the preservation of
+Australia's Kakadu conservation zone”, *Oxford Economic Papers*, **46**,
+727–749.
 
 References
 ~~~~~~~~~~
@@ -75,5 +76,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

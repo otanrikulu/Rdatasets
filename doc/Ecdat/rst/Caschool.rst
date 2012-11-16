@@ -1,5 +1,7 @@
-Caschool
-R Documentation
++------------+-------------------+
+| Caschool   | R Documentation   |
++------------+-------------------+
+
 The California Test Score Data Set
 ----------------------------------
 
@@ -77,7 +79,6 @@ readscr
 mathscr
     average math score
 
-
 Source
 ~~~~~~
 
@@ -87,9 +88,8 @@ California Department of Education
 References
 ~~~~~~~~~~
 
-Stock, James H. and Mark W. Watson (2003)
-*Introduction to Econometrics*, Addison-Wesley Educational
-Publishers,
+Stock, James H. and Mark W. Watson (2003) *Introduction to
+Econometrics*, Addison-Wesley Educational Publishers,
 `http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
 chapter 4–7.
 
@@ -98,5 +98,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

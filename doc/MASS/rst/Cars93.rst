@@ -1,5 +1,7 @@
-Cars93
-R Documentation
++----------+-------------------+
+| Cars93   | R Documentation   |
++----------+-------------------+
+
 Data from 93 Cars on Sale in the USA in 1993
 --------------------------------------------
 
@@ -27,8 +29,8 @@ This data frame contains the following columns:
     Model.
 
 ``Type``
-    Type: a factor with levels ``"Small"``, ``"Sporty"``,
-    ``"Compact"``, ``"Midsize"``, ``"Large"`` and ``"Van"``.
+    Type: a factor with levels ``"Small"``, ``"Sporty"``, ``"Compact"``,
+    ``"Midsize"``, ``"Large"`` and ``"Van"``.
 
 ``Min.Price``
     Minimum Price (in \\$1,000): price for a basic version.
@@ -47,8 +49,7 @@ This data frame contains the following columns:
     Highway MPG.
 
 ``AirBags``
-    Air Bags standard. Factor: none, driver only, or driver &
-    passenger.
+    Air Bags standard. Factor: none, driver only, or driver & passenger.
 
 ``DriveTrain``
     Drive train type: rear wheel, front wheel or 4WD; (factor).
@@ -105,30 +106,27 @@ This data frame contains the following columns:
 ``Make``
     Combination of Manufacturer and Model (character).
 
-
 Details
 ~~~~~~~
 
-Cars were selected at random from among 1993 passenger car models
-that were listed in both the *Consumer Reports* issue and the
-*PACE Buying Guide*. Pickup trucks and Sport/Utility vehicles were
-eliminated due to incomplete information in the *Consumer Reports*
-source. Duplicate models (e.g., Dodge Shadow and Plymouth Sundance)
-were listed at most once.
+Cars were selected at random from among 1993 passenger car models that
+were listed in both the *Consumer Reports* issue and the *PACE Buying
+Guide*. Pickup trucks and Sport/Utility vehicles were eliminated due to
+incomplete information in the *Consumer Reports* source. Duplicate
+models (e.g., Dodge Shadow and Plymouth Sundance) were listed at most
+once.
 
 Further description can be found in Lock (1993).
 
 Source
 ~~~~~~
 
-Lock, R. H. (1993) 1993 New Car Data.
-*Journal of Statistics Education* **1**(1).
+Lock, R. H. (1993) 1993 New Car Data. *Journal of Statistics Education*
+**1**(1).
 `http://www.amstat.org/publications/jse/v1n1/datasets.lock.html <http://www.amstat.org/publications/jse/v1n1/datasets.lock.html>`_.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (1999)
-*Modern Applied Statistics with S-PLUS.* Third Edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (1999) *Modern Applied Statistics with
+S-PLUS.* Third Edition. Springer.

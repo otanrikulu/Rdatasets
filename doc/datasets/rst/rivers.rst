@@ -1,5 +1,7 @@
-rivers
-R Documentation
++----------+-------------------+
+| rivers   | R Documentation   |
++----------+-------------------+
+
 Lengths of Major North American Rivers
 --------------------------------------
 
@@ -30,5 +32,3 @@ References
 ~~~~~~~~~~
 
 McNeil, D. R. (1977) *Interactive Data Analysis*. New York: Wiley.
-
-

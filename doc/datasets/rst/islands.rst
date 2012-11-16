@@ -1,13 +1,15 @@
-islands
-R Documentation
++-----------+-------------------+
+| islands   | R Documentation   |
++-----------+-------------------+
+
 Areas of the World's Major Landmasses
 -------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The areas in thousands of square miles of the landmasses which
-exceed 10,000 square miles.
+The areas in thousands of square miles of the landmasses which exceed
+10,000 square miles.
 
 Usage
 ~~~~~
@@ -41,5 +43,4 @@ Examples
        main = "islands data: log10(area) (log10(sq. miles))")
     dotchart(log(islands[order(islands)], 10),
        main = "islands data: log10(area) (log10(sq. miles))")
-
 

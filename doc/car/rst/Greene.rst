@@ -1,15 +1,17 @@
-Greene
-R Documentation
++----------+-------------------+
+| Greene   | R Documentation   |
++----------+-------------------+
+
 Refugee Appeals
 ---------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Greene`` data frame has 384 rows and 7 columns. These are
-cases filed in 1990, in which refugee claimants rejected by the
-Canadian Immigration and Refugee Board asked the Federal Court of
-Appeal for leave to appeal the negative ruling of the Board.
+The ``Greene`` data frame has 384 rows and 7 columns. These are cases
+filed in 1990, in which refugee claimants rejected by the Canadian
+Immigration and Refugee Board asked the Federal Court of Appeal for
+leave to appeal the negative ruling of the Board.
 
 Usage
 ~~~~~
@@ -54,18 +56,14 @@ location
 success
     Logit of success rate, for all cases from the applicant's nation.
 
-
 Source
 ~~~~~~
 
-Personal communication from Ian Greene, Department of Political
-Science, York University.
+Personal communication from Ian Greene, Department of Political Science,
+York University.
 
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

@@ -1,5 +1,7 @@
-approval
-R Documentation
++------------+-------------------+
+| approval   | R Documentation   |
++------------+-------------------+
+
 U.S. Presidential Approval Data
 -------------------------------
 
@@ -19,8 +21,8 @@ Format
 ~~~~~~
 
 A table containing 8 variables ("month", "year", "approve",
-"disapprove", "unsure", "sept.oct.2001", "iraq.war", and
-"avg.price") and 65 observations.
+"disapprove", "unsure", "sept.oct.2001", "iraq.war", and "avg.price")
+and 65 observations.
 
 Source
 ~~~~~~
@@ -31,5 +33,3 @@ References
 ~~~~~~~~~~
 
 Stuff here
-
-

@@ -1,5 +1,7 @@
-DoctorContacts
-R Documentation
++------------------+-------------------+
+| DoctorContacts   | R Documentation   |
++------------------+-------------------+
+
 Contacts With Medical Doctor
 ----------------------------
 
@@ -68,20 +70,18 @@ child
 black
     is household head black ?
 
-
 Source
 ~~~~~~
 
-Deb, P. and P.K. Trivedi (2002) “The Structure of Demand for
-Medical Care: Latent Class versus Two-Part Models”,
-*Journal of Health Economics*, **21**, 601–625.
+Deb, P. and P.K. Trivedi (2002) “The Structure of Demand for Medical
+Care: Latent Class versus Two-Part Models”, *Journal of Health
+Economics*, **21**, 601–625.
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-553–556 and 565.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 553–556 and 565.
 
 See Also
 ~~~~~~~~
@@ -90,5 +90,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

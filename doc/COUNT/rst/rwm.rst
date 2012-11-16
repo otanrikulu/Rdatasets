@@ -1,13 +1,15 @@
-rwm
-R Documentation
++-------+-------------------+
+| rwm   | R Documentation   |
++-------+-------------------+
+
 rwm
 ---
 
 Description
 ~~~~~~~~~~~
 
-German health registry for the years 1984-1988. Health information
-for years prior to health reform.
+German health registry for the years 1984-1988. Health information for
+years prior to health reform.
 
 Usage
 ~~~~~
@@ -19,8 +21,7 @@ Usage
 Format
 ~~~~~~
 
-A data frame with 27,326 observations on the following 4
-variables.
+A data frame with 27,326 observations on the following 4 variables.
 
 ``docvis``
     number of visits to doctor during year (0-121)
@@ -34,7 +35,6 @@ variables.
 ``hhninc``
     household yearly income in DM/1000)
 
-
 Details
 ~~~~~~~
 
@@ -44,17 +44,17 @@ response variable. 0 counts are included
 Source
 ~~~~~~
 
-German Health Reform Registry, years pre-reform 1984-1988, From
-Hilbe and Greene (2008)
+German Health Reform Registry, years pre-reform 1984-1988, From Hilbe
+and Greene (2008)
 
 References
 ~~~~~~~~~~
 
 Hilbe, Joseph M (2011), Negative Binomial Regression, Cambridge
-University Press Hilbe, J.M. and W.H. Greene (2008), "Count
-Response Regression Models", in Rao, CR, JP Miller and DC Rao
-(eds), Handbook of Statistics 27: Epidemiology and Medical
-Statistics, Amsterdam: Elsevier. pp. 210-252.
+University Press Hilbe, J.M. and W.H. Greene (2008), "Count Response
+Regression Models", in Rao, CR, JP Miller and DC Rao (eds), Handbook of
+Statistics 27: Epidemiology and Medical Statistics, Amsterdam: Elsevier.
+pp. 210-252.
 
 Examples
 ~~~~~~~~
@@ -69,5 +69,4 @@ Examples
     glmrwnb <- glm.nb(docvis ~ age + educ + hhninc, data=rwm)
     summary(glmrwnb)
     exp(coef(glmrwnb))
-
 

@@ -1,5 +1,7 @@
-Tobacco
-R Documentation
++-----------+-------------------+
+| Tobacco   | R Documentation   |
++-----------+-------------------+
+
 Households Tobacco Budget Share
 -------------------------------
 
@@ -54,7 +56,6 @@ salcohol
 age
     age in brackets (0-4)
 
-
 Source
 ~~~~~~
 
@@ -63,8 +64,8 @@ National Institute of Statistics (NIS), Belgium.
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 7.
 
@@ -73,5 +74,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

@@ -1,18 +1,20 @@
-Highway1
-R Documentation
++------------+-------------------+
+| Highway1   | R Documentation   |
++------------+-------------------+
+
 Highway Accidents
 -----------------
 
 Description
 ~~~~~~~~~~~
 
-The data comes from a unpublished master's paper by Carl Hoffstedt.
-They relate the automobile accident rate, in accidents per million
-vehicle miles to several potential terms. The data include 39
-sections of large highways in the state of Minnesota in 1973. The
-goal of this analysis was to understand the impact of design
-variables, ``Acpts``, ``Slim``, ``Sig``, and ``Shld`` that are
-under the control of the highway department, on accidents.
+The data comes from a unpublished master's paper by Carl Hoffstedt. They
+relate the automobile accident rate, in accidents per million vehicle
+miles to several potential terms. The data include 39 sections of large
+highways in the state of Minnesota in 1973. The goal of this analysis
+was to understand the impact of design variables, ``Acpts``, ``Slim``,
+``Sig``, and ``Shld`` that are under the control of the highway
+department, on accidents.
 
 Usage
 ~~~~~
@@ -62,9 +64,8 @@ lwid
     lane width, in feet
 
 hwy
-    An indicator of the type of roadway or the source of funding for
-    the road, either MC, FAI, PA, or MA
-
+    An indicator of the type of roadway or the source of funding for the
+    road, either MC, FAI, PA, or MA
 
 Source
 ~~~~~~
@@ -75,10 +76,8 @@ Carl Hoffstedt. This differs from the dataset ``highway`` in the
 References
 ~~~~~~~~~~
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.
 
-Weisberg, S. (2005) *Applied Linear Regression*, Third Edition.
-Wiley, Section 7.2.
-
-
+Weisberg, S. (2005) *Applied Linear Regression*, Third Edition. Wiley,
+Section 7.2.

@@ -1,5 +1,7 @@
-mhtdata
-R Documentation
++-----------+-------------------+
+| mhtdata   | R Documentation   |
++-----------+-------------------+
+
 An example data for Manhattan plot
 ----------------------------------
 
@@ -31,5 +33,3 @@ References
 ~~~~~~~~~~
 
 None
-
-

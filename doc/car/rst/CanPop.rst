@@ -1,5 +1,7 @@
-CanPop
-R Documentation
++----------+-------------------+
+| CanPop   | R Documentation   |
++----------+-------------------+
+
 Canadian Population Data
 ------------------------
 
@@ -27,12 +29,11 @@ year
 population
     Population, in millions
 
-
 Source
 ~~~~~~
 
-Urquhart, M. C. and Buckley, K. A. H. (Eds.) (1965)
-*Historical Statistics of Canada*. Macmillan, p. 1369.
+Urquhart, M. C. and Buckley, K. A. H. (Eds.) (1965) *Historical
+Statistics of Canada*. Macmillan, p. 1369.
 
 Canada (1994) *Canada Year Book*. Statistics Canada, Table 3.2.
 
@@ -42,8 +43,5 @@ Statistics Canada:
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

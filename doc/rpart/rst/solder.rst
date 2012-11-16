@@ -1,13 +1,15 @@
-solder
-R Documentation
++----------+-------------------+
+| solder   | R Documentation   |
++----------+-------------------+
+
 Soldering of Components on Printed-Circuit Boards
 -------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``solder`` data frame has 720 rows and 6 columns, representing
-a balanced subset of a designed experiment varying 5 factors on the
+The ``solder`` data frame has 720 rows and 6 columns, representing a
+balanced subset of a designed experiment varying 5 factors on the
 soldering of components on printed-circuit boards.
 
 Usage
@@ -45,13 +47,11 @@ This data frame contains the following columns:
 ``skips``
     a numeric vector giving the number of visible solder skips.
 
-
 Source
 ~~~~~~
 
-John M. Chambers and Trevor J. Hastie eds. (1992)
-*Statistical Models in S*, Wadsworth and Brooks/Cole, Pacific
-Grove, CA 1992.
+John M. Chambers and Trevor J. Hastie eds. (1992) *Statistical Models in
+S*, Wadsworth and Brooks/Cole, Pacific Grove, CA 1992.
 
 Examples
 ~~~~~~~~
@@ -62,5 +62,4 @@ Examples
            data=solder, method='anova')
     summary(residuals(fit))
     plot(predict(fit),residuals(fit))
-
 

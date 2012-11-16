@@ -1,5 +1,7 @@
-Oil
-R Documentation
++-------+-------------------+
+| Oil   | R Documentation   |
++-------+-------------------+
+
 Oil Investment
 --------------
 
@@ -49,8 +51,7 @@ p
 
 vardp
     volatility of the real oil price process measured as the squared
-    recursive standard errors of the regression of pt-pt-1 on a
-    constant
+    recursive standard errors of the regression of pt-pt-1 on a constant
 
 p97
     adaptative expectations (with parameter theta=0.97) for the real
@@ -70,14 +71,12 @@ varp98
     theta=0.98) for real after tax oil prices measured as the squared
     recursive standard errors of the regression of pt on pte(theta)
 
-
 Source
 ~~~~~~
 
-Favero, Carlo A., M. Hashem Pesaran and Sunil Sharma (1994) “A
-duration model of irreversible oil investment : theory and
-empirical evidence”, *Journal of Applied Econometrics*, **9(S)**,
-S95–S112.
+Favero, Carlo A., M. Hashem Pesaran and Sunil Sharma (1994) “A duration
+model of irreversible oil investment : theory and empirical evidence”,
+*Journal of Applied Econometrics*, **9(S)**, S95–S112.
 
 References
 ~~~~~~~~~~
@@ -90,5 +89,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

@@ -1,5 +1,7 @@
-Mode
-R Documentation
++--------+-------------------+
+| Mode   | R Documentation   |
++--------+-------------------+
+
 Mode Choice
 -----------
 
@@ -33,7 +35,6 @@ cost.z
 time.z
     time of mode z
 
-
 References
 ~~~~~~~~~~
 
@@ -45,5 +46,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

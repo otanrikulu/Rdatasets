@@ -1,5 +1,7 @@
-Cracker
-R Documentation
++-----------+-------------------+
+| Cracker   | R Documentation   |
++-----------+-------------------+
+
 Choice of Brand for Crakers
 ---------------------------
 
@@ -41,19 +43,16 @@ feat.z
 price.z
     price of brand z
 
-
 Source
 ~~~~~~
 
-Jain, Dipak C., Naufel J. Vilcassim and Pradeep K. Chintagunta
-(1994) “A random–coefficients logit brand–choice model applied to
-panel data”, *Journal of Business and Economics Statistics*,
-**12(3)**, 317.
+Jain, Dipak C., Naufel J. Vilcassim and Pradeep K. Chintagunta (1994) “A
+random–coefficients logit brand–choice model applied to panel data”,
+*Journal of Business and Economics Statistics*, **12(3)**, 317.
 
-Paap, R. and Philip Hans Frances (2000) “A dynamic multinomial
-probit model for brand choices with different short–run effects of
-marketing mix variables”, *Journal of Applied Econometrics*,
-**15(6)**, 717–744.
+Paap, R. and Philip Hans Frances (2000) “A dynamic multinomial probit
+model for brand choices with different short–run effects of marketing
+mix variables”, *Journal of Applied Econometrics*, **15(6)**, 717–744.
 
 References
 ~~~~~~~~~~
@@ -66,5 +65,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

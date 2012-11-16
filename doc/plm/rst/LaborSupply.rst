@@ -1,5 +1,7 @@
-LaborSupply
-R Documentation
++---------------+-------------------+
+| LaborSupply   | R Documentation   |
++---------------+-------------------+
+
 Wages and Hours Worked
 ----------------------
 
@@ -43,7 +45,6 @@ id
 year
     year
 
-
 Source
 ~~~~~~
 
@@ -55,13 +56,10 @@ Journal of Business Economics and Statistics web site:
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-708–15, 754–6.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 708–15, 754–6.
 
 Ziliak, J.P. (1997) “Efficient Estimation With Panel Data when
 Instruments are Predetermined: An Empirical Comparison of
-Moment-Condition Estimators”,
-*Journal of Business and Economic Statistics*, **419–431**.
-
-
+Moment-Condition Estimators”, *Journal of Business and Economic
+Statistics*, **419–431**.

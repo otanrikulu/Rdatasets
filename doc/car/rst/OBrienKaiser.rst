@@ -1,21 +1,22 @@
-OBrienKaiser
-R Documentation
++----------------+-------------------+
+| OBrienKaiser   | R Documentation   |
++----------------+-------------------+
+
 O'Brien and Kaiser's Repeated-Measures Data
 -------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-These contrived repeated-measures data are taken from O'Brien and
-Kaiser (1985). The data are from an imaginary study in which 16
-female and male subjects, who are divided into three treatments,
-are measured at a pretest, postest, and a follow-up session; during
-each session, they are measured at five occasions at intervals of
-one hour. The design, therefore, has two between-subject and two
-within-subject factors.
+These contrived repeated-measures data are taken from O'Brien and Kaiser
+(1985). The data are from an imaginary study in which 16 female and male
+subjects, who are divided into three treatments, are measured at a
+pretest, postest, and a follow-up session; during each session, they are
+measured at five occasions at intervals of one hour. The design,
+therefore, has two between-subject and two within-subject factors.
 
-The contrasts for the ``treatment`` factor are set to *-2, 1, 1*
-and *0, -1, 1*. The contrasts for the ``gender`` factor are set to
+The contrasts for the ``treatment`` factor are set to *-2, 1, 1* and *0,
+-1, 1*. The contrasts for the ``gender`` factor are set to
 ``contr.sum``.
 
 Usage
@@ -81,13 +82,12 @@ A data frame with 16 observations on the following 17 variables.
 ``fup.5``
     follow-up, hour 5
 
-
 Source
 ~~~~~~
 
-O'Brien, R. G., and Kaiser, M. K. (1985) MANOVA method for
-analyzing repeated measures designs: An extensive primer.
-*Psychological Bulletin* **97**, 316–333, Table 7.
+O'Brien, R. G., and Kaiser, M. K. (1985) MANOVA method for analyzing
+repeated measures designs: An extensive primer. *Psychological Bulletin*
+**97**, 316–333, Table 7.
 
 Examples
 ~~~~~~~~
@@ -97,5 +97,4 @@ Examples
     OBrienKaiser
     contrasts(OBrienKaiser$treatment)
     contrasts(OBrienKaiser$gender)
-
 

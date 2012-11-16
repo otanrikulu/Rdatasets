@@ -1,5 +1,7 @@
-fasttrakg
-R Documentation
++-------------+-------------------+
+| fasttrakg   | R Documentation   |
++-------------+-------------------+
+
 fasttrakg
 ---------
 
@@ -7,8 +9,8 @@ Description
 ~~~~~~~~~~~
 
 Data are from the Canadian National Cardiovascular Disease registry
-called, FASTRAK. years covered at 1996-1998. They have been grouped
-by covariate patterns from individual observations.
+called, FASTRAK. years covered at 1996-1998. They have been grouped by
+covariate patterns from individual observations.
 
 Usage
 ~~~~~
@@ -49,12 +51,11 @@ A data frame with 15 observations on the following 9 variables.
 ``kk4``
     (1/0) Severe cardiac event; death
 
-
 Details
 ~~~~~~~
 
-fasttrakg is saved as a data frame. Count models use died as
-response numerator and cases as the demoninator
+fasttrakg is saved as a data frame. Count models use died as response
+numerator and cases as the demoninator
 
 Source
 ~~~~~~
@@ -65,9 +66,9 @@ Economics & Research Co.
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC
 
 Examples
 ~~~~~~~~
@@ -81,5 +82,4 @@ Examples
     #glmfnb < -glm.nb(die ~ anterior + factor(killip) + offset(log(cases)), data=fasttrakg)
     #summary(glmfnb)
     #exp(coef(glmfnb))
-
 

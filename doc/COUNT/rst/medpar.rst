@@ -1,20 +1,21 @@
-medpar
-R Documentation
++----------+-------------------+
+| medpar   | R Documentation   |
++----------+-------------------+
+
 medpar
 ------
 
 Description
 ~~~~~~~~~~~
 
-The US national Medicare inpatient hospital database is referred to
-as the Medpar data, which is prepared yearly from hospital filing
-records. Medpar files for each state are also prepared. The full
-Medpar data consists of 115 variables. The national Medpar has some
-14 million records, with one record for each hospilitiztion. The
-data in the medpar file comes from 1991 Medicare files for the
-state of Arizona. The data are limited to only one diagnostic group
-(DRG 112). Patient data have been randomly selected from the
-original data.
+The US national Medicare inpatient hospital database is referred to as
+the Medpar data, which is prepared yearly from hospital filing records.
+Medpar files for each state are also prepared. The full Medpar data
+consists of 115 variables. The national Medpar has some 14 million
+records, with one record for each hospilitiztion. The data in the medpar
+file comes from 1991 Medicare files for the state of Arizona. The data
+are limited to only one diagnostic group (DRG 112). Patient data have
+been randomly selected from the original data.
 
 Usage
 ~~~~~
@@ -58,7 +59,6 @@ A data frame with 1495 observations on the following 10 variables.
 ``provnum``
     Provider ID
 
-
 Details
 ~~~~~~~
 
@@ -68,17 +68,15 @@ variable. 0 counts are structurally excluded
 Source
 ~~~~~~
 
-1991 National Medpar data, National Health Economics & Research
-Co.
+1991 National Medpar data, National Health Economics & Research Co.
 
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC first used in Hardin, JW and
-JM Hilbe (2001, 2007), Generalized Linear Models and Extensions,
-Stata Press
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC first used in Hardin, JW and JM Hilbe (2001, 2007),
+Generalized Linear Models and Extensions, Stata Press
 
 Examples
 ~~~~~~~~
@@ -93,5 +91,4 @@ Examples
     glmnb <- glm.nb(los ~ hmo + white + factor(type), data=medpar)
     summary(glmnb)
     exp(coef(glmnb))
-
 

@@ -1,5 +1,7 @@
-Salaries
-R Documentation
++------------+-------------------+
+| Salaries   | R Documentation   |
++------------+-------------------+
+
 Salaries for Professors
 -----------------------
 
@@ -7,10 +9,10 @@ Description
 ~~~~~~~~~~~
 
 The 2008-09 nine-month academic salary for Assistant Professors,
-Associate Professors and Professors in a college in the U.S. The
-data were collected as part of the on-going effort of the college's
-administration to monitor salary differences between male and
-female faculty members.
+Associate Professors and Professors in a college in the U.S. The data
+were collected as part of the on-going effort of the college's
+administration to monitor salary differences between male and female
+faculty members.
 
 Usage
 ~~~~~
@@ -43,11 +45,8 @@ A data frame with 397 observations on the following 6 variables.
 ``salary``
     nine-month salary, in dollars.
 
-
 References
 ~~~~~~~~~~
 
-Fox J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition Sage.
-
-
+Fox J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition Sage.

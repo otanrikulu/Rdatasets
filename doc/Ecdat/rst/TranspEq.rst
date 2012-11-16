@@ -1,5 +1,7 @@
-TranspEq
-R Documentation
++------------+-------------------+
+| TranspEq   | R Documentation   |
++------------+-------------------+
+
 Statewide Data on Transportation Equipment Manufacturing
 --------------------------------------------------------
 
@@ -41,12 +43,11 @@ labor
 nfirm
     number of firms
 
-
 Source
 ~~~~~~
 
-Zellner, A. and N. Revankar (1970) “Generalized production
-functions”, *Review of Economic Studies*, **37**, 241-250.
+Zellner, A. and N. Revankar (1970) “Generalized production functions”,
+*Review of Economic Studies*, **37**, 241-250.
 
 References
 ~~~~~~~~~~
@@ -60,5 +61,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

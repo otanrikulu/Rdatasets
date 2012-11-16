@@ -1,5 +1,7 @@
-crabs
-R Documentation
++---------+-------------------+
+| crabs   | R Documentation   |
++---------+-------------------+
+
 Morphological Measurements on Leptograpsus Crabs
 ------------------------------------------------
 
@@ -7,9 +9,9 @@ Description
 ~~~~~~~~~~~
 
 The ``crabs`` data frame has 200 rows and 8 columns, describing 5
-morphological measurements on 50 crabs each of two colour forms and
-both sexes, of the species *Leptograpsus variegatus* collected at
-Fremantle, W. Australia.
+morphological measurements on 50 crabs each of two colour forms and both
+sexes, of the species *Leptograpsus variegatus* collected at Fremantle,
+W. Australia.
 
 Usage
 ~~~~~
@@ -47,18 +49,15 @@ This data frame contains the following columns:
 ``BD``
     body depth (mm).
 
-
 Source
 ~~~~~~
 
-Campbell, N.A. and Mahon, R.J. (1974) A multivariate study of
-variation in two species of rock crab of genus *Leptograpsus.*
-*Australian Journal of Zoology* **22**, 417–425.
+Campbell, N.A. and Mahon, R.J. (1974) A multivariate study of variation
+in two species of rock crab of genus *Leptograpsus.* *Australian Journal
+of Zoology* **22**, 417–425.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

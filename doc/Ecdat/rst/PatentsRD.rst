@@ -1,5 +1,7 @@
-PatentsRD
-R Documentation
++-------------+-------------------+
+| PatentsRD   | R Documentation   |
++-------------+-------------------+
+
 Patents, R\\&D and Technological Spillovers for a Panel of Firms
 ----------------------------------------------------------------
 
@@ -52,21 +54,19 @@ rdexp
 spil
     log of spillovers
 
-
 Source
 ~~~~~~
 
-Cincer, Michele (1997) “Patents, R \\& D and technological
-spillovers at the firm level : some evidence from econometric count
-models for panel data”, *Journal of Applied Econometrics*,
-**12(3)**, may–june, 265–280.
+Cincer, Michele (1997) “Patents, R \\& D and technological spillovers at
+the firm level : some evidence from econometric count models for panel
+data”, *Journal of Applied Econometrics*, **12(3)**, may–june, 265–280.
 
 References
 ~~~~~~~~~~
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`_. Verbeek,
-Marno (2004) *A guide to modern econometrics*, John Wiley and Sons,
+`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`_. Verbeek, Marno
+(2004) *A guide to modern econometrics*, John Wiley and Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 7.
 
@@ -77,5 +77,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

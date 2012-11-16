@@ -1,5 +1,7 @@
-Snmesp
-R Documentation
++----------+-------------------+
+| Snmesp   | R Documentation   |
++----------+-------------------+
+
 Employment and Wages in Spain
 -----------------------------
 
@@ -50,7 +52,6 @@ k
 f
     real cash flow
 
-
 Source
 ~~~~~~
 
@@ -61,8 +62,6 @@ Journal of Business Economics and Statistics data archive:
 References
 ~~~~~~~~~~
 
-Alonso–Borrego, C. and Arellano, M. (1999). Symmetrically
-Normalized Instrumental-Variable Estimation Using Panel Data,
-*Journal of Business and Economic Statistics*, **17(1)**, 36–49.
-
-
+Alonso–Borrego, C. and Arellano, M. (1999). Symmetrically Normalized
+Instrumental-Variable Estimation Using Panel Data, *Journal of Business
+and Economic Statistics*, **17(1)**, 36–49.

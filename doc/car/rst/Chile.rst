@@ -1,14 +1,16 @@
-Chile
-R Documentation
++---------+-------------------+
+| Chile   | R Documentation   |
++---------+-------------------+
+
 Voting Intentions in the 1988 Chilean Plebiscite
 ------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Chile`` data frame has 2700 rows and 8 columns. The data are
-from a national survey conducted in April and May of 1988 by
-FLACSO/Chile. There are some missing data.
+The ``Chile`` data frame has 2700 rows and 8 columns. The data are from
+a national survey conducted in April and May of 1988 by FLACSO/Chile.
+There are some missing data.
 
 Usage
 ~~~~~
@@ -50,7 +52,6 @@ vote
     (against Pinochet); ``U``, undecided; ``Y``, will vote yes (for
     Pinochet).
 
-
 Source
 ~~~~~~
 
@@ -59,11 +60,8 @@ Personal communication from FLACSO/Chile.
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
-
-
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.

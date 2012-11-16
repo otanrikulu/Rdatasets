@@ -1,13 +1,15 @@
-plantTraits
-R Documentation
++---------------+-------------------+
+| plantTraits   | R Documentation   |
++---------------+-------------------+
+
 Plant Species Traits Data
 -------------------------
 
 Description
 ~~~~~~~~~~~
 
-This dataset constitutes a description of 136 plant species
-according to biological attributes (morphological or reproductive)
+This dataset constitutes a description of 136 plant species according to
+biological attributes (morphological or reproductive)
 
 Usage
 ~~~~~
@@ -34,11 +36,9 @@ A data frame with 136 observations on the following 31 variables.
     Plant height, an ordered factor with levels ``1`` < ``2`` < ... <
     ``8``.
 
-
 ``begflow``
-    Time of first flowering, an ordered factor with levels ``1`` <
-    ``2`` < ``3`` < ``4`` < ``5`` < ``6`` < ``7`` < ``8`` < ``9``
-
+    Time of first flowering, an ordered factor with levels ``1`` < ``2``
+    < ``3`` < ``4`` < ``5`` < ``6`` < ``7`` < ``8`` < ``9``
 
 ``mycor``
     Mycorrhizas, an ordered factor with levels ``0``never < ``1``
@@ -124,21 +124,20 @@ A data frame with 136 observations on the following 31 variables.
 ``unsp``
     unspecialized mechanism of seed dispersal, a binary factor.
 
-
 Details
 ~~~~~~~
 
-Most of factor attributes are not disjunctive. For example, a plant
-can be usually pollinated by insects but sometimes self-pollination
-can occured.
+Most of factor attributes are not disjunctive. For example, a plant can
+be usually pollinated by insects but sometimes self-pollination can
+occured.
 
 Source
 ~~~~~~
 
-Vallet, Jeanne (2005)
-*Structuration de communautés végétales et analyse comparative de traits biologiques le long d'un gradient d'urbanisation*.
-Mémoire de Master 2 'Ecologie-Biodiversité-Evolution'; Université
-Paris Sud XI, 30p.+ annexes (in french)
+Vallet, Jeanne (2005) *Structuration de communautés végétales et analyse
+comparative de traits biologiques le long d'un gradient d'urbanisation*.
+Mémoire de Master 2 'Ecologie-Biodiversité-Evolution'; Université Paris
+Sud XI, 30p.+ annexes (in french)
 
 Examples
 ~~~~~~~~
@@ -146,21 +145,20 @@ Examples
 ::
 
     data(plantTraits)
-    
+
     ## Calculation of a dissimilarity matrix
     library(cluster)
     dai.b <- daisy(plantTraits,
                    type = list(ordratio = 4:11, symm = 12:13, asymm = 14:31))
-    
+
     ## Hierarchical classification
     agn.trts <- agnes(dai.b, method="ward")
     plot(agn.trts, which.plots = 2, cex= 0.6)
     plot(agn.trts, which.plots = 1)
     cutree6 <- cutree(agn.trts, k=6)
     cutree6
-    
+
     ## Principal Coordinate Analysis
     cmdsdai.b <- cmdscale(dai.b, k=6)
     plot(cmdsdai.b[, 1:2], asp = 1, col = cutree6)
-
 

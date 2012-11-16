@@ -1,5 +1,7 @@
-VADeaths
-R Documentation
++------------+-------------------+
+| VADeaths   | R Documentation   |
++------------+-------------------+
+
 Death Rates in Virginia (1940)
 ------------------------------
 
@@ -24,19 +26,18 @@ Details
 ~~~~~~~
 
 The death rates are measured per 1000 population per year. They are
-cross-classified by age group (rows) and population group
-(columns). The age groups are: 50–54, 55–59, 60–64, 65–69, 70–74
-and the population groups are Rural/Male, Rural/Female, Urban/Male
-and Urban/Female.
+cross-classified by age group (rows) and population group (columns). The
+age groups are: 50–54, 55–59, 60–64, 65–69, 70–74 and the population
+groups are Rural/Male, Rural/Female, Urban/Male and Urban/Female.
 
 This provides a rather nice 3-way analysis of variance example.
 
 Source
 ~~~~~~
 
-Molyneaux, L., Gilliam, S. K., and Florant, L. C.(1947) Differences
-in Virginia death rates by color, sex, age, and rural or urban
-residence. *American Sociological Review*, **12**, 525–535.
+Molyneaux, L., Gilliam, S. K., and Florant, L. C.(1947) Differences in
+Virginia death rates by color, sex, age, and rural or urban residence.
+*American Sociological Review*, **12**, 525–535.
 
 References
 ~~~~~~~~~~
@@ -62,5 +63,4 @@ Examples
     opar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
     plot(aov.VAD)
     par(opar)
-
 

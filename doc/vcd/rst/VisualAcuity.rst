@@ -1,14 +1,16 @@
-VisualAcuity
-R Documentation
++----------------+-------------------+
+| VisualAcuity   | R Documentation   |
++----------------+-------------------+
+
 Visual Acuity in Left and Right Eyes
 ------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from Kendall & Stuart (1961) on unaided vision among 3,242 men
-and 7,477 women, all aged 30-39 and employed in the U.K. Royal
-Ordnance factories 1943-1946.
+Data from Kendall & Stuart (1961) on unaided vision among 3,242 men and
+7,477 women, all aged 30-39 and employed in the U.K. Royal Ordnance
+factories 1943-1946.
 
 Usage
 ~~~~~
@@ -34,7 +36,6 @@ left
 gender
     factor indicating gender of patient.
 
-
 Source
 ~~~~~~
 
@@ -44,11 +45,11 @@ M. Friendly (2000), Visualizing Categorical Data:
 References
 ~~~~~~~~~~
 
-M. G. Kendall & A. Stuart (1961),
-*The Advanced Theory of Statistics*, Vol. 2. Griffin, London.
+M. G. Kendall & A. Stuart (1961), *The Advanced Theory of Statistics*,
+Vol. 2. Griffin, London.
 
-M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute,
-Cary, NC.
+M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute, Cary,
+NC.
 
 Examples
 ~~~~~~~~
@@ -57,5 +58,4 @@ Examples
 
     data("VisualAcuity")
     structable(~ gender + left + right, data = VisualAcuity)
-
 

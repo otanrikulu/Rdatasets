@@ -1,5 +1,7 @@
-Skye
-R Documentation
++--------+-------------------+
+| Skye   | R Documentation   |
++--------+-------------------+
+
 AFM Compositions of Aphyric Skye Lavas
 --------------------------------------
 
@@ -29,23 +31,21 @@ This data frame contains the following columns:
 ``M``
     Percentage of magnesium oxide.
 
-
 Source
 ~~~~~~
 
-R. N. Thompson, J. Esson and A. C. Duncan (1972) Major element
-chemical variation in the Eocene lavas of the Isle of Skye.
-*J. Petrology*, **13**, 219–253.
+R. N. Thompson, J. Esson and A. C. Duncan (1972) Major element chemical
+variation in the Eocene lavas of the Isle of Skye. *J. Petrology*,
+**13**, 219–253.
 
 References
 ~~~~~~~~~~
 
-J. Aitchison (1986)
-*The Statistical Analysis of Compositional Data.* Chapman and Hall,
-p.360.
+J. Aitchison (1986) *The Statistical Analysis of Compositional Data.*
+Chapman and Hall, p.360.
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.
 
 Examples
 ~~~~~~~~
@@ -83,7 +83,6 @@ Examples
       }
       points((X[,2] - X[,3])*s3, X[,1], ...)
     }
-    
-    ternary(Skye/100, ord=c(1,3,2))
 
+    ternary(Skye/100, ord=c(1,3,2))
 

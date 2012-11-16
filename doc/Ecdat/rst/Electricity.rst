@@ -1,5 +1,7 @@
-Electricity
-R Documentation
++---------------+-------------------+
+| Electricity   | R Documentation   |
++---------------+-------------------+
+
 Cost Function for Electricity Producers
 ---------------------------------------
 
@@ -50,7 +52,6 @@ pf
 sf
     cost share for fuel
 
-
 Source
 ~~~~~~
 
@@ -74,5 +75,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

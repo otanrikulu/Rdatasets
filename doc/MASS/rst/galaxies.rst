@@ -1,5 +1,7 @@
-galaxies
-R Documentation
++------------+-------------------+
+| galaxies   | R Documentation   |
++------------+-------------------+
+
 Velocities for 82 Galaxies
 --------------------------
 
@@ -7,9 +9,9 @@ Description
 ~~~~~~~~~~~
 
 A numeric vector of velocities in km/sec of 82 galaxies from 6
-well-separated conic sections of an ``unfilled`` survey of the
-Corona Borealis region. Multimodality in such surveys is evidence
-for voids and superclusters in the far universe.
+well-separated conic sections of an ``unfilled`` survey of the Corona
+Borealis region. Multimodality in such surveys is evidence for voids and
+superclusters in the far universe.
 
 Usage
 ~~~~~
@@ -30,19 +32,19 @@ should be 26960.
 Source
 ~~~~~~
 
-Roeder, K. (1990) Density estimation with confidence sets
-exemplified by superclusters and voids in galaxies.
-*Journal of the American Statistical Association* **85**, 617–624.
+Roeder, K. (1990) Density estimation with confidence sets exemplified by
+superclusters and voids in galaxies. *Journal of the American
+Statistical Association* **85**, 617–624.
 
 Postman, M., Huchra, J. P. and Geller, M. J. (1986) Probes of
-large-scale structures in the Corona Borealis region.
-*Astronomical Journal* **92**, 1238–1247.
+large-scale structures in the Corona Borealis region. *Astronomical
+Journal* **92**, 1238–1247.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.
 
 Examples
 ~~~~~~~~
@@ -56,5 +58,4 @@ Examples
     rug(gal)
     lines(density(gal, width = 3.25, n = 200), lty = 1)
     lines(density(gal, width = 2.56, n = 200), lty = 3)
-
 

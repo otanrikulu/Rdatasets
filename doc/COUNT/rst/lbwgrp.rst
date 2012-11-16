@@ -1,16 +1,18 @@
-lbwgrp
-R Documentation
++----------+-------------------+
+| lbwgrp   | R Documentation   |
++----------+-------------------+
+
 lbwgrp
 ------
 
 Description
 ~~~~~~~~~~~
 
-grouped format of the lbw data. The observation level data come to
-us form Hosmer and Lemeshow (2000). Grouping is such that lowbw is
-the numerator, and cases the denominator of a binomial model, or
-cases may be an offset to the count variable, lowbw. Birthweights
-under 2500g classifies a low birthweight baby.
+grouped format of the lbw data. The observation level data come to us
+form Hosmer and Lemeshow (2000). Grouping is such that lowbw is the
+numerator, and cases the denominator of a binomial model, or cases may
+be an offset to the count variable, lowbw. Birthweights under 2500g
+classifies a low birthweight baby.
 
 Usage
 ~~~~~
@@ -45,26 +47,24 @@ A data frame with 6 observations on the following 7 variables.
 ``low``
     low birth weight (not valid variable in grouped format)
 
-
 Details
 ~~~~~~~
 
-lbwgrp is saved as a data frame. Count models: count
-response=lowbt; offset=log(cases); Binary: binomial numerator=
-lowbt; binomial denominator=cases
+lbwgrp is saved as a data frame. Count models: count response=lowbt;
+offset=log(cases); Binary: binomial numerator= lowbt; binomial
+denominator=cases
 
 Source
 ~~~~~~
 
-Hosmer, D and S. Lemeshow (2000), Applied Logistic Regression,
-Wiley
+Hosmer, D and S. Lemeshow (2000), Applied Logistic Regression, Wiley
 
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC
 
 Examples
 ~~~~~~~~
@@ -79,5 +79,4 @@ Examples
     glmgnb <- glm.nb(lowbw ~  smoke + race2 + race3, data=lbwgrp)
     summary(glmgnb)
     exp(coef(glmgnb))
-
 

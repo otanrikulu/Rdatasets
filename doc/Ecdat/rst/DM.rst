@@ -1,5 +1,7 @@
-DM
-R Documentation
++------+-------------------+
+| DM   | R Documentation   |
++------+-------------------+
+
 DM Dollar Exchange Rate
 -----------------------
 
@@ -38,16 +40,15 @@ f
     market on friday of the current week
 
 s30
-    the bid price of the dollar in units of DM in the spot market on
-    the delivery date on a current forward contract
-
+    the bid price of the dollar in units of DM in the spot market on the
+    delivery date on a current forward contract
 
 Source
 ~~~~~~
 
 Bekaert, G. and R. Hodrick (1993) “On biases in the measurement of
-foreign exchange risk premiums”,
-*Journal of International Money and Finance*, **12**, 115-138.
+foreign exchange risk premiums”, *Journal of International Money and
+Finance*, **12**, 115-138.
 
 References
 ~~~~~~~~~~
@@ -63,5 +64,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

@@ -1,13 +1,15 @@
-presidentialElections
-R Documentation
++-------------------------+-------------------+
+| presidentialElections   | R Documentation   |
++-------------------------+-------------------+
+
 elections for U.S. President, 1932-2008, by state
 -------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from states and the District of Columbia, Democratic share of
-the presidential vote, 1932-2008.
+Data from states and the District of Columbia, Democratic share of the
+presidential vote, 1932-2008.
 
 Usage
 ~~~~~
@@ -19,7 +21,6 @@ Usage
 Format
 ~~~~~~
 
-
 -  statename of state, character
 
 -  demVotepercent of the vote for president won by the Democratic
@@ -27,17 +28,16 @@ Format
 
 -  yearnumeric, integer
 
--  southlogical, ``TRUE`` if state is one of the 11 states of the
-   former Confederacy
-
+-  southlogical, ``TRUE`` if state is one of the 11 states of the former
+   Confederacy
 
 Note
 ~~~~
 
 996 observations, unbalanced panel data: (a) Hawaii and Alaska
 contribute data from 1960 onwards; (b) the District of Columbia
-contributes data from 1964 onward; (c) Alabama has missing data for
-1948 and 1964.
+contributes data from 1964 onward; (c) Alabama has missing data for 1948
+and 1964.
 
 Source
 ~~~~~~
@@ -59,7 +59,7 @@ Examples
            data=presidentialElections,
            scales=list(y=list(cex=.6),x=list(cex=.35)),
            strip=strip.custom(par.strip.text=list(cex=.6)))
-    
+
     ## Obama vs Kerry, except DC
     y08 <- presidentialElections$year==2008
     y04 <- presidentialElections$year==2004
@@ -70,7 +70,7 @@ Examples
     xlim <- range(tmpData$demVote.x,tmpData$demVote.y)
     col <- rep("black",dim(tmpData)[1])
     col[tmpData$south.x] <- "red"
-    
+
     plot(demVote.y ~ demVote.x,
          xlab="Kerry Vote Share, 2004 (percent)",
          ylab="Obama Vote Share, 2008 (percent)",
@@ -83,7 +83,7 @@ Examples
     ols <- lm(demVote.y ~ demVote.x,
               data=tmpData)
     abline(ols,lwd=2)   
-    
+
     text(tmpData$demVote.x,
          tmpData$demVote.y,
          tmpData$state,
@@ -98,5 +98,4 @@ Examples
            bty="n",
            text.col=c("red","black"),
            legend=c("South","Non-South"))
-
 

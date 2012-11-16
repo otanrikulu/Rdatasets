@@ -1,5 +1,7 @@
-Participation
-R Documentation
++-----------------+-------------------+
+| Participation   | R Documentation   |
++-----------------+-------------------+
+
 Labor Force Participation
 -------------------------
 
@@ -47,20 +49,17 @@ noc
 foreign
     foreigner ?
 
-
 Source
 ~~~~~~
 
-Gerfin, Michael (1996) “Parametric and semiparametric estimation of
-the binary response”, *Journal of Applied Econometrics*, **11(3)**,
-321-340.
+Gerfin, Michael (1996) “Parametric and semiparametric estimation of the
+binary response”, *Journal of Applied Econometrics*, **11(3)**, 321-340.
 
 References
 ~~~~~~~~~~
 
-Davidson, R. and James G. MacKinnon (2004)
-*Econometric Theory and Methods*, New York, Oxford University
-Press,
+Davidson, R. and James G. MacKinnon (2004) *Econometric Theory and
+Methods*, New York, Oxford University Press,
 `http://www.econ.queensu.ca/ETM/ <http://www.econ.queensu.ca/ETM/>`_,
 chapter 11.
 
@@ -72,5 +71,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

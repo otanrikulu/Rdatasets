@@ -1,5 +1,7 @@
-Somerville
-R Documentation
++--------------+-------------------+
+| Somerville   | R Documentation   |
++--------------+-------------------+
+
 Visits to Lake Somerville
 -------------------------
 
@@ -50,31 +52,28 @@ costSom
 costHoust
     expenditures when visiting lake Houston
 
-
 Source
 ~~~~~~
 
-Seller, Christine, John R. Stoll and Jean–Paul Chavas (1985)
-“Valuation of empirical measures of welfare change : a comparison
-of nonmarket techniques”, *Land Economics*, **61(2)**, may,
-156–175.
+Seller, Christine, John R. Stoll and Jean–Paul Chavas (1985) “Valuation
+of empirical measures of welfare change : a comparison of nonmarket
+techniques”, *Land Economics*, **61(2)**, may, 156–175.
 
-Gurmu, Shiferaw and Pravin K. Trivedi (1996) “ Excess zeros in
-count models for recreational trips”,
-*Journal of Business and Economics Statistics*, **14(4)**, october,
-469–477.
+Gurmu, Shiferaw and Pravin K. Trivedi (1996) “ Excess zeros in count
+models for recreational trips”, *Journal of Business and Economics
+Statistics*, **14(4)**, october, 469–477.
 
-Santos Silva, Jao M. C. (2001) “A score test for non–nested
-hypotheses with applications to discrete data models”,
-*Journal of Applied Econometrics*, **16(5)**, 577–597.
+Santos Silva, Jao M. C. (2001) “A score test for non–nested hypotheses
+with applications to discrete data models”, *Journal of Applied
+Econometrics*, **16(5)**, 577–597.
 
 References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
 `http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`_.
-Cameron, A.C. and Trivedi P.K. (1998)
-*Regression analysis of count data*, Cambridge University Press,
+Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
+data*, Cambridge University Press,
 `http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`_,
 chapter 6.
 
@@ -83,5 +82,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

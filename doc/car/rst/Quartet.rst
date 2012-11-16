@@ -1,5 +1,7 @@
-Quartet
-R Documentation
++-----------+-------------------+
+| Quartet   | R Documentation   |
++-----------+-------------------+
+
 Four Regression Datasets
 ------------------------
 
@@ -39,11 +41,8 @@ x4
 y4
     Y-values for dataset 4.
 
-
 Source
 ~~~~~~
 
-Anscombe, F. J. (1973) Graphs in statistical analysis.
-*American Statistician* **27**, 17–21.
-
-
+Anscombe, F. J. (1973) Graphs in statistical analysis. *American
+Statistician* **27**, 17–21.

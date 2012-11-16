@@ -1,16 +1,18 @@
-Moore
-R Documentation
++---------+-------------------+
+| Moore   | R Documentation   |
++---------+-------------------+
+
 Status, Authoritarianism, and Conformity
 ----------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Moore`` data frame has 45 rows and 4 columns. The data are
-for subjects in a social-psychological experiment, who were faced
-with manipulated disagreement from a partner of either of low or
-high status. The subjects could either conform to the partner's
-judgment or stick with their own judgment.
+The ``Moore`` data frame has 45 rows and 4 columns. The data are for
+subjects in a social-psychological experiment, who were faced with
+manipulated disagreement from a partner of either of low or high status.
+The subjects could either conform to the partner's judgment or stick
+with their own judgment.
 
 Usage
 ~~~~~
@@ -37,7 +39,6 @@ fcategory
 fscore
     Authoritarianism: F-Scale score.
 
-
 Source
 ~~~~~~
 
@@ -51,11 +52,8 @@ University.
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
-
-
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.

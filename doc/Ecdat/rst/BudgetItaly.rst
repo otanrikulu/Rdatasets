@@ -1,5 +1,7 @@
-BudgetItaly
-R Documentation
++---------------+-------------------+
+| BudgetItaly   | R Documentation   |
++---------------+-------------------+
+
 Budget Shares for Italian Households
 ------------------------------------
 
@@ -59,13 +61,12 @@ size
 pct
     cellule weight
 
-
 Source
 ~~~~~~
 
-Bollino, Carlo Andrea, Frederico Perali and Nicola Rossi (2000)
-“Linear household technologies”, *Journal of Applied Econometrics*,
-**15(3)**, 253–274.
+Bollino, Carlo Andrea, Frederico Perali and Nicola Rossi (2000) “Linear
+household technologies”, *Journal of Applied Econometrics*, **15(3)**,
+253–274.
 
 References
 ~~~~~~~~~~
@@ -78,5 +79,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

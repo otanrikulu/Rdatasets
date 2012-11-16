@@ -1,5 +1,7 @@
-abbey
-R Documentation
++---------+-------------------+
+| abbey   | R Documentation   |
++---------+-------------------+
+
 Determinations of Nickel Content
 --------------------------------
 
@@ -24,7 +26,5 @@ S. Abbey (1988) *Geostandards Newsletter* **12**, 241.
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

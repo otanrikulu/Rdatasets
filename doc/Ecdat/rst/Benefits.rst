@@ -1,5 +1,7 @@
-Benefits
-R Documentation
++------------+-------------------+
+| Benefits   | R Documentation   |
++------------+-------------------+
+
 Unemployement of Blue Collar Workers
 ------------------------------------
 
@@ -81,19 +83,18 @@ head
 ui
     applied for (and received) UI benefits ?
 
-
 Source
 ~~~~~~
 
-McCall, B.P. (1995) “The impact of unemployment insurance benefit
-levels on recipiency”,
-*Journal of Business and Economic Statistics*, **13**, 189–198.
+McCall, B.P. (1995) “The impact of unemployment insurance benefit levels
+on recipiency”, *Journal of Business and Economic Statistics*, **13**,
+189–198.
 
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 7.
 
@@ -107,5 +108,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

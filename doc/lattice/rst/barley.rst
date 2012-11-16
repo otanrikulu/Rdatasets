@@ -1,13 +1,15 @@
-H\_barley
-R Documentation
++-------------+-------------------+
+| H\_barley   | R Documentation   |
++-------------+-------------------+
+
 Yield data from a Minnesota barley trial
 ----------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Total yield in bushels per acre for 10 varieties at 6 sites in each
-of two years.
+Total yield in bushels per acre for 10 varieties at 6 sites in each of
+two years.
 
 Usage
 ~~~~~
@@ -34,32 +36,28 @@ year
 
 site
     Factor with 6 levels: ``"Grand Rapids"``, ``"Duluth"``,
-    ``"University Farm"``, ``"Morris"``, ``"Crookston"``,
-    ``"Waseca"``
-
+    ``"University Farm"``, ``"Morris"``, ``"Crookston"``, ``"Waseca"``
 
 Details
 ~~~~~~~
 
-These data are yields in bushels per acre, of 10 varieties of
-barley grown in 1/40 acre plots at University Farm, St. Paul, and
-at the five branch experiment stations located at Waseca, Morris,
-Crookston, Grand Rapids, and Duluth (all in Minnesota). The
-varieties were grown in three randomized blocks at each of the six
-stations during 1931 and 1932, different land being used each year
-of the test.
+These data are yields in bushels per acre, of 10 varieties of barley
+grown in 1/40 acre plots at University Farm, St. Paul, and at the five
+branch experiment stations located at Waseca, Morris, Crookston, Grand
+Rapids, and Duluth (all in Minnesota). The varieties were grown in three
+randomized blocks at each of the six stations during 1931 and 1932,
+different land being used each year of the test.
 
 Immer et al. (1934) present the data for each
-Year\*Site\*Variety\*Block. The data here is the average yield
-across the three blocks.
+Year\*Site\*Variety\*Block. The data here is the average yield across
+the three blocks.
 
-Immer et al. (1934) refer (once) to the experiment as being
-conducted in 1930 and 1931, then later refer to it (repeatedly) as
-being conducted in 1931 and 1932. Later authors have continued the
-confusion.
+Immer et al. (1934) refer (once) to the experiment as being conducted in
+1930 and 1931, then later refer to it (repeatedly) as being conducted in
+1931 and 1932. Later authors have continued the confusion.
 
-Cleveland (1993) suggests that the data for the Morris site may
-have had the years switched.
+Cleveland (1993) suggests that the data for the Morris site may have had
+the years switched.
 
 Author(s)
 ~~~~~~~~~
@@ -70,17 +68,17 @@ Source
 ~~~~~~
 
 Immer, R. F., H. K. Hayes, and LeRoy Powers. (1934). Statistical
-Determination of Barley Varietal Adaptation.
-*Journal of the American Society of Agronomy*, **26**, 403–419.
+Determination of Barley Varietal Adaptation. *Journal of the American
+Society of Agronomy*, **26**, 403–419.
 
 References
 ~~~~~~~~~~
 
-Cleveland, William S. (1993) *Visualizing Data*. Hobart Press,
-Summit, New Jersey.
+Cleveland, William S. (1993) *Visualizing Data*. Hobart Press, Summit,
+New Jersey.
 
-Fisher, R. A. (1971) *The Design of Experiments*. Hafner, New York,
-9th edition.
+Fisher, R. A. (1971) *The Design of Experiments*. Hafner, New York, 9th
+edition.
 
 See Also
 ~~~~~~~~
@@ -99,5 +97,4 @@ Examples
             key = simpleKey(levels(barley$year), space = "right"),
             xlab = "Barley Yield (bushels/acre) ",
             aspect=0.5, layout = c(1,6), ylab=NULL)
-
 

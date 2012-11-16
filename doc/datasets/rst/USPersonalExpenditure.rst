@@ -1,5 +1,7 @@
-USPersonalExpenditure
-R Documentation
++-------------------------+-------------------+
+| USPersonalExpenditure   | R Documentation   |
++-------------------------+-------------------+
+
 Personal Expenditure Data
 -------------------------
 
@@ -8,8 +10,8 @@ Description
 
 This data set consists of United States personal expenditures (in
 billions of dollars) in the categories; food and tobacco, household
-operation, medical and health, personal care, and private education
-for the years 1940, 1945, 1950, 1955 and 1960.
+operation, medical and health, personal care, and private education for
+the years 1940, 1945, 1950, 1955 and 1960.
 
 Usage
 ~~~~~
@@ -43,5 +45,4 @@ Examples
     require(stats) # for medpolish
     USPersonalExpenditure
     medpolish(log10(USPersonalExpenditure))
-
 

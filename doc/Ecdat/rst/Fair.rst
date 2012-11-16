@@ -1,5 +1,7 @@
-Fair
-R Documentation
++--------+-------------------+
+| Fair   | R Documentation   |
++--------+-------------------+
+
 Extramarital Affairs Data
 -------------------------
 
@@ -54,7 +56,6 @@ rate
 nbaffairs
     number of affairs in past year
 
-
 Source
 ~~~~~~
 
@@ -75,5 +76,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

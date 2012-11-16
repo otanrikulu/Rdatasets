@@ -1,5 +1,7 @@
-Mroz
-R Documentation
++--------+-------------------+
+| Mroz   | R Documentation   |
++--------+-------------------+
+
 Labor Supply Data
 -----------------
 
@@ -81,13 +83,12 @@ city
 experience
     actual years of wife's previous labor market experience
 
-
 Source
 ~~~~~~
 
-Mroz, T. (1987) “The sensivity of an empirical model of married
-women's hours of work to economic and statistical assumptions”,
-*Econometrica*, **55**, 765-799.
+Mroz, T. (1987) “The sensivity of an empirical model of married women's
+hours of work to economic and statistical assumptions”, *Econometrica*,
+**55**, 765-799.
 
 1976 Panel Study of Income Dynamics.
 
@@ -103,5 +104,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

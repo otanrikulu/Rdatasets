@@ -1,5 +1,7 @@
-Icecream
-R Documentation
++------------+-------------------+
+| Icecream   | R Documentation   |
++------------+-------------------+
+
 Ice Cream Consumption
 ---------------------
 
@@ -38,19 +40,17 @@ price
 temp
     average temperature (in Fahrenheit);
 
-
 Source
 ~~~~~~
 
-Hildreth, C. and J. Lu (1960)
-*Demand relations with autocorrelated disturbances*, Technical
-Bulletin No 2765, Michigan State University.
+Hildreth, C. and J. Lu (1960) *Demand relations with autocorrelated
+disturbances*, Technical Bulletin No 2765, Michigan State University.
 
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 4.
 
@@ -61,5 +61,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

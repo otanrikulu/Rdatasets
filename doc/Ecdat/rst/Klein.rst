@@ -1,5 +1,7 @@
-Klein
-R Documentation
++---------+-------------------+
+| Klein   | R Documentation   |
++---------+-------------------+
+
 Klein's Model I
 ---------------
 
@@ -53,13 +55,11 @@ govspend
 taxe
     taxes
 
-
 Source
 ~~~~~~
 
-Klein, L. (1950)
-*Economic fluctuations in the United States, 1921-1941*, New York,
-John Wiley and Sons.
+Klein, L. (1950) *Economic fluctuations in the United States,
+1921-1941*, New York, John Wiley and Sons.
 
 References
 ~~~~~~~~~~
@@ -75,5 +75,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

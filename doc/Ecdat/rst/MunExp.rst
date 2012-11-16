@@ -1,5 +1,7 @@
-MunExp
-R Documentation
++----------+-------------------+
+| MunExp   | R Documentation   |
++----------+-------------------+
+
 Municipal Expenditure Data
 --------------------------
 
@@ -41,13 +43,12 @@ revenue
 grants
     grants from Central Government
 
-
 Source
 ~~~~~~
 
 Dahlberg, M. and E. Johanssen (2000) “An examination of the dynamic
-behavior of local government using GMM boot-strapping methods”,
-*Journal of Applied Econometrics*, **21**, 333-355.
+behavior of local government using GMM boot-strapping methods”, *Journal
+of Applied Econometrics*, **21**, 333-355.
 
 References
 ~~~~~~~~~~
@@ -66,5 +67,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

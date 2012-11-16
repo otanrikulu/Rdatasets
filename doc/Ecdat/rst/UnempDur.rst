@@ -1,5 +1,7 @@
-UnempDur
-R Documentation
++------------+-------------------+
+| UnempDur   | R Documentation   |
++------------+-------------------+
+
 Unemployment Duration
 ---------------------
 
@@ -56,7 +58,6 @@ logwage
 tenure
     years tenure in lost job
 
-
 Source
 ~~~~~~
 
@@ -66,9 +67,8 @@ Part-time Work”, *Econometrica*, **64**, 647–682.
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-603–8, 632–6, 658–62, 671–4 and 692.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 603–8, 632–6, 658–62, 671–4 and 692.
 
 See Also
 ~~~~~~~~
@@ -77,5 +77,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

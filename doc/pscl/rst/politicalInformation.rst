@@ -1,14 +1,16 @@
-politicalInformation
-R Documentation
++------------------------+-------------------+
+| politicalInformation   | R Documentation   |
++------------------------+-------------------+
+
 Interviewer ratings of respondent levels of political information
 -----------------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Interviewers administering the 2000 American National Election
-Studies assigned an ordinal rating to each respondent's "general
-level of information" about politics and public affairs.
+Interviewers administering the 2000 American National Election Studies
+assigned an ordinal rating to each respondent's "general level of
+information" about politics and public affairs.
 
 Usage
 ~~~~~
@@ -23,8 +25,8 @@ Format
 A data frame with 1807 observations on the following 8 variables.
 
 ``y``
-    interviewer rating, a factor with levels ``Very Low``
-    ``Fairly Low`` ``Average`` ``Fairly High`` ``Very High``
+    interviewer rating, a factor with levels ``Very Low`` ``Fairly Low``
+    ``Average`` ``Fairly High`` ``Very High``
 
 ``collegeDegree``
     a factor with levels ``No`` ``Yes``
@@ -47,13 +49,11 @@ A data frame with 1807 observations on the following 8 variables.
 ``id``
     a factor, unique identifier for each interviewer
 
-
 Details
 ~~~~~~~
 
-Seven respondents have missing data on the ordinal interviewer
-rating. The covariates ``age`` and ``length`` also have some
-missing data.
+Seven respondents have missing data on the ordinal interviewer rating.
+The covariates ``age`` and ``length`` also have some missing data.
 
 Source
 ~~~~~~
@@ -74,13 +74,12 @@ Examples
 ::
 
     data(politicalInformation)
-    
+
     table(politicalInformation$y,exclude=NULL)
-    
+
     require(MASS)
     op <- polr(y ~ collegeDegree + female + log(age) + homeOwn + govt + log(length),
                data=politicalInformation,
                Hess=TRUE,
                method="probit")
-
 

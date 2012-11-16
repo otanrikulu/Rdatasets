@@ -1,5 +1,7 @@
-Strike
-R Documentation
++----------+-------------------+
+| Strike   | R Documentation   |
++----------+-------------------+
+
 Strike Duration Data
 --------------------
 
@@ -30,7 +32,6 @@ duration
 prod
     unanticipated output
 
-
 Source
 ~~~~~~
 
@@ -49,5 +50,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

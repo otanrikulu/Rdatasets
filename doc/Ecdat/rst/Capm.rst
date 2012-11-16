@@ -1,5 +1,7 @@
-Capm
-R Documentation
++--------+-------------------+
+| Capm   | R Documentation   |
++--------+-------------------+
+
 Stock Market Data
 -----------------
 
@@ -37,18 +39,17 @@ rmrf
 rf
     riskfree return
 
-
 Source
 ~~~~~~
 
 most of the above data are from Kenneth French's data library
-at`http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\\\_Library <%20http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data%5C_Library>`_.
+at`http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\\\_Library <%20http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\_Library>`_.
 
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 2.
 
@@ -59,5 +60,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

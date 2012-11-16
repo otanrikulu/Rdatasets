@@ -1,5 +1,7 @@
-tobin
-R Documentation
++---------+-------------------+
+| tobin   | R Documentation   |
++---------+-------------------+
+
 Tobin's Tobit data
 ------------------
 
@@ -30,7 +32,6 @@ age
 quant
     Liquidity ratio (x 1000)
 
-
 Source
 ~~~~~~
 
@@ -44,7 +45,6 @@ Examples
 
     tfit <- survreg(Surv(durable, durable>0, type='left') ~age + quant,
                     data=tobin, dist='gaussian')
-    
-    predict(tfit,type="response")
 
+    predict(tfit,type="response")
 

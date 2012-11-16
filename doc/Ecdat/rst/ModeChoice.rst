@@ -1,5 +1,7 @@
-ModeChoice
-R Documentation
++--------------+-------------------+
+| ModeChoice   | R Documentation   |
++--------------+-------------------+
+
 Data to Study Travel Mode Choice
 --------------------------------
 
@@ -47,14 +49,12 @@ hinc
 psize
     party size in mode chosen
 
-
 Source
 ~~~~~~
 
-Greene, W.H. and D. Hensher (1997)
-*Multinomial logit and discret choice models* *in* Greene, W. H.
-(1997) *LIMDEP version 7.0 user's manual revised*, Plainview, New
-York econometric software, Inc .
+Greene, W.H. and D. Hensher (1997) *Multinomial logit and discret choice
+models* *in* Greene, W. H. (1997) *LIMDEP version 7.0 user's manual
+revised*, Plainview, New York econometric software, Inc .
 
 References
 ~~~~~~~~~~
@@ -68,5 +68,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

@@ -1,5 +1,7 @@
-bivariate
-R Documentation
++-------------+-------------------+
+| bivariate   | R Documentation   |
++-------------+-------------------+
+
 Sample data for bivariate probit regression
 -------------------------------------------
 
@@ -18,8 +20,8 @@ Usage
 Format
 ~~~~~~
 
-A table containing 6 variables ("y1", "y2", "x1", "x2", "x3", and
-"x4") and 78 observations.
+A table containing 6 variables ("y1", "y2", "x1", "x2", "x3", and "x4")
+and 78 observations.
 
 Source
 ~~~~~~
@@ -30,8 +32,5 @@ available in Zelig.
 References
 ~~~~~~~~~~
 
-Martin, Lisa (1992).
-*Coercive Cooperation: Explaining Multilateral Economic Sanctions*,
-Princeton: Princeton University Press.
-
-
+Martin, Lisa (1992). *Coercive Cooperation: Explaining Multilateral
+Economic Sanctions*, Princeton: Princeton University Press.

@@ -1,13 +1,14 @@
-VA
-R Documentation
++------+-------------------+
+| VA   | R Documentation   |
++------+-------------------+
+
 Veteran's Administration Lung Cancer Trial
 ------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Veteran's Administration lung cancer trial from Kalbfleisch &
-Prentice.
+Veteran's Administration lung cancer trial from Kalbfleisch & Prentice.
 
 Usage
 ~~~~~
@@ -45,17 +46,14 @@ A data frame with columns:
 ``prior``
     prior therapy?
 
-
 Source
 ~~~~~~
 
-Kalbfleisch, J.D. and Prentice R.L. (1980)
-*The Statistical Analysis of Failure Time Data.* Wiley.
+Kalbfleisch, J.D. and Prentice R.L. (1980) *The Statistical Analysis of
+Failure Time Data.* Wiley.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

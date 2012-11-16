@@ -1,5 +1,7 @@
-cpus
-R Documentation
++--------+-------------------+
+| cpus   | R Documentation   |
++--------+-------------------+
+
 Performance of Computer CPUs
 ----------------------------
 
@@ -48,18 +50,15 @@ The components are:
 ``estperf``
     estimated performance (by Ein-Dor & Feldmesser).
 
-
 Source
 ~~~~~~
 
-P. Ein-Dor and J. Feldmesser (1987) Attributes of the performance
-of central processing units: a relative performance prediction
-model. *Comm. ACM.* **30**, 308–317.
+P. Ein-Dor and J. Feldmesser (1987) Attributes of the performance of
+central processing units: a relative performance prediction model.
+*Comm. ACM.* **30**, 308–317.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

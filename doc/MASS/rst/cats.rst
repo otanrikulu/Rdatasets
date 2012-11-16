@@ -1,14 +1,15 @@
-cats
-R Documentation
++--------+-------------------+
+| cats   | R Documentation   |
++--------+-------------------+
+
 Anatomical Data from Domestic Cats
 ----------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The heart and body weights of samples of male and female cats used
-for *digitalis* experiments. The cats were all adult, over 2 kg
-body weight.
+The heart and body weights of samples of male and female cats used for
+*digitalis* experiments. The cats were all adult, over 2 kg body weight.
 
 Usage
 ~~~~~
@@ -31,17 +32,14 @@ This data frame contains the following columns:
 ``Hwt``
     heart weight in g.
 
-
 Source
 ~~~~~~
 
-R. A. Fisher (1947) The analysis of covariance method for the
-relation between a part and the whole, *Biometrics* **3**, 65–68.
+R. A. Fisher (1947) The analysis of covariance method for the relation
+between a part and the whole, *Biometrics* **3**, 65–68.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

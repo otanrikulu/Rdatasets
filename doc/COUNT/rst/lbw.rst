@@ -1,5 +1,7 @@
-lbw
-R Documentation
++-------+-------------------+
+| lbw   | R Documentation   |
++-------+-------------------+
+
 lbw
 ---
 
@@ -7,9 +9,9 @@ Description
 ~~~~~~~~~~~
 
 The data come to us from Hosmer and Lemeshow (2000). Called the low
-birth weight (lbw) data, the response is a binary variable, low,
-which indicates whether the birth weight of a baby is under 2500g
-(low=1), or over (low=0).
+birth weight (lbw) data, the response is a binary variable, low, which
+indicates whether the birth weight of a baby is under 2500g (low=1), or
+over (low=0).
 
 Usage
 ~~~~~
@@ -53,25 +55,23 @@ A data frame with 189 observations on the following 10 variables.
 ``bwt``
     birth weight in grams: 709 - 4990 gr
 
-
 Details
 ~~~~~~~
 
-lbw is saved as a data frame. Count models can use ftv as a
-response variable, or convert it to grouped format
+lbw is saved as a data frame. Count models can use ftv as a response
+variable, or convert it to grouped format
 
 Source
 ~~~~~~
 
-Hosmer, D and S. Lemeshow (2000), Applied Logistic Regression,
-Wiley
+Hosmer, D and S. Lemeshow (2000), Applied Logistic Regression, Wiley
 
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC
 
 Examples
 ~~~~~~~~
@@ -86,5 +86,4 @@ Examples
     glmbwnb <- glm.nb(ftv ~ low + smoke + factor(race), data=lbw)
     summary(glmbwnb)
     exp(coef(glmbwnb))
-
 

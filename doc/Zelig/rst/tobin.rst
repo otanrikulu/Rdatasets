@@ -1,5 +1,7 @@
-tobin
-R Documentation
++---------+-------------------+
+| tobin   | R Documentation   |
++---------+-------------------+
+
 Tobin's Tobit Data
 ------------------
 
@@ -30,7 +32,5 @@ quant: Liquidity ratio (x 1000)
 Source
 ~~~~~~
 
-J. Tobin, Estimation of relationships for limited dependent
-variables, Econometrica, v26, 24-36, 1958.
-
-
+J. Tobin, Estimation of relationships for limited dependent variables,
+Econometrica, v26, 24-36, 1958.

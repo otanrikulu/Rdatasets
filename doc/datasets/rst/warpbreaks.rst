@@ -1,13 +1,15 @@
-warpbreaks
-R Documentation
++--------------+-------------------+
+| warpbreaks   | R Documentation   |
++--------------+-------------------+
+
 The Number of Breaks in Yarn during Weaving
 -------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-This data set gives the number of warp breaks per loom, where a
-loom corresponds to a fixed length of yarn.
+This data set gives the number of warp breaks per loom, where a loom
+corresponds to a fixed length of yarn.
 
 Usage
 ~~~~~
@@ -21,26 +23,22 @@ Format
 
 A data frame with 54 observations on 3 variables.
 
-``[,1]``
-``breaks``
-numeric
-The number of breaks
-``[,2]``
-``wool``
-factor
-The type of wool (A or B)
-``[,3]``
-``tension``
-factor
-The level of tension (L, M, H)
++------------+---------------+-----------+----------------------------------+
+| ``[,1]``   | ``breaks``    | numeric   | The number of breaks             |
++------------+---------------+-----------+----------------------------------+
+| ``[,2]``   | ``wool``      | factor    | The type of wool (A or B)        |
++------------+---------------+-----------+----------------------------------+
+| ``[,3]``   | ``tension``   | factor    | The level of tension (L, M, H)   |
++------------+---------------+-----------+----------------------------------+
+
 There are measurements on 9 looms for each of the six types of warp
 (``AL``, ``AM``, ``AH``, ``BL``, ``BM``, ``BH``).
 
 Source
 ~~~~~~
 
-Tippett, L. H. C. (1950)
-*Technological Applications of Statistics*. Wiley. Page 106.
+Tippett, L. H. C. (1950) *Technological Applications of Statistics*.
+Wiley. Page 106.
 
 References
 ~~~~~~~~~~
@@ -70,5 +68,4 @@ Examples
     par(opar)
     summary(fm1 <- lm(breaks ~ wool*tension, data = warpbreaks))
     anova(fm1)
-
 

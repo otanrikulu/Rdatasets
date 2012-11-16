@@ -1,14 +1,15 @@
-H\_environmental
-R Documentation
++--------------------+-------------------+
+| H\_environmental   | R Documentation   |
++--------------------+-------------------+
+
 Atmospheric environmental conditions in New York City
 -----------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Daily measurements of ozone concentration, wind speed, temperature
-and solar radiation in New York City from May to September of
-1973.
+Daily measurements of ozone concentration, wind speed, temperature and
+solar radiation in New York City from May to September of 1973.
 
 Usage
 ~~~~~
@@ -23,8 +24,8 @@ Format
 A data frame with 111 observations on the following 4 variables.
 
 ozone
-    Average ozone concentration (of hourly measurements) of in parts
-    per billion.
+    Average ozone concentration (of hourly measurements) of in parts per
+    billion.
 
 radiation
     Solar radiation (from 08:00 to 12:00) in langleys.
@@ -35,7 +36,6 @@ temperature
 wind
     Average wind speed (at 07:00 and 10:00) in miles per hour.
 
-
 Author(s)
 ~~~~~~~~~
 
@@ -44,17 +44,16 @@ Documentation contributed by Kevin Wright.
 Source
 ~~~~~~
 
-Bruntz, S. M., W. S. Cleveland, B. Kleiner, and J. L. Warner.
-(1974). The Dependence of Ambient Ozone on Solar Radiation, Wind,
-Temperature, and Mixing Height. In
-*Symposium on Atmospheric Diffusion and Air Pollution*, pages
-125–128. American Meterological Society, Boston.
+Bruntz, S. M., W. S. Cleveland, B. Kleiner, and J. L. Warner. (1974).
+The Dependence of Ambient Ozone on Solar Radiation, Wind, Temperature,
+and Mixing Height. In *Symposium on Atmospheric Diffusion and Air
+Pollution*, pages 125–128. American Meterological Society, Boston.
 
 References
 ~~~~~~~~~~
 
-Cleveland, William S. (1993) *Visualizing Data*. Hobart Press,
-Summit, New Jersey.
+Cleveland, William S. (1993) *Visualizing Data*. Hobart Press, Summit,
+New Jersey.
 
 Examples
 ~~~~~~~~
@@ -68,8 +67,8 @@ Examples
         panel.loess(x,y)
       }
     )
-    
-    
+
+
     # Conditioned plot similar to figure 5.3 from Cleveland
     attach(environmental)
     Temperature <- equal.count(temperature, 4, 1/2)
@@ -86,7 +85,7 @@ Examples
         xlab = "Solar radiation (langleys)",
         ylab = "Ozone (cube root ppb)")
     detach()
-    
+
     # Similar display using the coplot function
     with(environmental,{
       coplot((ozone^.33) ~ radiation | temperature * wind,
@@ -95,5 +94,4 @@ Examples
       xlab="Solar radiation (langleys)",
       ylab="Ozone (cube root ppb)")
     })
-
 

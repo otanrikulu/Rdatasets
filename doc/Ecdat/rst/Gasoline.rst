@@ -1,5 +1,7 @@
-Gasoline
-R Documentation
++------------+-------------------+
+| Gasoline   | R Documentation   |
++------------+-------------------+
+
 Gasoline Consumption
 --------------------
 
@@ -44,19 +46,18 @@ lrpmg
 lcarpcap
     logarithm of the stock of cars per capita
 
-
 Source
 ~~~~~~
 
-Baltagi, B.H. and Y.J. Griggin (1983) “Gasoline demand in the OECD:
-an application of pooling and testing procedures”,
-*European Economic Review*, **22**.
+Baltagi, B.H. and Y.J. Griggin (1983) “Gasoline demand in the OECD: an
+application of pooling and testing procedures”, *European Economic
+Review*, **22**.
 
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John
-Wiley and sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
+and sons,
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_.
 
 See Also
@@ -66,5 +67,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

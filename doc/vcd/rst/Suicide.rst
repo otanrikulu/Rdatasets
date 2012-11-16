@@ -1,13 +1,15 @@
-Suicide
-R Documentation
++-----------+-------------------+
+| Suicide   | R Documentation   |
++-----------+-------------------+
+
 Suicide Rates in Germany
 ------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from Heuer (1979) on suicide rates in West Germany classified
-by age, sex, and method of suicide.
+Data from Heuer (1979) on suicide rates in West Germany classified by
+age, sex, and method of suicide.
 
 Usage
 ~~~~~
@@ -40,7 +42,6 @@ method2
     factor indicating method used (same as ``method`` but some levels
     are merged).
 
-
 Source
 ~~~~~~
 
@@ -50,11 +51,11 @@ Michael Friendly (2000), Visualizing Categorical Data:
 References
 ~~~~~~~~~~
 
-J. Heuer (1979), *Selbstmord bei Kindern und Jugendlichen*. Ernst
-Klett Verlag, Stuttgart.
+J. Heuer (1979), *Selbstmord bei Kindern und Jugendlichen*. Ernst Klett
+Verlag, Stuttgart.
 
-M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute,
-Cary, NC.
+M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute, Cary,
+NC.
 
 Examples
 ~~~~~~~~
@@ -63,5 +64,4 @@ Examples
 
     data("Suicide")
     structable(~ sex + method2 + age.group, data = Suicide)
-
 

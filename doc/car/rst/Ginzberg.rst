@@ -1,13 +1,15 @@
-Ginzberg
-R Documentation
++------------+-------------------+
+| Ginzberg   | R Documentation   |
++------------+-------------------+
+
 Data on Depression
 ------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Ginzberg`` data frame has 82 rows and 6 columns. The data are
-for psychiatric patients hospitalized for depression.
+The ``Ginzberg`` data frame has 82 rows and 6 columns. The data are for
+psychiatric patients hospitalized for depression.
 
 Usage
 ~~~~~
@@ -40,19 +42,15 @@ adjfatal
 adjdep
     Adjusted Depression.
 
-
 Source
 ~~~~~~
 
-Personal communication from Georges Monette, Department of
-Mathematics and Statistics, York University, with the permission of
-the original investigator.
+Personal communication from Georges Monette, Department of Mathematics
+and Statistics, York University, with the permission of the original
+investigator.
 
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

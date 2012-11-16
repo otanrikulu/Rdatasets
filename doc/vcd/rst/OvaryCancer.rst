@@ -1,5 +1,7 @@
-OvaryCancer
-R Documentation
++---------------+-------------------+
+| OvaryCancer   | R Documentation   |
++---------------+-------------------+
+
 Ovary Cancer Data
 -----------------
 
@@ -7,8 +9,8 @@ Description
 ~~~~~~~~~~~
 
 Data from Obel (1975) about a retrospective study of ovary cancer
-carried out in 1973. Information was obtained from 299 women, who
-were operated for ovary cancer 10 years before.
+carried out in 1973. Information was obtained from 299 women, who were
+operated for ovary cancer 10 years before.
 
 Usage
 ~~~~~
@@ -38,23 +40,21 @@ survival
 xray
     factor indicating whether X-ray treatment was received (yes, no).
 
-
 Source
 ~~~~~~
 
-E. B. Andersen (1991), The Statistical Analysis of Categorical
-Data, Table 6.4.
+E. B. Andersen (1991), The Statistical Analysis of Categorical Data,
+Table 6.4.
 
 References
 ~~~~~~~~~~
 
-E. B. Obel (1975), A Comparative Study of Patients with Cancer of
-the Ovary Who Have Survived More or Less Than 10 Years.
-*Acta Obstetricia et Gynecologica Scandinavica*, **55**, 429-439.
+E. B. Obel (1975), A Comparative Study of Patients with Cancer of the
+Ovary Who Have Survived More or Less Than 10 Years. *Acta Obstetricia et
+Gynecologica Scandinavica*, **55**, 429-439.
 
-E. B. Andersen (1991),
-*The Statistical Analysis of Categorical Data*. 2nd edition.
-Springer-Verlag, Berlin.
+E. B. Andersen (1991), *The Statistical Analysis of Categorical Data*.
+2nd edition. Springer-Verlag, Berlin.
 
 Examples
 ~~~~~~~~
@@ -64,7 +64,7 @@ Examples
     data("OvaryCancer")
     tab <- xtabs(Freq ~ xray + survival + stage + operation, data = OvaryCancer)
     ftable(tab, col.vars = "survival", row.vars = c("stage", "operation", "xray"))
-    
+
     ## model: ~ xray * operation * stage + survival * stage
     ## interpretation: treat xray, operation, stage as fixed margins,
     ##   the survival depends on stage, but not xray and operation.
@@ -75,5 +75,4 @@ Examples
     mosaic(~ stage + operation + xray + survival,
       split = c(FALSE, TRUE, TRUE, FALSE), data = tab, keep = FALSE,
       expected = ~ xray * operation * stage + survival*stage)
-
 

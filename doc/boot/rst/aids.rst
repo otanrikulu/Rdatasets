@@ -1,5 +1,7 @@
-aids
-R Documentation
++--------+-------------------+
+| aids   | R Documentation   |
++--------+-------------------+
+
 Delay in AIDS Reporting in England and Wales
 --------------------------------------------
 
@@ -8,15 +10,14 @@ Description
 
 The ``aids`` data frame has 570 rows and 6 columns.
 
-Although all cases of AIDS in England and Wales must be reported to
-the Communicable Disease Surveillance Centre, there is often a
-considerable delay between the time of diagnosis and the time that
-it is reported. In estimating the prevalence of AIDS, account must
-be taken of the unknown number of cases which have been diagnosed
-but not reported. The data set here records the reported cases of
-AIDS diagnosed from July 1983 and until the end of 1992. The data
-are cross-classified by the date of diagnosis and the time delay in
-the reporting of the cases.
+Although all cases of AIDS in England and Wales must be reported to the
+Communicable Disease Surveillance Centre, there is often a considerable
+delay between the time of diagnosis and the time that it is reported. In
+estimating the prevalence of AIDS, account must be taken of the unknown
+number of cases which have been diagnosed but not reported. The data set
+here records the reported cases of AIDS diagnosed from July 1983 and
+until the end of 1992. The data are cross-classified by the date of
+diagnosis and the time delay in the reporting of the cases.
 
 Usage
 ~~~~~
@@ -56,21 +57,17 @@ This data frame contains the following columns:
 ``y``
     The number of AIDS cases reported.
 
-
 Source
 ~~~~~~
 
 The data were obtained from
 
 De Angelis, D. and Gilks, W.R. (1994) Estimating acquired immune
-deficiency syndrome accounting for reporting delay.
-*Journal of the Royal Statistical Society, A*, **157**, 31–40.
+deficiency syndrome accounting for reporting delay. *Journal of the
+Royal Statistical Society, A*, **157**, 31–40.
 
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
-
-
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.

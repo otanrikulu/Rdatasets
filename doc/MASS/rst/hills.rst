@@ -1,5 +1,7 @@
-hills
-R Documentation
++---------+-------------------+
+| hills   | R Documentation   |
++---------+-------------------+
+
 Record Times in Scottish Hill Races
 -----------------------------------
 
@@ -29,21 +31,18 @@ The components are:
 ``time``
     record time in minutes.
 
-
 Source
 ~~~~~~
 
-A.C. Atkinson (1986) Comment: Aspects of diagnostic regression
-analysis. *Statistical Science* **1**, 397–402.
+A.C. Atkinson (1986) Comment: Aspects of diagnostic regression analysis.
+*Statistical Science* **1**, 397–402.
 
-[A.C. Atkinson (1988) Transformations unmasked. *Technometrics*
-**30**, 311–318 “corrects” the time for Knock Hill from 78.65 to
-18.65. It is unclear if this based on the original records.]
+[A.C. Atkinson (1988) Transformations unmasked. *Technometrics* **30**,
+311–318 “corrects” the time for Knock Hill from 78.65 to 18.65. It is
+unclear if this based on the original records.]
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

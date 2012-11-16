@@ -1,5 +1,7 @@
-midwest
-R Documentation
++-----------+-------------------+
+| midwest   | R Documentation   |
++-----------+-------------------+
+
 Midwest demographics.
 ---------------------
 
@@ -17,7 +19,6 @@ Details
 ~~~~~~~
 
 The variables are as follows:
-
 
 -  PID
 
@@ -74,6 +75,5 @@ The variables are as follows:
 -  inmetro. In a metro area.
 
 -  category'
-
 
 

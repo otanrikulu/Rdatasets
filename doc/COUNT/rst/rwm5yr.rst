@@ -1,13 +1,15 @@
-rwm5yr
-R Documentation
++----------+-------------------+
+| rwm5yr   | R Documentation   |
++----------+-------------------+
+
 rwm5yr
 ------
 
 Description
 ~~~~~~~~~~~
 
-German health registry for the years 1984-1988. Health information
-for years immediately prior to health reform.
+German health registry for the years 1984-1988. Health information for
+years immediately prior to health reform.
 
 Usage
 ~~~~~
@@ -19,8 +21,7 @@ Usage
 Format
 ~~~~~~
 
-A data frame with 19,609 observations on the following 17
-variables.
+A data frame with 19,609 observations on the following 17 variables.
 
 ``id``
     patient ID (1=7028)
@@ -73,12 +74,11 @@ variables.
 ``edlevel4``
     (1/0) graduate school
 
-
 Details
 ~~~~~~~
 
-rwm5yr is saved as a data frame. Count models typically use docvis
-as response variable. 0 counts are included
+rwm5yr is saved as a data frame. Count models typically use docvis as
+response variable. 0 counts are included
 
 Source
 ~~~~~~
@@ -88,8 +88,8 @@ German Health Reform Registry, years pre-reform 1984-1988,
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press
 
 Examples
 ~~~~~~~~
@@ -110,7 +110,6 @@ Examples
       corstr = "exchangeable", family=poisson, data=rwm5yr)
     summary(mygee)
     exp(coef(mygee))
-    
-    ## End(Not run)
 
+    ## End(Not run)
 

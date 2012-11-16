@@ -1,5 +1,7 @@
-topo
-R Documentation
++--------+-------------------+
+| topo   | R Documentation   |
++--------+-------------------+
+
 Spatial Topographic Data
 ------------------------
 
@@ -30,17 +32,13 @@ This data frame contains the following columns:
 ``z``
     heights (feet)
 
-
 Source
 ~~~~~~
 
-Davis, J.C. (1973) *Statistics and Data Analysis in Geology.*
-Wiley.
+Davis, J.C. (1973) *Statistics and Data Analysis in Geology.* Wiley.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

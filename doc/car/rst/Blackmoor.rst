@@ -1,14 +1,16 @@
-Blackmoor
-R Documentation
++-------------+-------------------+
+| Blackmoor   | R Documentation   |
++-------------+-------------------+
+
 Exercise Histories of Eating-Disordered and Control Subjects
 ------------------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Blackmoor`` data frame has 945 rows and 4 columns. Blackmoor
-and Davis's data on exercise histories of 138 teenaged girls
-hospitalized for eating disorders and 98 control subjects.
+The ``Blackmoor`` data frame has 945 rows and 4 columns. Blackmoor and
+Davis's data on exercise histories of 138 teenaged girls hospitalized
+for eating disorders and 98 control subjects.
 
 Usage
 ~~~~~
@@ -35,11 +37,8 @@ group
     a factor with levels: ``control``, Control subjects; ``patient``,
     Eating-disordered patients.
 
-
 Source
 ~~~~~~
 
-Personal communication from Elizabeth Blackmoor and Caroline Davis,
-York University.
-
-
+Personal communication from Elizabeth Blackmoor and Caroline Davis, York
+University.

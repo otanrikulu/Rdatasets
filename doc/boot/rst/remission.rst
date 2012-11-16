@@ -1,5 +1,7 @@
-remission
-R Documentation
++-------------+-------------------+
+| remission   | R Documentation   |
++-------------+-------------------+
+
 Cancer Remission and Cell Activity
 ----------------------------------
 
@@ -30,20 +32,15 @@ This data frame contains the following columns:
 ``r``
     The number of patients (out of ``m``) who went into remission.
 
-
 Source
 ~~~~~~
 
 The data were obtained from
 
-Freeman, D.H. (1987) *Applied Categorical Data Analysis*. Marcel
-Dekker.
+Freeman, D.H. (1987) *Applied Categorical Data Analysis*. Marcel Dekker.
 
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
-
-
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.

@@ -1,5 +1,7 @@
-coal
-R Documentation
++--------+-------------------+
+| coal   | R Documentation   |
++--------+-------------------+
+
 Dates of Coal Mining Disasters
 ------------------------------
 
@@ -8,9 +10,9 @@ Description
 
 The ``coal`` data frame has 191 rows and 1 columns.
 
-This data frame gives the dates of 191 explosions in coal mines
-which resulted in 10 or more fatalities. The time span of the data
-is from March 15, 1851 until March 22 1962.
+This data frame gives the dates of 191 explosions in coal mines which
+resulted in 10 or more fatalities. The time span of the data is from
+March 15, 1851 until March 22 1962.
 
 Usage
 ~~~~~
@@ -29,7 +31,6 @@ This data frame contains the following column:
     year. The day is represented as the fraction of the year that had
     elapsed on that day.
 
-
 Source
 ~~~~~~
 
@@ -41,11 +42,8 @@ Hand, D.J., Daly, F., Lunn, A.D., McConway, K.J. and Ostrowski, E.
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.
 
 Jarrett, R.G. (1979) A note on the intervals between coal-mining
 disasters. *Biometrika*, **66**, 191-193.
-
-

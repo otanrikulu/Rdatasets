@@ -1,5 +1,7 @@
-Airq
-R Documentation
++--------+-------------------+
+| Airq   | R Documentation   |
++--------+-------------------+
+
 Air Quality for Californian Metropolitan Areas
 ----------------------------------------------
 
@@ -44,12 +46,11 @@ dens
 medi
     average income per head (in US dollars)
 
-
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 4.
 
@@ -58,5 +59,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

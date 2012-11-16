@@ -1,5 +1,7 @@
-DoctorAUS
-R Documentation
++-------------+-------------------+
+| DoctorAUS   | R Documentation   |
++-------------+-------------------+
+
 Doctor Visits in Australia
 --------------------------
 
@@ -37,9 +39,9 @@ income
 
 insurance
     insurance contract (medlevy : medibanl levy, levyplus : private
-    health insurance, freepoor : government insurance due to low
-    income, freerepa : government insurance due to old age disability
-    or veteran status
+    health insurance, freepoor : government insurance due to low income,
+    freerepa : government insurance due to old age disability or veteran
+    status
 
 illness
     number of illness in past 2 weeks
@@ -65,14 +67,14 @@ nondocco
     community nurse, chiropodist or chiropractor) in the past 2 weeks
 
 hospadmi
-    number of admissions to a hospital, psychiatric hospital, nursing
-    or convalescent home in the past 12 months (up to 5 or more
-    admissions which is coded as 5)
+    number of admissions to a hospital, psychiatric hospital, nursing or
+    convalescent home in the past 12 months (up to 5 or more admissions
+    which is coded as 5)
 
 hospdays
     number of nights in a hospital, etc. during most recent admission:
-    taken, where appropriate, as the mid-point of the intervals 1, 2,
-    3, 4, 5, 6, 7, 8-14, 15-30, 31-60, 61-79 with 80 or more admissions
+    taken, where appropriate, as the mid-point of the intervals 1, 2, 3,
+    4, 5, 6, 7, 8-14, 15-30, 31-60, 61-79 with 80 or more admissions
     coded as 80. If no admission in past 12 months then equals zero.
 
 medecine
@@ -85,19 +87,18 @@ prescrib
 nonpresc
     total number of nonprescribed medications used in past 2 days
 
-
 Source
 ~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (1986) “Econometric Models Based on
-Count Data: Comparisons and Applications of Some Estimators and
-Tests”, *Journal of Applied Econometrics*, **1**, 29-54..
+Cameron, A.C. and P.K. Trivedi (1986) “Econometric Models Based on Count
+Data: Comparisons and Applications of Some Estimators and Tests”,
+*Journal of Applied Econometrics*, **1**, 29-54..
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and Trivedi P.K. (1998)
-*Regression analysis of count data*, Cambridge University Press,
+Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
+data*, Cambridge University Press,
 `http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`_,
 chapter 3.
 
@@ -106,5 +107,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

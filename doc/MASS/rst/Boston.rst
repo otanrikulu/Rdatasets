@@ -1,5 +1,7 @@
-Boston
-R Documentation
++----------+-------------------+
+| Boston   | R Documentation   |
++----------+-------------------+
+
 Housing Values in Suburbs of Boston
 -----------------------------------
 
@@ -56,6 +58,7 @@ This data frame contains the following columns:
 
 ``black``
     *1000(Bk - 0.63)^2*
+
     where *Bk* is the proportion of blacks by town.
 
 ``lstat``
@@ -64,16 +67,12 @@ This data frame contains the following columns:
 ``medv``
     median value of owner-occupied homes in \\$1000s.
 
-
 Source
 ~~~~~~
 
-Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the
-demand for clean air. *J. Environ. Economics and Management* **5**,
-81–102.
+Harrison, D. and Rubinfeld, D.L. (1978) Hedonic prices and the demand
+for clean air. *J. Environ. Economics and Management* **5**, 81–102.
 
-Belsley D.A., Kuh, E. and Welsch, R.E. (1980)
-*Regression Diagnostics. Identifying Influential Data and Sources of Collinearity.*
-New York: Wiley.
-
-
+Belsley D.A., Kuh, E. and Welsch, R.E. (1980) *Regression Diagnostics.
+Identifying Influential Data and Sources of Collinearity.* New York:
+Wiley.

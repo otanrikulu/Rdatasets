@@ -1,5 +1,7 @@
-Diamond
-R Documentation
++-----------+-------------------+
+| Diamond   | R Documentation   |
++-----------+-------------------+
+
 Pricing the C's of Diamond Stones
 ---------------------------------
 
@@ -41,12 +43,11 @@ certification
 price
     price in Singapore \\$
 
-
 Source
 ~~~~~~
 
-Chu, Singfat (2001) “Pricing the C's of Diamond Stones”,
-*Journal of Statistics Education*, **9(2)**.
+Chu, Singfat (2001) “Pricing the C's of Diamond Stones”, *Journal of
+Statistics Education*, **9(2)**.
 
 References
 ~~~~~~~~~~
@@ -59,5 +60,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

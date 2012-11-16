@@ -1,13 +1,14 @@
-Aids2
-R Documentation
++---------+-------------------+
+| Aids2   | R Documentation   |
++---------+-------------------+
+
 Australian AIDS Survival Data
 -----------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data on patients diagnosed with AIDS in Australia before 1 July
-1991.
+Data on patients diagnosed with AIDS in Australia before 1 July 1991.
 
 Usage
 ~~~~~
@@ -43,23 +44,20 @@ This data frame contains 2843 rows and the following columns:
 ``age``
     Age (years) at diagnosis.
 
-
 Note
 ~~~~
 
-This data set has been slightly jittered as a condition of its
-release, to ensure patient confidentiality.
+This data set has been slightly jittered as a condition of its release,
+to ensure patient confidentiality.
 
 Source
 ~~~~~~
 
-Dr P. J. Solomon and the Australian National Centre in HIV
-Epidemiology and Clinical Research.
+Dr P. J. Solomon and the Australian National Centre in HIV Epidemiology
+and Clinical Research.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.

@@ -1,12 +1,11 @@
-MatchIt.url
-R Documentation
++---------------+-------------------+
+| MatchIt.url   | R Documentation   |
++---------------+-------------------+
+
 Table of links for Zelig
 ------------------------
 
 Description
 ~~~~~~~~~~~
 
-Table of linds for ``help.zelig`` for the companion MatchIt
-package.
-
-
+Table of linds for ``help.zelig`` for the companion MatchIt package.

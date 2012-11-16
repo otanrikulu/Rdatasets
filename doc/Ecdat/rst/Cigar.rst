@@ -1,5 +1,7 @@
-Cigar
-R Documentation
++---------+-------------------+
+| Cigar   | R Documentation   |
++---------+-------------------+
+
 Cigarette Consumption
 ---------------------
 
@@ -53,24 +55,22 @@ sales
 pimin
     minimum price in adjoining states per pack of cigarettes
 
-
 Source
 ~~~~~~
 
-Baltagi, B.H. and D. Levin (1992) “Cigarette taxation: raising
-revenues and reducing consumption”,
-*Structural Changes and Economic Dynamics*, **3**, 321–335.
+Baltagi, B.H. and D. Levin (1992) “Cigarette taxation: raising revenues
+and reducing consumption”, *Structural Changes and Economic Dynamics*,
+**3**, 321–335.
 
-Baltagi, B.H., J.M. Griffin and W. Xiong (2000) “To pool or not to
-pool: homogeneous versus heterogeneous estimators applied to
-cigarette demand”, *Review of Economics and Statistics*, **82**,
-117–126.
+Baltagi, B.H., J.M. Griffin and W. Xiong (2000) “To pool or not to pool:
+homogeneous versus heterogeneous estimators applied to cigarette
+demand”, *Review of Economics and Statistics*, **82**, 117–126.
 
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John
-Wiley and sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
+and sons,
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_.
 
 See Also
@@ -80,5 +80,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

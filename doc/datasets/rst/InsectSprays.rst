@@ -1,13 +1,15 @@
-InsectSprays
-R Documentation
++----------------+-------------------+
+| InsectSprays   | R Documentation   |
++----------------+-------------------+
+
 Effectiveness of Insect Sprays
 ------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The counts of insects in agricultural experimental units treated
-with different insecticides.
+The counts of insects in agricultural experimental units treated with
+different insecticides.
 
 Usage
 ~~~~~
@@ -21,19 +23,17 @@ Format
 
 A data frame with 72 observations on 2 variables.
 
-[,1]
-count
-numeric
-Insect count
-[,2]
-spray
-factor
-The type of spray
++--------+---------+-----------+---------------------+
+| [,1]   | count   | numeric   | Insect count        |
++--------+---------+-----------+---------------------+
+| [,2]   | spray   | factor    | The type of spray   |
++--------+---------+-----------+---------------------+
+
 Source
 ~~~~~~
 
-Beall, G., (1942) The Transformation of data from entomological
-field experiments, *Biometrika*, **29**, 243–262.
+Beall, G., (1942) The Transformation of data from entomological field
+experiments, *Biometrika*, **29**, 243–262.
 
 References
 ~~~~~~~~~~
@@ -57,5 +57,4 @@ Examples
     summary(fm2)
     plot(fm2)
     par(opar)
-
 

@@ -1,5 +1,7 @@
-Mofa
-R Documentation
++--------+-------------------+
+| Mofa   | R Documentation   |
++--------+-------------------+
+
 International Expansion of U.S. Mofa's (majority–owned Foreign Affiliates in Fire (finance, Insurance and Real Estate)
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -27,10 +29,9 @@ Format
 A dataframe containing :
 
 capexp
-    capital expenditures made by the MOFA's of nonbank U.S.
-    corporations in finance, insurance and real estate. Source: "U.S.
-    Direct Investment Abroad: 1982 Benchmark Survey data." Table III.C
-    6.
+    capital expenditures made by the MOFA's of nonbank U.S. corporations
+    in finance, insurance and real estate. Source: "U.S. Direct
+    Investment Abroad: 1982 Benchmark Survey data." Table III.C 6.
 
 gdp
     gross pomestic product. Source: "World Bank, World Development
@@ -40,8 +41,8 @@ gdp
 sales
     sales made by the majority owned foreign affiliates of nonbank U.S.
     parents in finance, insurance and real estate. Source: "U.S. Direct
-    Investment Abroad: 1982 Benchmark Survey Data." Table III.D 3.
-    (This variable is scaled by a factor of 1/100)
+    Investment Abroad: 1982 Benchmark Survey Data." Table III.D 3. (This
+    variable is scaled by a factor of 1/100)
 
 nbaf
     the number of U.S. affiliates in the host country. Source: "U.S.
@@ -54,14 +55,12 @@ netinc
     "U.S. Direct Investment Abroad: 1982 Benchmark Survey Data." Table
     III.D 6.(This variable is scaled by a factor of 1/10)
 
-
 Source
 ~~~~~~
 
 Ioannatos, Petros E. (1995) “Censored regression estimation under
-unobserved heterogeneity : a stochastic parameter approach”,
-*Journal of Business and Economics Statistics*, **13(3)**, july,
-327–335.
+unobserved heterogeneity : a stochastic parameter approach”, *Journal of
+Business and Economics Statistics*, **13(3)**, july, 327–335.
 
 References
 ~~~~~~~~~~
@@ -74,5 +73,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

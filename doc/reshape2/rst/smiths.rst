@@ -1,5 +1,7 @@
-smiths
-R Documentation
++----------+-------------------+
+| smiths   | R Documentation   |
++----------+-------------------+
+
 Demo data describing the Smiths.
 --------------------------------
 
@@ -13,5 +15,3 @@ Format
 ~~~~~~
 
 A data frame with 2 rows and 5 variables
-
-

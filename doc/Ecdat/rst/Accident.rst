@@ -1,5 +1,7 @@
-Accident
-R Documentation
++------------+-------------------+
+| Accident   | R Documentation   |
++------------+-------------------+
+
 Ship Accidents
 --------------
 
@@ -37,12 +39,11 @@ months
 acc
     accidents
 
-
 Source
 ~~~~~~
 
-McCullagh, P. and J. Nelder (1983) *Generalized linear methods*,
-New York:Chapman and Hall.
+McCullagh, P. and J. Nelder (1983) *Generalized linear methods*, New
+York:Chapman and Hall.
 
 References
 ~~~~~~~~~~
@@ -56,5 +57,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

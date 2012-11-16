@@ -1,5 +1,7 @@
-BudgetUK
-R Documentation
++------------+-------------------+
+| BudgetUK   | R Documentation   |
++------------+-------------------+
+
 Budget Shares of British Households
 -----------------------------------
 
@@ -58,13 +60,12 @@ age
 children
     number of children
 
-
 Source
 ~~~~~~
 
 Blundell, Richard, Alan Duncan and Krishna Pendakur (1998)
-“Semiparametric estimation and consumer demand”,
-*Journal of Applied Econometrics*, **13(5)**, 435–462.
+“Semiparametric estimation and consumer demand”, *Journal of Applied
+Econometrics*, **13(5)**, 435–462.
 
 References
 ~~~~~~~~~~
@@ -77,5 +78,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

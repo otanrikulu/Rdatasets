@@ -1,14 +1,16 @@
-UN
-R Documentation
++------+-------------------+
+| UN   | R Documentation   |
++------+-------------------+
+
 GDP and Infant Mortality
 ------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``UN`` data frame has 207 rows and 2 columns. The data are for
-1998 and are from the United Nations; the observations are nations
-of the world. There are some missing data.
+The ``UN`` data frame has 207 rows and 2 columns. The data are for 1998
+and are from the United Nations; the observations are nations of the
+world. There are some missing data.
 
 Usage
 ~~~~~
@@ -28,7 +30,6 @@ infant.mortality
 gdp
     GDP per capita, in U.S.~dollars.
 
-
 Source
 ~~~~~~
 
@@ -38,11 +39,8 @@ United Nations (1998) Social indicators.
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
-
-
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.

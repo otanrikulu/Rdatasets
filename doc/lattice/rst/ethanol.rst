@@ -1,5 +1,7 @@
-H\_ethanol
-R Documentation
++--------------+-------------------+
+| H\_ethanol   | R Documentation   |
++--------------+-------------------+
+
 Engine exhaust fumes from burning ethanol
 -----------------------------------------
 
@@ -7,8 +9,8 @@ Description
 ~~~~~~~~~~~
 
 Ethanol fuel was burned in a single-cylinder engine. For various
-settings of the engine compression and equivalence ratio, the
-emissions of nitrogen oxides were recorded.
+settings of the engine compression and equivalence ratio, the emissions
+of nitrogen oxides were recorded.
 
 Usage
 ~~~~~
@@ -32,7 +34,6 @@ E
     Equivalence ratio–a measure of the richness of the air and ethanol
     fuel mixture.
 
-
 Author(s)
 ~~~~~~~~~
 
@@ -41,15 +42,14 @@ Documentation contributed by Kevin Wright.
 Source
 ~~~~~~
 
-Brinkman, N.D. (1981) Ethanol Fuel—A Single-Cylinder Engine Study
-of Efficiency and Exhaust Emissions. *SAE transactions*, **90**,
-1410–1424.
+Brinkman, N.D. (1981) Ethanol Fuel—A Single-Cylinder Engine Study of
+Efficiency and Exhaust Emissions. *SAE transactions*, **90**, 1410–1424.
 
 References
 ~~~~~~~~~~
 
-Cleveland, William S. (1993) *Visualizing Data*. Hobart Press,
-Summit, New Jersey.
+Cleveland, William S. (1993) *Visualizing Data*. Hobart Press, Summit,
+New Jersey.
 
 Examples
 ~~~~~~~~
@@ -67,7 +67,7 @@ Examples
                panel.loess(x,y, span=1)
            },
            aspect = "xy")
-    
+
     # Wireframe loess surface fit.  See Figure 4.61 from Cleveland.
     require(stats)
     with(ethanol, {
@@ -83,5 +83,4 @@ Examples
             distance = .1,
             xlab = "C", ylab = "E", zlab = "NOx")
     })
-
 

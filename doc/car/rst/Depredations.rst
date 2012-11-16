@@ -1,5 +1,7 @@
-Depredations
-R Documentation
++----------------+-------------------+
+| Depredations   | R Documentation   |
++----------------+-------------------+
+
 Minnesota Wolf Depredation Data
 -------------------------------
 
@@ -35,17 +37,14 @@ A data frame with 434 observations on the following 5 variables.
 ``late``
     number of depredations 1992 or later
 
-
 References
 ~~~~~~~~~~
 
-Fox, J. and Weisberg, S. (2011)
-*An R Companion to Applied Regression*, Second Edition, Sage.
+Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
+Second Edition, Sage.
 
 Harper, Elizabeth K. and Paul, William J. and Mech, L. David and
 Weisberg, Sanford (2008), Effectiveness of Lethal, Directed
-Wolf-Depredation Control in Minnesota,
-*Journal of Wildlife Management*, 72, 3, 778-784.
+Wolf-Depredation Control in Minnesota, *Journal of Wildlife Management*,
+72, 3, 778-784.
 `http://pinnacle.allenpress.com/doi/abs/10.2193/2007-273 <http://pinnacle.allenpress.com/doi/abs/10.2193/2007-273>`_
-
-

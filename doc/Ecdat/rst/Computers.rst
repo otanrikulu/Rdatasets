@@ -1,5 +1,7 @@
-Computers
-R Documentation
++-------------+-------------------+
+| Computers   | R Documentation   |
++-------------+-------------------+
+
 Prices of Personal Computers
 ----------------------------
 
@@ -57,14 +59,12 @@ trend
     time trend indicating month starting from January of 1993 to
     November of 1995.
 
-
 Source
 ~~~~~~
 
-Stengos, T. and E. Zacharias (2005) “Intertemporal pricing and
-price discrimination : a semiparametric hedonic analysis of the
-personal computer market”, *Journal of Applied Econometrics*,
-**forthcoming**.
+Stengos, T. and E. Zacharias (2005) “Intertemporal pricing and price
+discrimination : a semiparametric hedonic analysis of the personal
+computer market”, *Journal of Applied Econometrics*, **forthcoming**.
 
 References
 ~~~~~~~~~~
@@ -77,5 +77,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

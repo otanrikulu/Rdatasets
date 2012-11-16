@@ -1,5 +1,7 @@
-Kakadu
-R Documentation
++----------+-------------------+
+| Kakadu   | R Documentation   |
++----------+-------------------+
+
 Willingness to Pay for the Preservation of the Kakadu National Park
 -------------------------------------------------------------------
 
@@ -27,8 +29,7 @@ Format
 A dataframe containing :
 
 lower
-    lowerbound of willingness to pay, 0 if observation is left
-    censored
+    lowerbound of willingness to pay, 0 if observation is left censored
 
 upper
     upper bound of willingness to pay, 999 if observation is right
@@ -36,25 +37,25 @@ upper
 
 answer
     an ordered factor with levels nn (respondent answers no, no), ny
-    (respondent answers no, yes or yes, no), yy (respondent answers
-    yes, yes)
+    (respondent answers no, yes or yes, no), yy (respondent answers yes,
+    yes)
 
 recparks
     the greatest value of national parks and nature reserves is in
     recreation activities (from 1 to 5)
 
 jobs
-    jobs are the most important thing in deciding how to use our
-    natural ressources (from 1 to 5)
+    jobs are the most important thing in deciding how to use our natural
+    ressources (from 1 to 5)
 
 lowrisk
     development should be allowed to proceed where environmental damage
-    from activities such as mining is possible but very unlikely (from
-    1 to 5)
+    from activities such as mining is possible but very unlikely (from 1
+    to 5)
 
 wildlife
-    it's important to have places where wildlife is preserved (from 1
-    to 5)
+    it's important to have places where wildlife is preserved (from 1 to
+    5)
 
 future
     it's important to consider future generations (from 1 to 5)
@@ -70,13 +71,13 @@ finben
     benefits for Australia (from 1 to 5)
 
 mineparks
-    if areas within natural parks are set aside for development
-    projects such as mining, the value of the parks is greatly reduced
-    (from 1 to 5)
+    if areas within natural parks are set aside for development projects
+    such as mining, the value of the parks is greatly reduced (from 1 to
+    5)
 
 moreparks
-    there should be more national parks created from state forests
-    (from 1 to 5)
+    there should be more national parks created from state forests (from
+    1 to 5)
 
 gov
     the government pays little attention to the people in making
@@ -84,16 +85,15 @@ gov
 
 envcon
     the respondent recycles things such as paper or glass and regularly
-    buys unbleached toilet paper or environmentally friendly products
-    ?
+    buys unbleached toilet paper or environmentally friendly products ?
 
 vparks
     the respondent has visited a national park or bushland recreation
     area in the previous 12 months ?
 
 tvenv
-    the respondent watchs tv programs about the environment ? (from 1
-    to 9)
+    the respondent watchs tv programs about the environment ? (from 1 to
+    9)
 
 conservation
     the respondent is member of a conservation organization ?
@@ -114,14 +114,12 @@ major
     the respondent received the major–impact scenario of the Kakadu
     conservation zone survey ?
 
-
 Source
 ~~~~~~
 
 Werner, Megan (1999) “Allowing for zeros in dichotomous–choice
-contingent–valuation models”,
-*Journal of Business and Economic Statistics*, **17(4)**, october,
-479–486.
+contingent–valuation models”, *Journal of Business and Economic
+Statistics*, **17(4)**, october, 479–486.
 
 References
 ~~~~~~~~~~
@@ -134,5 +132,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

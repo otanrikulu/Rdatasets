@@ -1,5 +1,7 @@
-Housing
-R Documentation
++-----------+-------------------+
+| Housing   | R Documentation   |
++-----------+-------------------+
+
 Sales Prices of Houses in the City of Windsor
 ---------------------------------------------
 
@@ -62,19 +64,18 @@ garagepl
 prefarea
     is the house located in the preferred neighbourhood of the city ?
 
-
 Source
 ~~~~~~
 
 Anglin, P.M. and R. Gencay (1996) “Semiparametric estimation of a
-hedonic price function”, *Journal of Applied Econometrics*,
-**11(6)**, 633-648.
+hedonic price function”, *Journal of Applied Econometrics*, **11(6)**,
+633-648.
 
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 3.
 
@@ -86,5 +87,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

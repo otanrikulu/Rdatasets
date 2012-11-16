@@ -1,5 +1,7 @@
-helicopter
-R Documentation
++--------------+-------------------+
+| helicopter   | R Documentation   |
++--------------+-------------------+
+
 Helicopter Data
 ---------------
 
@@ -9,9 +11,9 @@ Description
 The ``helicopter`` data frame has 9 rows and 6 columns.
 
 Experimental design for studying the influences of the factors wing
-length and wing width on a paper helicopter's flight time. The goal
-is to find the factor setting that maximizes flight time when the
-paper helicopter is dropped from a fixed height of 15.5 feet
+length and wing width on a paper helicopter's flight time. The goal is
+to find the factor setting that maximizes flight time when the paper
+helicopter is dropped from a fixed height of 15.5 feet
 
 Usage
 ~~~~~
@@ -43,7 +45,6 @@ A data frame with 9 observations on the following 6 variables:
 ``Time``
     flight time in seconds.
 
-
 Source
 ~~~~~~
 
@@ -56,8 +57,8 @@ statistical and engineering knowledge. *The American Statistician*,
 References
 ~~~~~~~~~~
 
-Box, G. E. P. (1992) Teaching engineers experimental design with a
-paper helicopter. *Quality Engineering*, **4**, 453–459.
+Box, G. E. P. (1992) Teaching engineers experimental design with a paper
+helicopter. *Quality Engineering*, **4**, 453–459.
 
 Examples
 ~~~~~~~~
@@ -77,5 +78,4 @@ Examples
     #
     heli.nlreg <- nlreg( Y ~ b0 + b1 * log( b2^2 / LW + LW ), data = heli, 
                         start = c( b0 = 6, b1 = -1, b2 = 20 ) )
-
 

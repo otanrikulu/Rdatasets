@@ -1,5 +1,7 @@
-VietNamI
-R Documentation
++------------+-------------------+
+| VietNamI   | R Documentation   |
++------------+-------------------+
+
 Medical Expenses in Viet–nam (individual Level)
 -----------------------------------------------
 
@@ -62,7 +64,6 @@ insurance
 commune
     commune
 
-
 Source
 ~~~~~~
 
@@ -71,14 +72,11 @@ Vietnam World Bank Livings Standards Survey.
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge,
-pp.848–853.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp.848–853.
 
 See Also
 ~~~~~~~~
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

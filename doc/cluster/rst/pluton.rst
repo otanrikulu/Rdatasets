@@ -1,5 +1,7 @@
-pluton
-R Documentation
++----------+-------------------+
+| pluton   | R Documentation   |
++----------+-------------------+
+
 Isotopic Composition Plutonium Batches
 --------------------------------------
 
@@ -34,12 +36,11 @@ Pu240
 Pu241
     percentage of the plutonium 241 isotope.
 
-
 Details
 ~~~~~~~
 
-Note that the percentage of plutonium~242 can be computed from the
-other four percentages, see the examples.
+Note that the percentage of plutonium~242 can be computed from the other
+four percentages, see the examples.
 
 In the reference below it is explained why it is very desirable to
 combine these plutonium patches in three groups of similar size.
@@ -53,9 +54,9 @@ Available as ‘pluton.dat’ from the archive currently
 References
 ~~~~~~~~~~
 
-Rousseeuw, P.J. and Kaufman, L and Trauwaert, E. (1996) Fuzzy
-clustering using scatter matrices,
-*Computational Statistics and Data Analysis* **23**(1), 135–151.
+Rousseeuw, P.J. and Kaufman, L and Trauwaert, E. (1996) Fuzzy clustering
+using scatter matrices, *Computational Statistics and Data Analysis*
+**23**(1), 135–151.
 
 Examples
 ~~~~~~~~
@@ -63,10 +64,9 @@ Examples
 ::
 
     data(pluton)
-    
+
     hist(apply(pluton,1,sum), col = "gray") # between 94% and 100%
     pu5 <- pluton
     pu5$Pu242 <- 100 - apply(pluton,1,sum) # the remaining isotope.
     pairs(pu5)
-
 

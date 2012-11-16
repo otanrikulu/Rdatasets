@@ -1,5 +1,7 @@
-admit
-R Documentation
++---------+-------------------+
+| admit   | R Documentation   |
++---------+-------------------+
+
 Applications to a Political Science PhD Program
 -----------------------------------------------
 
@@ -22,8 +24,7 @@ Format
 A data frame with 106 observations on the following 6 variables.
 
 ``score``
-    an ordered factor with levels ``1`` < ``2`` < ``3`` < ``4`` <
-    ``5``
+    an ordered factor with levels ``1`` < ``2`` < ``3`` < ``4`` < ``5``
 
 ``gre.quant``
     applicant's score on the quantitative section of the GRE; the
@@ -44,14 +45,13 @@ A data frame with 106 observations on the following 6 variables.
 ``female``
     1 for female applicants; 0 otherwise
 
-
 References
 ~~~~~~~~~~
 
 Jackman, Simon. 2004. "What Do We Learn From Graduate Admissions
-Committees?: A Multiple-Rater, Latent Variable Model, with
-Incomplete Discrete and Continuous Indicators."
-*Political Analysis*. 12(4):400-424.
+Committees?: A Multiple-Rater, Latent Variable Model, with Incomplete
+Discrete and Continuous Indicators." *Political Analysis*.
+12(4):400-424.
 
 Examples
 ~~~~~~~~
@@ -70,5 +70,4 @@ Examples
     hitmiss(op1)
     logLik(op1)
     pR2(op1)   
-
 

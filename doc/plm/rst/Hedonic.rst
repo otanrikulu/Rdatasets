@@ -1,5 +1,7 @@
-Hedonic
-R Documentation
++-----------+-------------------+
+| Hedonic   | R Documentation   |
++-----------+-------------------+
+
 Hedonic Prices of Census Tracts in the Boston Area
 --------------------------------------------------
 
@@ -72,7 +74,6 @@ lstat
 townid
     town identifier
 
-
 Source
 ~~~~~~
 
@@ -83,16 +84,13 @@ Online complements to Baltagi (2001).
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2001): *Econometric Analysis of Panel Data*, 2nd
-ed., John Wiley and Sons.
+Baltagi, Badi H. (2001): *Econometric Analysis of Panel Data*, 2nd ed.,
+John Wiley and Sons.
 
-Belsley, D.A., E. Kuh and R. E. Welsch (1980):
-*Regression Diagnostics: Identifying Influencial Data and Sources of Collinearity*,
-John Wiley, New York.
+Belsley, D.A., E. Kuh and R. E. Welsch (1980): *Regression Diagnostics:
+Identifying Influencial Data and Sources of Collinearity*, John Wiley,
+New York.
 
-Harrison, D. and D.L. Rubinfeld (1978): “Hedonic housing prices and
-the demand for clean air”,
-*Journal of Environmental Economics and Management*, **5**,
-81–102.
-
-
+Harrison, D. and D.L. Rubinfeld (1978): “Hedonic housing prices and the
+demand for clean air”, *Journal of Environmental Economics and
+Management*, **5**, 81–102.

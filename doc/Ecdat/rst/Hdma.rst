@@ -1,5 +1,7 @@
-Hdma
-R Documentation
++--------+-------------------+
+| Hdma   | R Documentation   |
++--------+-------------------+
+
 The Boston HDMA Data Set
 ------------------------
 
@@ -65,22 +67,20 @@ black
 deny
     mortgage application denied ?
 
-
 Source
 ~~~~~~
 
 Federal Reserve Bank of Boston.
 
-Munnell, Alicia H., Geoffrey M.B. Tootell, Lynne E. Browne and
-James McEneaney (1996) “Mortgage lending in Boston: Interpreting
-HDMA data”, *American Economic Review*, 25-53.
+Munnell, Alicia H., Geoffrey M.B. Tootell, Lynne E. Browne and James
+McEneaney (1996) “Mortgage lending in Boston: Interpreting HDMA data”,
+*American Economic Review*, 25-53.
 
 References
 ~~~~~~~~~~
 
-Stock, James H. and Mark W. Watson (2003)
-*Introduction to Econometrics*, Addison-Wesley Educational
-Publishers,
+Stock, James H. and Mark W. Watson (2003) *Introduction to
+Econometrics*, Addison-Wesley Educational Publishers,
 `http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
 chapter 9.
 
@@ -89,5 +89,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

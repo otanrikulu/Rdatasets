@@ -1,13 +1,15 @@
-economics
-R Documentation
++-------------+-------------------+
+| economics   | R Documentation   |
++-------------+-------------------+
+
 US economic time series.
 ------------------------
 
 Description
 ~~~~~~~~~~~
 
-This dataset was produced from US economic time series data
-available from
+This dataset was produced from US economic time series data available
+from
 `http://research.stlouisfed.org/fred2 <http://research.stlouisfed.org/fred2>`_.
 
 Format
@@ -17,7 +19,6 @@ A data frame with 478 rows and 6 variables
 
 Details
 ~~~~~~~
-
 
 -  date. Month of data collection
 
@@ -35,6 +36,5 @@ Details
 
 -  pop, total population, in thousands,
    `http://research.stlouisfed.org/fred2/series/POP <http://research.stlouisfed.org/fred2/series/POP>`_
-
 
 

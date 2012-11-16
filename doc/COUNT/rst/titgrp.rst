@@ -1,13 +1,15 @@
-titgrp
-R Documentation
++----------+-------------------+
+| titgrp   | R Documentation   |
++----------+-------------------+
+
 titgrp
 ------
 
 Description
 ~~~~~~~~~~~
 
-The data is a grouped version of the 1912 Titanic passenger
-survival log, with individual observations reduced to 12 cases.
+The data is a grouped version of the 1912 Titanic passenger survival
+log, with individual observations reduced to 12 cases.
 
 Usage
 ~~~~~
@@ -36,7 +38,6 @@ A data frame with 12 observations on the following 5 variables.
 ``class``
     ticket class 1= 1st class; 2= second class; 3= third class
 
-
 Details
 ~~~~~~~
 
@@ -51,9 +52,9 @@ Observation level data Found in many other texts
 References
 ~~~~~~~~~~
 
-Hilbe, Joseph M (2007, 2011), Negative Binomial Regression,
-Cambridge University Press Hilbe, Joseph M (2009), Logistic
-Regression Models, Chapman & Hall/CRC
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
+University Press Hilbe, Joseph M (2009), Logistic Regression Models,
+Chapman & Hall/CRC
 
 Examples
 ~~~~~~~~
@@ -68,5 +69,4 @@ Examples
     glmtgnb <- glm.nb(survive ~ age + sex + factor(class) + offset(log(cases)), data=titgrp)
     summary(glmtgnb)
     exp(coef(glmtgnb))
-
 

@@ -1,5 +1,7 @@
-PatentsHGH
-R Documentation
++--------------+-------------------+
+| PatentsHGH   | R Documentation   |
++--------------+-------------------+
+
 Dynamic Relation Between Patents and R\\&D
 ------------------------------------------
 
@@ -84,25 +86,22 @@ pat3
 pat4
     the number of patents (four years lag)
 
-
 Source
 ~~~~~~
 
-Hall, Bronwyn , Zvi Griliches and Jerry Hausman (1986) “Patents and
-R&D: Is There a Lag?”, *International Economic Review*, **27**,
-265-283.
+Hall, Bronwyn , Zvi Griliches and Jerry Hausman (1986) “Patents and R&D:
+Is There a Lag?”, *International Economic Review*, **27**, 265-283.
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and Trivedi P.K. (1998)
-*Regression analysis of count data*, Cambridge University Press,
+Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
+data*, Cambridge University Press,
 `http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`_,
 chapter 9.
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge, pp.
-792–5.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge, pp. 792–5.
 
 See Also
 ~~~~~~~~
@@ -111,5 +110,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

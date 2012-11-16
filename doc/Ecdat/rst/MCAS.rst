@@ -1,5 +1,7 @@
-MCAS
-R Documentation
++--------+-------------------+
+| MCAS   | R Documentation   |
++--------+-------------------+
+
 The Massashusets Test Score Data Set
 ------------------------------------
 
@@ -77,7 +79,6 @@ avgsalary
 pctel
     percent english learnersh
 
-
 Source
 ~~~~~~
 
@@ -87,9 +88,8 @@ Department of Education, 1990 U.S. Census.
 References
 ~~~~~~~~~~
 
-Stock, James H. and Mark W. Watson (2003)
-*Introduction to Econometrics*, Addison-Wesley Educational
-Publishers,
+Stock, James H. and Mark W. Watson (2003) *Introduction to
+Econometrics*, Addison-Wesley Educational Publishers,
 `http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
 chapter 7.
 
@@ -98,5 +98,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

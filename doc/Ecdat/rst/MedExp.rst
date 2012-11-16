@@ -1,5 +1,7 @@
-MedExp
-R Documentation
++----------+-------------------+
+| MedExp   | R Documentation   |
++----------+-------------------+
+
 Structure of Demand for Medical Care
 ------------------------------------
 
@@ -24,8 +26,8 @@ Format
 A time serie containing :
 
 med
-    annual medical expenditures in constant dollars excluding dental
-    and outpatient mental
+    annual medical expenditures in constant dollars excluding dental and
+    outpatient mental
 
 lc
     log(coinsrate+1) where coinsurance rate is 0 to 100
@@ -70,19 +72,18 @@ child
 black
     is household head black ?
 
-
 Source
 ~~~~~~
 
-Deb, P. and P.K. Trivedi (2002) “The Structure of Demand for
-Medical Care: Latent Class versus Two-Part Models”,
-*Journal of Health Economics*, **21**, 601–625.
+Deb, P. and P.K. Trivedi (2002) “The Structure of Demand for Medical
+Care: Latent Class versus Two-Part Models”, *Journal of Health
+Economics*, **21**, 601–625.
 
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and P.K. Trivedi (2005)
-*Microeconometrics : methods and applications*, Cambridge.
+Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
+applications*, Cambridge.
 
 See Also
 ~~~~~~~~
@@ -91,5 +92,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

@@ -1,5 +1,7 @@
-Hedonic
-R Documentation
++-----------+-------------------+
+| Hedonic   | R Documentation   |
++-----------+-------------------+
+
 Hedonic Prices of Cencus Tracts in Boston
 -----------------------------------------
 
@@ -72,24 +74,22 @@ lstat
 townid
     town identifier
 
-
 Source
 ~~~~~~
 
-Harrison, D. and D.L. Rubinfeld (1978) “Hedonic housing prices and
-the demand for clean air”,
-*Journal of Environmental Economics Ans Management*, **5**,
-81–102.
+Harrison, D. and D.L. Rubinfeld (1978) “Hedonic housing prices and the
+demand for clean air”, *Journal of Environmental Economics Ans
+Management*, **5**, 81–102.
 
-Belsley, D.A., E. Kuh and R. E. Welsch (1980)
-*Regression diagnostics: identifying influencal data ans sources of collinearity*,
-John Wiley, New–York.
+Belsley, D.A., E. Kuh and R. E. Welsch (1980) *Regression diagnostics:
+identifying influencal data ans sources of collinearity*, John Wiley,
+New–York.
 
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John
-Wiley and sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
+and sons,
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_.
 
 See Also
@@ -97,5 +97,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

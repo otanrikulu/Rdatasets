@@ -1,5 +1,7 @@
-Lifeboats
-R Documentation
++-------------+-------------------+
+| Lifeboats   | R Documentation   |
++-------------+-------------------+
+
 Lifeboats on the Titanic
 ------------------------
 
@@ -45,7 +47,6 @@ total
 cap
     capacity of the boat.
 
-
 Source
 ~~~~~~
 
@@ -58,8 +59,8 @@ References
 L. Mersey (1912), Report on the loss of the “Titanic” (S. S.).
 Parliamentary command paper 6452.
 
-M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute,
-Cary, NC.
+M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute, Cary,
+NC.
 
 Examples
 ~~~~~~~~
@@ -80,5 +81,4 @@ Examples
     grid_legend(0.8, 0.9, c(1, 19), c("red", "blue"),
       c("Port", "Starboard"), title = "SIDE")
     detach(Lifeboats)
-
 

@@ -1,5 +1,7 @@
-Rubber
-R Documentation
++----------+-------------------+
+| Rubber   | R Documentation   |
++----------+-------------------+
+
 Accelerated Testing of Tyre Rubber
 ----------------------------------
 
@@ -27,22 +29,17 @@ Format
 ``tens``
     tensile strength in kg/sq m.
 
-
 Source
 ~~~~~~
 
-O.L. Davies (1947)
-*Statistical Methods in Research and Production.* Oliver and Boyd,
-Table 6.1 p. 119.
+O.L. Davies (1947) *Statistical Methods in Research and Production.*
+Oliver and Boyd, Table 6.1 p. 119.
 
-O.L. Davies and P.L. Goldsmith (1972)
-*Statistical Methods in Research and Production.* 4th edition,
-Longmans, Table 8.1 p. 239.
+O.L. Davies and P.L. Goldsmith (1972) *Statistical Methods in Research
+and Production.* 4th edition, Longmans, Table 8.1 p. 239.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (1999)
-*Modern Applied Statistics with S-PLUS.* Third Edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (1999) *Modern Applied Statistics with
+S-PLUS.* Third Edition. Springer.

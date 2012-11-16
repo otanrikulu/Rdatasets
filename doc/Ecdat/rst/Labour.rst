@@ -1,5 +1,7 @@
-Labour
-R Documentation
++----------+-------------------+
+| Labour   | R Documentation   |
++----------+-------------------+
+
 Belgian Firms
 -------------
 
@@ -38,12 +40,11 @@ output
 wage
     wage costs per worker (in 1000 euro)
 
-
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 4.
 
@@ -52,5 +53,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

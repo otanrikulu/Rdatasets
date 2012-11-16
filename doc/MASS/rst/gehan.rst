@@ -1,15 +1,17 @@
-gehan
-R Documentation
++---------+-------------------+
+| gehan   | R Documentation   |
++---------+-------------------+
+
 Remission Times of Leukaemia Patients
 -------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-A data frame from a trial of 42 leukaemia patients. Some were
-treated with the drug *6-mercaptopurine* and the rest are controls.
-The trial was designed as matched pairs, both withdrawn from the
-trial when either came out of remission.
+A data frame from a trial of 42 leukaemia patients. Some were treated
+with the drug *6-mercaptopurine* and the rest are controls. The trial
+was designed as matched pairs, both withdrawn from the trial when either
+came out of remission.
 
 Usage
 ~~~~~
@@ -35,21 +37,20 @@ This data frame contains the following columns:
 ``treat``
     treatment, control or 6-MP.
 
-
 Source
 ~~~~~~
 
-Cox, D. R. and Oakes, D. (1984) *Analysis of Survival Data.*
-Chapman & Hall, p. 7. Taken from
+Cox, D. R. and Oakes, D. (1984) *Analysis of Survival Data.* Chapman &
+Hall, p. 7. Taken from
 
-Gehan, E.A. (1965) A generalized Wilcoxon test for comparing
-arbitrarily single-censored samples. *Biometrika* **52**, 203–233.
+Gehan, E.A. (1965) A generalized Wilcoxon test for comparing arbitrarily
+single-censored samples. *Biometrika* **52**, 203–233.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.
 
 Examples
 ~~~~~~~~
@@ -65,5 +66,4 @@ Examples
     summary(survreg(Surv(time, cens) ~ treat, gehan))
     gehan.cox <- coxph(Surv(time, cens) ~ treat, gehan)
     summary(gehan.cox)
-
 

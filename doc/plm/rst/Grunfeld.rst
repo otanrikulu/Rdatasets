@@ -1,5 +1,7 @@
-Grunfeld
-R Documentation
++------------+-------------------+
+| Grunfeld   | R Documentation   |
++------------+-------------------+
+
 Grunfeld's Investment Data
 --------------------------
 
@@ -41,7 +43,6 @@ value
 capital
     stock of plant and equipment
 
-
 Source
 ~~~~~~
 
@@ -52,13 +53,11 @@ Online complements to Baltagi (2001).
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2001) *Econometric Analysis of Panel Data*, 2nd
-ed., John Wiley and Sons.
+Baltagi, Badi H. (2001) *Econometric Analysis of Panel Data*, 2nd ed.,
+John Wiley and Sons.
 
 See Also
 ~~~~~~~~
 
 For the complete Grunfeld data (11 firms), see ``Grunfeld``, in the
 ``AER`` package.
-
-

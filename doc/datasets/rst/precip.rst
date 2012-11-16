@@ -1,13 +1,15 @@
-precip
-R Documentation
++----------+-------------------+
+| precip   | R Documentation   |
++----------+-------------------+
+
 Annual Precipitation in US Cities
 ---------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The average amount of precipitation (rainfall) in inches for each
-of 70 United States (and Puerto Rico) cities.
+The average amount of precipitation (rainfall) in inches for each of 70
+United States (and Puerto Rico) cities.
 
 Usage
 ~~~~~
@@ -39,5 +41,4 @@ Examples
     require(graphics)
     dotchart(precip[order(precip)], main = "precip data")
     title(sub = "Average annual precipitation (in.)")
-
 

@@ -1,5 +1,7 @@
-Garch
-R Documentation
++---------+-------------------+
+| Garch   | R Documentation   |
++---------+-------------------+
+
 Daily Observations on Exchange Rates of the US Dollar Against Other Currencies
 ------------------------------------------------------------------------------
 
@@ -50,12 +52,11 @@ dy
 sf
     exchange rate of Dollar/Swiss Franc
 
-
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 8.
 
@@ -66,5 +67,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

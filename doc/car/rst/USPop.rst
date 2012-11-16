@@ -1,13 +1,15 @@
-USPop
-R Documentation
++---------+-------------------+
+| USPop   | R Documentation   |
++---------+-------------------+
+
 Population of the United States
 -------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``USPop`` data frame has 22 rows and 1 columns. This is a
-decennial time-series, from 1790 to 2000.
+The ``USPop`` data frame has 22 rows and 1 columns. This is a decennial
+time-series, from 1790 to 2000.
 
 Usage
 ~~~~~
@@ -27,7 +29,6 @@ year
 population
     Population in millions.
 
-
 Source
 ~~~~~~
 
@@ -38,8 +39,5 @@ downloaded 1 May 2008.
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

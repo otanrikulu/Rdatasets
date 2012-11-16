@@ -1,5 +1,7 @@
-steam
-R Documentation
++---------+-------------------+
+| steam   | R Documentation   |
++---------+-------------------+
+
 The Saturated Steam Pressure Data
 ---------------------------------
 
@@ -27,17 +29,14 @@ The data frame contains the following components:
 ``Press``
     pressure, in Pascals.
 
-
 Source
 ~~~~~~
 
-N.R. Draper and H. Smith (1981) *Applied Regression Analysis.*
-Wiley, pp. 518–9.
+N.R. Draper and H. Smith (1981) *Applied Regression Analysis.* Wiley,
+pp. 518–9.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (1999)
-*Modern Applied Statistics with S-PLUS.* Third Edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (1999) *Modern Applied Statistics with
+S-PLUS.* Third Edition. Springer.

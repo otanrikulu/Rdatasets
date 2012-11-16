@@ -1,5 +1,7 @@
-Wages
-R Documentation
++---------+-------------------+
+| Wages   | R Documentation   |
++---------+-------------------+
+
 Panel Datas of Individual Wages
 -------------------------------
 
@@ -62,21 +64,20 @@ black
 lwage
     logarithm of wage
 
-
 Source
 ~~~~~~
 
-Cornwell, C. and P. Rupert (1988) “Efficient estimation with panel
-data: an empirical comparison of instrumental variables
-estimators”, *Journal of Applied Econometrics*, **3**, 149–155.
+Cornwell, C. and P. Rupert (1988) “Efficient estimation with panel data:
+an empirical comparison of instrumental variables estimators”, *Journal
+of Applied Econometrics*, **3**, 149–155.
 
 Panel study of income dynamics.
 
 References
 ~~~~~~~~~~
 
-Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John
-Wiley and sons,
+Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
+and sons,
 `http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_.
 
 See Also
@@ -86,5 +87,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

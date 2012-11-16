@@ -1,5 +1,7 @@
-cloth
-R Documentation
++---------+-------------------+
+| cloth   | R Documentation   |
++---------+-------------------+
+
 Number of Flaws in Cloth
 ------------------------
 
@@ -26,7 +28,6 @@ This data frame contains the following columns:
 ``y``
     The number of flaws found in the roll.
 
-
 Source
 ~~~~~~
 
@@ -38,8 +39,5 @@ size. *Biometrika*, **59**, 435–441.
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
-
-
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.

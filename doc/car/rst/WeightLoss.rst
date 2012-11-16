@@ -1,14 +1,16 @@
-WeightLoss
-R Documentation
++--------------+-------------------+
+| WeightLoss   | R Documentation   |
++--------------+-------------------+
+
 Weight Loss Data
 ----------------
 
 Description
 ~~~~~~~~~~~
 
-Contrived data on weight loss and self esteem over three months,
-for three groups of individuals: Control, Diet and Diet + Exercise.
-The data constitute a double-multivariate design.
+Contrived data on weight loss and self esteem over three months, for
+three groups of individuals: Control, Diet and Diet + Exercise. The data
+constitute a double-multivariate design.
 
 Usage
 ~~~~~
@@ -43,12 +45,11 @@ A data frame with 34 observations on the following 7 variables.
 ``se3``
     Self esteem at 3 months
 
-
 Details
 ~~~~~~~
 
-Helmert contrasts are assigned to ``group``, comparing ``Control``
-vs. (``Diet`` ``DietEx``) and ``Diet`` vs. ``DietEx``.
+Helmert contrasts are assigned to ``group``, comparing ``Control`` vs.
+(``Diet`` ``DietEx``) and ``Diet`` vs. ``DietEx``.
 
 Source
 ~~~~~~
@@ -56,5 +57,3 @@ Source
 Originally taken from
 `http://www.csun.edu/~ata20315/psy524/main.htm <http://www.csun.edu/~ata20315/psy524/main.htm>`_,
 but modified slightly. Courtesy of Michael Friendly.
-
-

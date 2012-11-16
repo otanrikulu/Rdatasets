@@ -1,14 +1,16 @@
-immigration
-R Documentation
++---------------+-------------------+
+| immigration   | R Documentation   |
++---------------+-------------------+
+
 Individual Preferences Over Immigration Policy
 ----------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-These five datasets are part of a larger set of 10 multiply imputed
-data sets describing individual preferences toward immigration
-policy. Imputation was performed via Amelia.
+These five datasets are part of a larger set of 10 multiply imputed data
+sets describing individual preferences toward immigration policy.
+Imputation was performed via Amelia.
 
 Format
 ~~~~~~
@@ -26,9 +28,6 @@ National Election Survey
 References
 ~~~~~~~~~~
 
-Scheve, Kenneth and Matthew Slaughter (2001). “Labor Market
-Competition and Individual Preferences Over Immigration Policy,”
-*The Review of Economics and Statistics*, vol. 83, no. 1, pp.
-133-145.
-
-
+Scheve, Kenneth and Matthew Slaughter (2001). “Labor Market Competition
+and Individual Preferences Over Immigration Policy,” *The Review of
+Economics and Statistics*, vol. 83, no. 1, pp. 133-145.

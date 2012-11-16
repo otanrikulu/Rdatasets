@@ -1,5 +1,7 @@
-StrikeNb
-R Documentation
++------------+-------------------+
+| StrikeNb   | R Documentation   |
++------------+-------------------+
+
 Number of Strikes in Us Manufacturing
 -------------------------------------
 
@@ -37,7 +39,6 @@ output
 time
     a time trend from 1 to 108
 
-
 Source
 ~~~~~~
 
@@ -51,8 +52,8 @@ december, 347-364.
 References
 ~~~~~~~~~~
 
-Cameron, A.C. and Trivedi P.K. (1998)
-*Regression analysis of count data*, Cambridge University Press,
+Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
+data*, Cambridge University Press,
 `http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`_,
 chapter 7.
 
@@ -63,5 +64,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

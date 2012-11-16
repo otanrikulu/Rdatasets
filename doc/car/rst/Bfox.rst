@@ -1,13 +1,15 @@
-Bfox
-R Documentation
++--------+-------------------+
+| Bfox   | R Documentation   |
++--------+-------------------+
+
 Canadian Women's Labour-Force Participation
 -------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-The ``Bfox`` data frame has 30 rows and 7 columns. Time-series data
-on Canadian women's labor-force participation, 1946–1975.
+The ``Bfox`` data frame has 30 rows and 7 columns. Time-series data on
+Canadian women's labor-force participation, 1946–1975.
 
 Usage
 ~~~~~
@@ -39,28 +41,21 @@ debt
     Per-capita consumer debt, in constant dollars.
 
 parttime
-    Percent of the active workforce working 34 hours per week or
-    less.
-
+    Percent of the active workforce working 34 hours per week or less.
 
 Warning
 ~~~~~~~
 
-The value of ``tfr`` for 1973 is misrecorded as 2931; it should be
-1931.
+The value of ``tfr`` for 1973 is misrecorded as 2931; it should be 1931.
 
 Source
 ~~~~~~
 
-Fox, B. (1980)
-*Women's Domestic Labour and their Involvement in Wage Work.*
-Unpublished doctoral dissertation, p. 449.
+Fox, B. (1980) *Women's Domestic Labour and their Involvement in Wage
+Work.* Unpublished doctoral dissertation, p. 449.
 
 References
 ~~~~~~~~~~
 
-Fox, J. (2008)
-*Applied Regression Analysis and Generalized Linear Models*, Second
-Edition. Sage.
-
-
+Fox, J. (2008) *Applied Regression Analysis and Generalized Linear
+Models*, Second Edition. Sage.

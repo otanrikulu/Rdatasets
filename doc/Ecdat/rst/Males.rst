@@ -1,5 +1,7 @@
-Males
-R Documentation
++---------+-------------------+
+| Males   | R Documentation   |
++---------+-------------------+
+
 Wages and Education of Young Males
 ----------------------------------
 
@@ -63,21 +65,20 @@ residence
     a factor with levels (rural area, north east, nothern central,
     south)
 
-
 Source
 ~~~~~~
 
 National Longitudinal Survey (NLS Youth Sample).
 
-Vella, F. and M. Verbeek (1998) “Whose wages do unions raise ? A
-dynamic model of unionism and wage”,
-*Journal of Applied Econometrics*, **13**, 163–183.
+Vella, F. and M. Verbeek (1998) “Whose wages do unions raise ? A dynamic
+model of unionism and wage”, *Journal of Applied Econometrics*, **13**,
+163–183.
 
 References
 ~~~~~~~~~~
 
-Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley
-and Sons,
+Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
+Sons,
 `http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
 chapter 10.
 
@@ -91,5 +92,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

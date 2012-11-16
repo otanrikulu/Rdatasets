@@ -1,15 +1,17 @@
-crohn
-R Documentation
++---------+-------------------+
+| crohn   | R Documentation   |
++---------+-------------------+
+
 Crohn's disease data
 --------------------
 
 Description
 ~~~~~~~~~~~
 
-The data set consist of 103 common (>5% minor allele frequency)
-SNPs genotyped in 129 trios from an European-derived population.
-These SNPs are in a 500-kb region on human chromosome 5q31
-implicated as containing a genetic risk factor for Crohn disease.
+The data set consist of 103 common (>5% minor allele frequency) SNPs
+genotyped in 129 trios from an European-derived population. These SNPs
+are in a 500-kb region on human chromosome 5q31 implicated as containing
+a genetic risk factor for Crohn disease.
 
 The positions, names and haplotype blocks reported are as follows,
 
@@ -119,9 +121,9 @@ The positions, names and haplotype blocks reported are as follows,
     877809   GENS020ex3_1   *
     890710   GENS020ex1_1   BLOCK 11
 
-However it has been updated after the paper was published (posted
-on
+However it has been updated after the paper was published (posted on
 `http://www.broad.mit.edu/humgen/IBD5/haplodata.html <http://www.broad.mit.edu/humgen/IBD5/haplodata.html>`_)
+
 Usage
 ~~~~~
 
@@ -138,7 +140,5 @@ Source
 ~~~~~~
 
 MJ Daly, JD Rioux, SF Schaffner, TJ Hudson, ES Lander (2001)
-High-resolution haplotype structure in the human genome Nature
-Genetics 29:229-232
-
-
+High-resolution haplotype structure in the human genome Nature Genetics
+29:229-232

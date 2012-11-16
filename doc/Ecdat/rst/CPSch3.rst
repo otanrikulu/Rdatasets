@@ -1,5 +1,7 @@
-CPSch3
-R Documentation
++----------+-------------------+
+| CPSch3   | R Documentation   |
++----------+-------------------+
+
 Earnings from the Current Population Survey
 -------------------------------------------
 
@@ -35,7 +37,6 @@ ahe
 sex
     a factor with levels (male,female)
 
-
 Source
 ~~~~~~
 
@@ -45,9 +46,8 @@ Bureau of labor statistics, U.S. Departement of Labor
 References
 ~~~~~~~~~~
 
-Stock, James H. and Mark W. Watson (2003)
-*Introduction to Econometrics*, Addison-Wesley Educational
-Publishers,
+Stock, James H. and Mark W. Watson (2003) *Introduction to
+Econometrics*, Addison-Wesley Educational Publishers,
 `http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
 chapter 3.
 
@@ -56,5 +56,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

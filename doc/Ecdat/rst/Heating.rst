@@ -1,5 +1,7 @@
-Heating
-R Documentation
++-----------+-------------------+
+| Heating   | R Documentation   |
++-----------+-------------------+
+
 Heating System Choice in California Houses
 ------------------------------------------
 
@@ -30,8 +32,8 @@ idcase
     id
 
 depvar
-    heating system, one of gc (gas central), gr (gas room), ec
-    (electric central), er (electric room), hp (heat pump)
+    heating system, one of gc (gas central), gr (gas room), ec (electric
+    central), er (electric room), hp (heat pump)
 
 ic.z
     installation cost for heating system z (defined for the 5 heating
@@ -53,7 +55,6 @@ agehed
 rooms
     numbers of rooms in the house
 
-
 References
 ~~~~~~~~~~
 
@@ -65,5 +66,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

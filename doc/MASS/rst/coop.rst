@@ -1,13 +1,15 @@
-coop
-R Documentation
++--------+-------------------+
+| coop   | R Documentation   |
++--------+-------------------+
+
 Co-operative Trial in Analytical Chemistry
 ------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Seven specimens were sent to 6 laboratories in 3 separate batches
-and each analysed for Analyte. Each analysis was duplicated.
+Seven specimens were sent to 6 laboratories in 3 separate batches and
+each analysed for Analyte. Each analysis was duplicated.
 
 Usage
 ~~~~~
@@ -33,23 +35,19 @@ This data frame contains the following columns:
 ``Conc``
     Concentration of Analyte in *g/kg*.
 
-
 Source
 ~~~~~~
 
-Analytical Methods Committee (1987) Recommendations for the conduct
-and interpretation of co-operative trials, *The Analyst* **112**,
-679–686.
+Analytical Methods Committee (1987) Recommendations for the conduct and
+interpretation of co-operative trials, *The Analyst* **112**, 679–686.
 
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (2002)
-*Modern Applied Statistics with S.* Fourth edition. Springer.
+Venables, W. N. and Ripley, B. D. (2002) *Modern Applied Statistics with
+S.* Fourth edition. Springer.
 
 See Also
 ~~~~~~~~
 
 ``chem``, ``abbey``.
-
-

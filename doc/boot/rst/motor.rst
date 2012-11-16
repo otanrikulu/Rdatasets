@@ -1,5 +1,7 @@
-motor
-R Documentation
++---------+-------------------+
+| motor   | R Documentation   |
++---------+-------------------+
+
 Data from a Simulated Motorcycle Accident
 -----------------------------------------
 
@@ -35,32 +37,28 @@ This data frame contains the following columns:
 
 ``v``
     An estimate of the residual variance for the observation. ``v`` is
-    constant within the strata but a different estimate is used for
-    each of the three strata.
-
+    constant within the strata but a different estimate is used for each
+    of the three strata.
 
 Source
 ~~~~~~
 
 The data were obtained from
 
-Silverman, B.W. (1985) Some aspects of the spline smoothing
-approach to non-parametric curve fitting.
-*Journal of the Royal Statistical Society, B*, **47**, 1–52.
+Silverman, B.W. (1985) Some aspects of the spline smoothing approach to
+non-parametric curve fitting. *Journal of the Royal Statistical Society,
+B*, **47**, 1–52.
 
 References
 ~~~~~~~~~~
 
-Davison, A.C. and Hinkley, D.V. (1997)
-*Bootstrap Methods and Their Application*. Cambridge University
-Press.
+Davison, A.C. and Hinkley, D.V. (1997) *Bootstrap Methods and Their
+Application*. Cambridge University Press.
 
-Venables, W.N. and Ripley, B.D. (1994)
-*Modern Applied Statistics with S-Plus*. Springer-Verlag.
+Venables, W.N. and Ripley, B.D. (1994) *Modern Applied Statistics with
+S-Plus*. Springer-Verlag.
 
 See Also
 ~~~~~~~~
 
 ``mcycle``
-
-

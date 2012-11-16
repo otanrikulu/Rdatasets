@@ -1,5 +1,7 @@
-Baseball
-R Documentation
++------------+-------------------+
+| Baseball   | R Documentation   |
++------------+-------------------+
+
 Baseball Data
 -------------
 
@@ -51,8 +53,8 @@ rbi86
     run would have scored anyway).
 
 walks86
-    A “walk” (or “base on balls”) is an award of first base granted to
-    a batter who receives four pitches outside the strike zone.
+    A “walk” (or “base on balls”) is an award of first base granted to a
+    batter who receives four pitches outside the strike zone.
 
 years
     Years in the Major Leagues. Seems to count all years a player has
@@ -106,7 +108,6 @@ league87
 team87
     team in 1987.
 
-
 Source
 ~~~~~~
 
@@ -115,8 +116,8 @@ SAS System for Statistical Graphics, First Edition, page A2.3
 References
 ~~~~~~~~~~
 
-M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute,
-Cary, NC.
+M. Friendly (2000), *Visualizing Categorical Data*. SAS Institute, Cary,
+NC.
 
 See Also
 ~~~~~~~~
@@ -129,5 +130,4 @@ Examples
 ::
 
     data("Baseball")
-
 

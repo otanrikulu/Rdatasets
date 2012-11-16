@@ -1,13 +1,15 @@
-survey
-R Documentation
++----------+-------------------+
+| survey   | R Documentation   |
++----------+-------------------+
+
 Student Survey Data
 -------------------
 
 Description
 ~~~~~~~~~~~
 
-This data frame contains the responses of 237 Statistics I students
-at the University of Adelaide to a number of questions.
+This data frame contains the responses of 237 Statistics I students at
+the University of Adelaide to a number of questions.
 
 Usage
 ~~~~~
@@ -37,8 +39,8 @@ The components of the data frame are:
     ``"Right"``.)
 
 ``Fold``
-    “Fold your arms! Which is on top” (Factor, with levels
-    ``"R on L"``, ``"L on R"``, ``"Neither"``.)
+    “Fold your arms! Which is on top” (Factor, with levels ``"R on L"``,
+    ``"L on R"``, ``"Neither"``.)
 
 ``Pulse``
     pulse rate of student (beats per minute).
@@ -66,11 +68,8 @@ The components of the data frame are:
 ``Age``
     age of the student in years.
 
-
 References
 ~~~~~~~~~~
 
-Venables, W. N. and Ripley, B. D. (1999)
-*Modern Applied Statistics with S-PLUS.* Third Edition. Springer.
-
-
+Venables, W. N. and Ripley, B. D. (1999) *Modern Applied Statistics with
+S-PLUS.* Third Edition. Springer.

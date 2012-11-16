@@ -1,5 +1,7 @@
-FriendFoe
-R Documentation
++-------------+-------------------+
+| FriendFoe   | R Documentation   |
++-------------+-------------------+
+
 Data from the Television Game Show Friend Or Foe ?
 --------------------------------------------------
 
@@ -70,12 +72,11 @@ win
 win1
     money won by partner
 
-
 Source
 ~~~~~~
 
-Kalist, David E. (2004) “Data from the Television Game Show "Friend
-or Foe?"”, *Journal of Statistics Education*, **12(3)**.
+Kalist, David E. (2004) “Data from the Television Game Show "Friend or
+Foe?"”, *Journal of Statistics Education*, **12(3)**.
 
 References
 ~~~~~~~~~~
@@ -88,5 +89,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

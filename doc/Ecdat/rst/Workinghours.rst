@@ -1,5 +1,7 @@
-Workinghours
-R Documentation
++----------------+-------------------+
+| Workinghours   | R Documentation   |
++----------------+-------------------+
+
 Wife Working Hours
 ------------------
 
@@ -62,7 +64,6 @@ occupation
 unemp
     local unemployment rate in %
 
-
 Source
 ~~~~~~
 
@@ -82,5 +83,3 @@ See Also
 
 ``Index.Source``, ``Index.Economics``, ``Index.Econometrics``,
 ``Index.Observations``
-
-

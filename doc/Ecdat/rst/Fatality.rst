@@ -1,5 +1,7 @@
-Fatality
-R Documentation
++------------+-------------------+
+| Fatality   | R Documentation   |
++------------+-------------------+
+
 Drunk Driving Laws and Traffic Deaths
 -------------------------------------
 
@@ -56,19 +58,17 @@ unrate
 perinc
     per capita personal income
 
-
 Source
 ~~~~~~
 
-Pr. Christopher J. Ruhm, Department of Economics, University of
-North Carolina.
+Pr. Christopher J. Ruhm, Department of Economics, University of North
+Carolina.
 
 References
 ~~~~~~~~~~
 
-Stock, James H. and Mark W. Watson (2003)
-*Introduction to Econometrics*, Addison-Wesley Educational
-Publishers,
+Stock, James H. and Mark W. Watson (2003) *Introduction to
+Econometrics*, Addison-Wesley Educational Publishers,
 `http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
 chapter 8.
 
@@ -79,5 +79,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-

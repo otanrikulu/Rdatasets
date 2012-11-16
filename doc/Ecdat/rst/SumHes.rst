@@ -1,5 +1,7 @@
-SumHes
-R Documentation
++----------+-------------------+
+| SumHes   | R Documentation   |
++----------+-------------------+
+
 The Penn Table
 --------------
 
@@ -47,13 +49,12 @@ gdp
 sr
     saving rate (in percent)
 
-
 Source
 ~~~~~~
 
 Summers, R. and A. Heston (1991) “The Penn world table (mark 5): an
-exanded set of international comparaisons, 1950-1988”,
-*Quarterly Journal of Economics*, **29**, 229-256.
+exanded set of international comparaisons, 1950-1988”, *Quarterly
+Journal of Economics*, **29**, 229-256.
 
 References
 ~~~~~~~~~~
@@ -69,5 +70,3 @@ See Also
 ``Index.Observations``,
 
 ``Index.Time.Series``
-
-
