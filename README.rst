@@ -6,7 +6,7 @@ What is this?
 What is included?
 =================
 
-The list of available CSV and doc files is available here: 
+The list of available datasets (csv and docs) is available here: 
 
 + `HTML index <http://vincentarelbundock.github.com/Rdatasets/datasets.html>`_
 + `CSV index <http://vincentarelbundock.github.com/Rdatasets/datasets.csv>`_
