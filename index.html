@@ -9,20 +9,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Rdatasets</title>
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-33439630-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-       
   </head>
 
   <body>
@@ -47,33 +33,33 @@
       <section id="main_content" class="inner">
         <h1>What is this?</h1>
 
-<p><code>Rdatasets</code> is a collection of 570 data sets that were originally distributed alongside the statistical software environment <code>R</code> and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development. </p>
+<p><code>Rdatasets</code> is a collection of 570 datasets that were originally distributed alongside the statistical software environment <code>R</code> and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development. </p>
 
 <h1>What is included?</h1>
 
-<p> Scroll down for a full list of available data. On the github repo, you will find: </p>
+<p>The list of available CSV and doc files is available here: </p>
+
 <ul>
-<li>Data sets in comma-separated values file format</li>
-<li><code>R</code> documentation files for each of these data sets. </li>
-<li>Rdatasets.R, a script which downloads CSV copies and HTML docs for all data sets distributed in <code>Base R</code> and any locally installed add-on package</li>
+<li>
+<code>HTML index &lt;http://vincentarelbundock.github.com/Rdatasets/datasets.html&gt;</code>_</li>
+<li>
+<code>CSV index &lt;http://vincentarelbundock.github.com/Rdatasets/datasets.csv&gt;</code>_</li>
+</ul><p>On the github repository you will also find: </p>
 
-<h1>Adding data</h1>
+<ul>
+<li>
+<code>Rdatasets.R</code>: <code>R</code> script to download CSV copies and HTML docs for all datasets distributed in <code>Base R</code> and a list of R packages. </li>
+<li>
+<code>docs2rst</code>: A python script which calls <code>pandoc</code> to convert the HTML documentation to human readable text files. </li>
+<li>Plain text versions (reStructuredText) of all doc files</li>
+</ul><h1>Adding data</h1>
 
-<p>Many <code>R</code> packages ship with associated data sets, but the script included here only downloads data from packages that are installed locally on the machine where it is run. If you spot interesting data in a package distributed on CRAN, let me know. I will try to install that package on my computer and I will re-run the download script to see if the data can be added to this repository. Requests should be filed on the Github issue tracker.  </p>
+<p>Many <code>R</code> packages ship with associated datasets, but the script included here only downloads data from packages that are installed locally on the machine where it is run. If you spot interesting data in a package distributed on CRAN, let me know. I will try to install that package on my computer and I will re-run the download script to see if the data can be added to this repository. Requests should be filed on the Github issue tracker.  </p>
 
 <h1>License</h1>
 
-<p>The <code>R</code> documentation which I copied to the <code>Rdatasets</code> <code>html</code> folder is licensed under GPL. You will find a copy of the GPL in the <code>license</code> folder. </p>
-<p>I made a good faith effort to determine the license under which the actual data (i.e. rows/columns of numbers) were distributed, but I was unable to find a definitive answer. My understanding is that these data sets are free to re-distribute. However, if you own the rights to data that are included here and you object to their inclusion in <code>Rdatasets</code>, send me an email at <a href="mailto:varel@umich.edu">varel@umich.edu</a>. I will promptly remove the data in question and will make sure that all traces are erased from the git revision history. </p>
-
-<h1>Data index</h1>
-
-<ul>
-    <li> <a href='datasets.html'>HTML Index</a></li>
-    <li> <a href='datasets.csv'>CSV Index</a></li>
-</ul>
-
-    </section>
+<p>The <code>R</code> documentation which I copied to the <code>Rdatasets</code> <code>html</code> folder is licensed under GPL. You will find a copy of the GPL in the <code>license</code> folder. I made a good faith effort to determine the license under which the actual data (i.e. rows/columns of numbers) were distributed, but I was unable to find a definitive answer. My understanding is that these datasets are free to re-distribute. However, if you own the rights to data that are included here and you object to their inclusion in <code>Rdatasets</code>, send me an email at varel@umich.edu. I will promptly remove the data in question and will make sure that all traces are erased from the git revision history. </p>
+      </section>
     </div>
 
     <!-- FOOTER  -->
@@ -84,7 +70,17 @@
       </footer>
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-33439630-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
 
   </body>
 </html>
