@@ -12,6 +12,7 @@ gh:
 	git add Rdatasets.R
 	vim datasets.csv
 	vim README.rst
+	git add README.rst
 
 ghpages:
 	git checkout master csv
