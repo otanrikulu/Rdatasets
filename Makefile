@@ -12,10 +12,9 @@ gh:
 	git add Rdatasets.R
 	vim datasets.csv
 	vim README.rst
+	git add README.rst
 
 ghpages:
-	git rm -r csv
-	git rm -r doc
 	git checkout master csv
 	git checkout master doc
 	git checkout master Rdatasets.R
@@ -30,5 +29,6 @@ ghpages:
 	git add Rdatasets.R
 	vim README.rst
 	vim index.html
+	git add README.rst
 	git add index.html
 
