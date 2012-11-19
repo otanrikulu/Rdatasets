@@ -28,5 +28,6 @@ ghpages:
 	git add Rdatasets.R
 	vim README.rst
 	vim index.html
+	git add README.rst
 	git add index.html
 
