@@ -1,6 +1,6 @@
 library(R2HTML)
 
-packages = c("datasets", "boot", "robustbase", "car", "cluster", "COUNT", "Ecdat", "gap", "ggplot2", "HistData", "lattice", "MASS", "nlreg", "plm", "plyr", "pscl", "reshape2", "rpart", "sandwich", "sem",  "survival", "vcd", "Zelig")
+packages = c("datasets", "boot", "KMsurv", "robustbase", "car", "cluster", "COUNT", "Ecdat", "gap", "ggplot2", "HistData", "lattice", "MASS", "nlreg", "plm", "plyr", "pscl", "reshape2", "rpart", "sandwich", "sem",  "survival", "vcd", "Zelig")
 #install.packages(packages)
 index = data(package=packages)$results[,c(1,3,4)]
 index = data.frame(index, stringsAsFactors=FALSE)
